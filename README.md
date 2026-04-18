@@ -6,10 +6,15 @@ Static assets served via Cloudflare Workers + R2 at `cdn.hanzo.ai`.
 
 ```
 hanzo/
-├── flag-icons/   271 ISO 3166-1 country flag SVGs
-├── img/          Branding, social provider, payment, and app logos
+├── brand/        Hanzo logo variants (SVG, PNG, favicon, apple, dock icons)
 ├── buttons/      OAuth provider login button SVGs
-└── iam/models/   Face recognition models
+├── flag-icons/   271 ISO 3166-1 country flag SVGs
+├── fonts/        Inter + Roboto Mono web fonts (woff2)
+├── iam/models/   Face recognition models
+├── img/          Social provider, payment, captcha, app logos
+├── partners/     Partner/ecosystem logos (AWS, NVIDIA, Techstars, etc.)
+├── press/        Press kit assets
+└── providers/    AI model provider icons (OpenAI, Anthropic, Mistral, etc.)
 ```
 
 ## Deployment
