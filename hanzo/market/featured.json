@@ -1,0 +1,35 @@
+[
+  {
+    "id": "trending-2024",
+    "name": "Trending in 2024",
+    "description": "Most popular agents and tools this year",
+    "items": [
+      "zoo-eco-agent",
+      "zoo-coder-agent",
+      "zoo-python-runner"
+    ],
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": "editors-choice",
+    "name": "Editor's Choice",
+    "description": "Hand-picked by the Lux team",
+    "items": [
+      "zoo-creative-agent",
+      "zoo-data-analyst",
+      "zoo-web-scraper"
+    ],
+    "icon": "\u2b50"
+  },
+  {
+    "id": "new-releases",
+    "name": "New Releases",
+    "description": "Recently added to the store",
+    "items": [
+      "zoo-legal-agent",
+      "zoo-travel-agent",
+      "zoo-pdf-toolkit"
+    ],
+    "icon": "\ud83c\udd95"
+  }
+]

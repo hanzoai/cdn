@@ -1,0 +1,58 @@
+[
+  {
+    "id": "development",
+    "name": "Development",
+    "description": "Programming and software development tools",
+    "icon": "\ud83d\udee0\ufe0f",
+    "item_count": 42
+  },
+  {
+    "id": "creative",
+    "name": "Creative",
+    "description": "Creative writing and content generation",
+    "icon": "\ud83c\udfa8",
+    "item_count": 28
+  },
+  {
+    "id": "analytics",
+    "name": "Analytics",
+    "description": "Data analysis and business intelligence",
+    "icon": "\ud83d\udcca",
+    "item_count": 35
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "description": "Learning and educational assistants",
+    "icon": "\ud83d\udcda",
+    "item_count": 31
+  },
+  {
+    "id": "health",
+    "name": "Health & Wellness",
+    "description": "Health, fitness, and wellness guidance",
+    "icon": "\ud83d\udcaa",
+    "item_count": 19
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "description": "Financial planning and investment",
+    "icon": "\ud83d\udcb0",
+    "item_count": 23
+  },
+  {
+    "id": "productivity",
+    "name": "Productivity",
+    "description": "Task management and productivity tools",
+    "icon": "\u26a1",
+    "item_count": 38
+  },
+  {
+    "id": "communication",
+    "name": "Communication",
+    "description": "Email, chat, and communication tools",
+    "icon": "\ud83d\udcac",
+    "item_count": 27
+  }
+]

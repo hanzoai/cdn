@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>cdn.hanzo.ai</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0b0b0c; color: #e7e7e9;
+    font: 15px/1.6 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    display: flex; min-height: 100vh; align-items: center; justify-content: center; }
+  main { max-width: 720px; padding: 48px 24px; }
+  h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  p.sub { color: #9a9aa2; margin: 0 0 32px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: #8a8a92; margin: 28px 0 10px; }
+  a { color: #6ea8fe; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { padding: 7px 0; border-bottom: 1px solid #1c1c20; }
+  code { background: #16161a; padding: 2px 7px; border-radius: 6px; color: #cfd0d6; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>cdn.hanzo.ai</h1>
+  <p class="sub">Static assets &amp; the backend-less Market for Hanzo / Lux / Zoo desktop apps.</p>
+
+  <h2>Market API (no backend required)</h2>
+  <ul>
+    <li><a href="/market/index.json">/market/index.json</a> — manifest</li>
+    <li><a href="/market/agents.json">/market/agents.json</a> — agents catalog</li>
+    <li><a href="/market/tools.json">/market/tools.json</a> — tools catalog</li>
+    <li><a href="/market/categories.json">/market/categories.json</a> — categories</li>
+    <li><a href="/market/featured.json">/market/featured.json</a> — featured collections</li>
+    <li><a href="/market/plugins.json">/market/plugins.json</a> — plugin/integration registry</li>
+    <li><code>/market/tools/{id}.json</code> — per-tool detail</li>
+  </ul>
+
+  <h2>Assets</h2>
+  <ul>
+    <li><code>/hanzo/brand</code>, <code>/hanzo/fonts</code>, <code>/hanzo/providers</code>, <code>/hanzo/flag-icons</code> …</li>
+  </ul>
+</main>
+</body>
+</html>

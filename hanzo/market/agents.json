@@ -1,0 +1,158 @@
+{
+  "products": [
+    {
+      "id": "zoo-eco-agent",
+      "name": "Eco Assistant",
+      "description": "An eco-friendly AI assistant focused on sustainability and environmental awareness. Helps with green living tips, carbon footprint calculations, and eco-conscious decision making.",
+      "author": "AI Team",
+      "downloads": 15420,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-eco-assistant",
+      "category": {
+        "id": "sustainability",
+        "name": "Sustainability",
+        "description": "Agents focused on environmental and sustainability topics",
+        "examples": "Carbon tracking, eco tips, green living"
+      }
+    },
+    {
+      "id": "zoo-coder-agent",
+      "name": "Code Master",
+      "description": "Advanced coding assistant with expertise in multiple programming languages. Specializes in code review, debugging, and architecture design.",
+      "author": "AI Team",
+      "downloads": 28350,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-code-master",
+      "category": {
+        "id": "development",
+        "name": "Development",
+        "description": "Programming and software development assistants",
+        "examples": "Code review, debugging, architecture"
+      }
+    },
+    {
+      "id": "zoo-creative-agent",
+      "name": "Creative Studio",
+      "description": "Creative writing and content generation specialist. Helps with storytelling, marketing copy, and artistic brainstorming.",
+      "author": "AI Team",
+      "downloads": 9876,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-creative-studio",
+      "category": {
+        "id": "creative",
+        "name": "Creative",
+        "description": "Creative writing and content generation",
+        "examples": "Stories, marketing, brainstorming"
+      }
+    },
+    {
+      "id": "zoo-data-analyst",
+      "name": "Data Analyst",
+      "description": "Data analysis and visualization expert. Helps with data interpretation, statistical analysis, and creating insightful reports.",
+      "author": "AI Team",
+      "downloads": 12543,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-data-analyst",
+      "category": {
+        "id": "analytics",
+        "name": "Analytics",
+        "description": "Data analysis and business intelligence",
+        "examples": "Statistics, reports, visualizations"
+      }
+    },
+    {
+      "id": "zoo-tutor-agent",
+      "name": "Learning Companion",
+      "description": "Educational assistant for personalized learning. Adapts to your learning style and helps with various subjects.",
+      "author": "AI Team",
+      "downloads": 18920,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-learning-companion",
+      "category": {
+        "id": "education",
+        "name": "Education",
+        "description": "Learning and educational assistants",
+        "examples": "Tutoring, homework help, study guides"
+      }
+    },
+    {
+      "id": "zoo-health-agent",
+      "name": "Wellness Coach",
+      "description": "Health and wellness advisor providing fitness tips, nutrition guidance, and mental health support.",
+      "author": "AI Team",
+      "downloads": 7654,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-wellness-coach",
+      "category": {
+        "id": "health",
+        "name": "Health & Wellness",
+        "description": "Health, fitness, and wellness guidance",
+        "examples": "Fitness, nutrition, mindfulness"
+      }
+    },
+    {
+      "id": "zoo-finance-agent",
+      "name": "Finance Advisor",
+      "description": "Personal finance assistant for budgeting, investment insights, and financial planning.",
+      "author": "AI Team",
+      "downloads": 11234,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-finance-advisor",
+      "category": {
+        "id": "finance",
+        "name": "Finance",
+        "description": "Financial planning and investment guidance",
+        "examples": "Budgeting, investing, planning"
+      }
+    },
+    {
+      "id": "zoo-research-agent",
+      "name": "Research Assistant",
+      "description": "Academic and professional research helper. Assists with literature reviews, citations, and fact-checking.",
+      "author": "AI Team",
+      "downloads": 14567,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-research-assistant",
+      "category": {
+        "id": "research",
+        "name": "Research",
+        "description": "Academic and professional research",
+        "examples": "Literature review, citations, fact-checking"
+      }
+    },
+    {
+      "id": "zoo-travel-agent",
+      "name": "Travel Planner",
+      "description": "Travel planning assistant for creating itineraries, finding deals, and discovering destinations.",
+      "author": "AI Team",
+      "downloads": 8901,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-travel-planner",
+      "category": {
+        "id": "travel",
+        "name": "Travel",
+        "description": "Travel planning and recommendations",
+        "examples": "Itineraries, destinations, travel tips"
+      }
+    },
+    {
+      "id": "zoo-legal-agent",
+      "name": "Legal Assistant",
+      "description": "Legal document assistant for contract reviews, legal research, and general legal guidance (not legal advice).",
+      "author": "AI Team",
+      "downloads": 6543,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-legal-assistant",
+      "category": {
+        "id": "legal",
+        "name": "Legal",
+        "description": "Legal document assistance and research",
+        "examples": "Contracts, legal research, documents"
+      }
+    }
+  ],
+  "total": 10,
+  "page": 1,
+  "limit": 10,
+  "totalPages": 1
+}

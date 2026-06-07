@@ -1,0 +1,83 @@
+{
+  "products": [
+    {
+      "id": "zoo-python-runner",
+      "name": "Python Code Runner",
+      "description": "Execute Python code safely in an isolated environment with full standard library support.",
+      "author": "AI Team",
+      "downloads": 45678,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-python-runner",
+      "category": {
+        "id": "development",
+        "name": "Development Tools",
+        "description": "Code execution and development utilities",
+        "examples": "Code runners, debuggers, formatters"
+      }
+    },
+    {
+      "id": "zoo-web-scraper",
+      "name": "Web Scraper Pro",
+      "description": "Advanced web scraping tool with CSS selectors, XPath, and JavaScript rendering support.",
+      "author": "AI Team",
+      "downloads": 23456,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-web-scraper",
+      "category": {
+        "id": "data",
+        "name": "Data Tools",
+        "description": "Data collection and processing tools",
+        "examples": "Scrapers, parsers, converters"
+      }
+    },
+    {
+      "id": "zoo-api-tester",
+      "name": "API Testing Suite",
+      "description": "Comprehensive API testing tool with request builder, response validation, and test automation.",
+      "author": "AI Team",
+      "downloads": 19876,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-api-tester",
+      "category": {
+        "id": "development",
+        "name": "Development Tools",
+        "description": "API development and testing",
+        "examples": "API testing, debugging, documentation"
+      }
+    },
+    {
+      "id": "zoo-image-processor",
+      "name": "Image Processor",
+      "description": "Image manipulation tool with resize, crop, filter, and format conversion capabilities.",
+      "author": "AI Team",
+      "downloads": 34567,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-image-processor",
+      "category": {
+        "id": "media",
+        "name": "Media Tools",
+        "description": "Image and media processing",
+        "examples": "Image editing, conversion, optimization"
+      }
+    },
+    {
+      "id": "zoo-pdf-toolkit",
+      "name": "PDF Toolkit",
+      "description": "PDF manipulation suite for merging, splitting, extracting, and converting PDF documents.",
+      "author": "AI Team",
+      "downloads": 28901,
+      "icon_url": "/app-logo.png",
+      "router_key": "zoo-pdf-toolkit",
+      "category": {
+        "id": "documents",
+        "name": "Document Tools",
+        "description": "Document processing and management",
+        "examples": "PDF editing, conversion, extraction"
+      }
+    }
+  ],
+  "total": 5,
+  "page": 1,
+  "limit": 10,
+  "totalPages": 1
+}

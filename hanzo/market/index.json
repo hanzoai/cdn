@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "generated": "2026-06-07",
+  "networks": [
+    "did:hanzo",
+    "did:lux",
+    "did:zoo"
+  ],
+  "counts": {
+    "agents": 10,
+    "tools": 5,
+    "categories": 8,
+    "featured": 3,
+    "tool_details": 1
+  },
+  "endpoints": [
+    "/market/agents.json",
+    "/market/tools.json",
+    "/market/categories.json",
+    "/market/featured.json",
+    "/market/purchases.json",
+    "/market/plugins.json",
+    "/market/tools/{id}.json"
+  ]
+}
