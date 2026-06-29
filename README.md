@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="cdn" width="880"></p>
+
 # Hanzo CDN Assets
 
 Static assets served via Cloudflare Workers + R2 at `cdn.hanzo.ai`.
