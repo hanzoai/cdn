@@ -58,6 +58,9 @@ def slug(text):
     return re.sub(r"[^a-z0-9]+", "-", (text or "").lower()).strip("-")
 
 
+TOOLS_REPO = "github.com/hanzoai/tools"
+
+
 def router_key(item):
     """npm-style @namespace/name — the id the desktop app installs by."""
     home = item.get("homepage") or ""
@@ -66,6 +69,14 @@ def router_key(item):
     if ":::" in home:  # legacy local:::__official_shinkai:::audio_insight
         return "@hanzo/" + home.split(":::")[-1].replace("_", "-")
     return "@hanzo/" + item["id"]
+
+
+def repository(item):
+    """Where the code lives. A few upstream items carry a legacy `local:::…` DID
+    in this field, which is an identity, not a repository — the app deep-links
+    it, so it has to be a real repo."""
+    repo = item.get("repository") or ""
+    return TOOLS_REPO if not repo or ":::" in repo else repo
 
 
 def product(item):
@@ -83,7 +94,7 @@ def product(item):
         "downloads": item.get("downloads", 0),
         "icon_url": clean_url(item.get("icon")),
         "router_key": router_key(item),
-        "repository": item.get("repository", "github.com/hanzoai/tools"),
+        "repository": repository(item),
         "path": item.get("path")
         or "/{}/{}".format("agents" if kind == "Agent" else "tools", item["id"]),
         "type": kind,

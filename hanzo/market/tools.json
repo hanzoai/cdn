@@ -1291,7 +1291,7 @@
       "license": "MIT",
       "name": "GitHub API Request",
       "path": "/tools/github-api-request",
-      "repository": "local:::__official_shinkai:::github_api_request",
+      "repository": "github.com/hanzoai/tools",
       "router_key": "@hanzo/github-api-request",
       "tags": [
         "github",

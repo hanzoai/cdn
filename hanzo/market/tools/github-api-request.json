@@ -30,7 +30,7 @@
   "path": "/tools/github-api-request",
   "price": 0,
   "readme": "",
-  "repository": "local:::__official_shinkai:::github_api_request",
+  "repository": "github.com/hanzoai/tools",
   "router_key": "@hanzo/github-api-request",
   "runner": "any",
   "screenshots": [],
