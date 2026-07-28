@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-05-09T12:33:30.754Z",
+  "description": "Generates an R script based on a user prompt using LLM and saves it via a file dialog. Outputs the file path, status message, and code.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "r-script-generator-and-saver",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::r_script_generator_and_saver"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "R Script Generator and Saver",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/r-script-generator-and-saver",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/r-script-generator-and-saver",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "R script",
+    "LLM",
+    "code generation",
+    "natural language to code",
+    "scripting"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-09T12:33:30.754Z",
+  "version": "1.0.0"
+}

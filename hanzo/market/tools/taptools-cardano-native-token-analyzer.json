@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "finance",
+    "name": "Finance"
+  },
+  "changelog": "",
+  "created_at": "2025-03-03T19:37:06.351Z",
+  "description": "This tool uses to Taptools API to fetch Cardano Native Tokens information, including price, market cap, trading statistics, liquidity pool data, and holder distribution. It can also optionally generate a trading chart, a Lorenz curve graph, a full report exportable to pdf, and a podcast script as well as its audio file as mp3. It uses Eleven Labs API for the Text to Speech.",
+  "downloads": 9,
+  "icon_url": "",
+  "id": "taptools-cardano-native-token-analyzer",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::taptools_cardano_native_token_analyzer"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Taptools Cardano Native Token Analyzer",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/taptools-cardano-native-token-analyzer",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/taptools-cardano-native-token-analyzer",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "cardano",
+    "taptools",
+    "native token",
+    "token report",
+    "token podcast"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-03-03T19:37:06.351Z",
+  "version": "1.0.0"
+}

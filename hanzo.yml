@@ -1,0 +1,10 @@
+# Canonical CI config — see hanzoai/ci.
+#
+# This repo ships static assets, not a container: there is no `images:` to build
+# and no `deploy:` cluster to roll. What CI owes us here is the gate — proof that
+# what we are about to publish to cdn.hanzo.ai is well formed and self-consistent
+# — so `test:` is the whole config. Publishing is ./deploy.sh (R2 + edge purge),
+# which needs Cloudflare credentials and is run by the operator, not the runner.
+test:
+  - name: market
+    run: "python3 scripts/market.py check"

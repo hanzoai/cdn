@@ -1,0 +1,50 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-08-12T02:20:25.980Z",
+  "description": "This tool leverages a two-step AI process to create natural-sounding, single-speaker audio from your text. First, it uses a language model to analyze and refine your prompt, adding stylistic instructions for tone, pace, and emotion to achieve a more expressive result. Then, in its \"auto\" mode, it intelligently selects the most appropriate voice from a diverse list of over 30 options, matching the voice's characteristics to the content. The final output is a high-quality .wav audio file, perfect for a wide range of applications.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "gemini-enhanced-text-to-speech-single-speaker",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::gemini_enhanced_text_to_speech___single_speaker"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Gemini Enhanced Text to Speech - Single Speaker",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/gemini-enhanced-text-to-speech-single-speaker",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/gemini-enhanced-text-to-speech---single-speaker",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "text-to-speech",
+    "google",
+    "gemini",
+    "tts",
+    "voice selection",
+    "speech synthesis",
+    "speech",
+    "enhanced"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-12T02:20:25.980Z",
+  "version": "1.0.0"
+}

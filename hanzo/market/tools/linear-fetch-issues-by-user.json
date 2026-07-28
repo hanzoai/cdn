@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-05-05T19:04:06.901Z",
+  "description": "Fetches issues assigned to a user from Linear using an API key.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "linear-fetch-issues-by-user",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::linear_fetch_issues_by_user"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Linear Fetch Issues By User",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/linear-fetch-issues-by-user",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/linear-fetch-issues-by-user",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "linear",
+    "API",
+    "issues",
+    "user",
+    "fetcher"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-05T19:04:06.901Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T16:57:49.411Z",
+  "description": "Tool to make requests to the GitHub API using OAuth for authentication.",
+  "downloads": 9,
+  "icon_url": "",
+  "id": "github-api-request",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::github_api_request"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "GitHub API Request",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/github-api-request",
+  "price": 0,
+  "readme": "",
+  "repository": "local:::__official_shinkai:::github_api_request",
+  "router_key": "@hanzo/github-api-request",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "github",
+    "api",
+    "request",
+    "oauth"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T16:57:49.411Z",
+  "version": "1.0.0"
+}

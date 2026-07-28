@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "medical",
+    "name": "Medical"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:47.701Z",
+  "description": "Search PubMed for scientific/medical literature and return MEDLINE records.",
+  "downloads": 15,
+  "icon_url": "",
+  "id": "pubmed-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::pubmed_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "PubMed Search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/pubmed-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/pubmed-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "pubmed",
+    "literature",
+    "medical",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:47.701Z",
+  "version": "1.0.0"
+}

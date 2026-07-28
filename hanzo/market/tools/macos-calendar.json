@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:23.007Z",
+  "description": "Add or list calendar events using AppleScript",
+  "downloads": 4,
+  "icon_url": "",
+  "id": "macos-calendar",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::macos_calendar"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "macos-calendar",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/macos-calendar",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/macos-calendar",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "macos",
+    "calendar",
+    "events",
+    "automation"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:23.007Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "education",
+    "name": "Education"
+  },
+  "changelog": "",
+  "created_at": "2025-02-01T01:13:33.352Z",
+  "description": "Learns from web pages by generating questions and answers, and interacts with users based on these questions.",
+  "downloads": 16,
+  "icon_url": "",
+  "id": "question-learner",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__guille_sep_shinkai:::question_learner"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Question Learner",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/question-learner",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/question-learner",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "learning",
+    "questions",
+    "answers",
+    "web scraping"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-01T01:13:33.352Z",
+  "version": "1.0.0"
+}

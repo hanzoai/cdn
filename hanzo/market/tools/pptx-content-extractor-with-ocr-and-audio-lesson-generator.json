@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "education",
+    "name": "Education"
+  },
+  "changelog": "",
+  "created_at": "2025-03-17T13:20:51.486Z",
+  "description": "This tool extracts text from a PowerPoint presentation, creates a lesson text about it, and generates an audio file of the lesson. It extracts content slide by slide and shape by shape. It uses OCR to extract text from image shapes (using Tesseract). It generates a detailed lesson text about the PPTX using a LLM and optional additional instructions. Optionally, it generates a mp3 audio file of the lesson using ElevenLabs text-to-speech. This tool requires Tesseract to be installed for OCR. It also requires the tool \u201cElevenLabs Text to Speech\u201d from the Hanzo AI Store, and an API key for ElevenLabs text-to-speech if choosing to generate audio files. You can download Tesseract from here : https://github.com/UB-Mannheim/tesseract/wiki. You can get an ElevenLabs API key here : https://elevenlabs.io/developers.",
+  "downloads": 29,
+  "icon_url": "",
+  "id": "pptx-content-extractor-with-ocr-and-audio-lesson-generator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::pptx_content_extractor_with_ocr_and_audio_lesson_generator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "PPTX content extractor with OCR and audio lesson generator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/pptx-content-extractor-with-ocr-and-audio-lesson-generator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/pptx-content-extractor-with-ocr-and-audio-lesson-generator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "pptx",
+    "powerpoint",
+    "lesson",
+    "presentation",
+    "audio"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-03-17T13:20:51.486Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "entertainment",
+    "name": "Entertainment"
+  },
+  "changelog": "",
+  "created_at": "2025-08-12T02:21:50.040Z",
+  "description": "Searches the Giphy API for GIFs based on query and parameters.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "gif-search-giphy",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::gif_search___giphy"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "GIF search - Giphy",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/gif-search-giphy",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/gif-search---giphy",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "giphy",
+    "gif search",
+    "gif",
+    "search",
+    "media"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-12T02:21:50.040Z",
+  "version": "1.0.0"
+}

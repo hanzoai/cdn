@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-04-29T20:51:22.656Z",
+  "description": "This tool transcribes audio files to text using the faster-whisper model.",
+  "downloads": 1261,
+  "icon_url": "",
+  "id": "audio-to-text-transcription",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::audio_to_text_transcription"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Audio to Text Transcription",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/audio-to-text-transcription",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/audio-to-text-transcription",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "audio",
+    "transcription",
+    "whisper",
+    "faster-whisper",
+    "speech-to-text"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-29T20:51:22.656Z",
+  "version": "1.0.0"
+}

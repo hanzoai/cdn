@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-01-27T13:43:21.197Z",
+  "description": "Handles memory storage and retrieval using a database. It has two types of memories: general and specific. Specific memories are stored in a Hashmap, and can be retrieved by a key.",
+  "downloads": 1522,
+  "icon_url": "",
+  "id": "memory-management",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::memory_management"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Memory Management",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/memory-management",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/memory-management",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "memory",
+    "remember",
+    "management",
+    "recall",
+    "smart",
+    "agent"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-27T13:43:21.197Z",
+  "version": "1.0.0"
+}

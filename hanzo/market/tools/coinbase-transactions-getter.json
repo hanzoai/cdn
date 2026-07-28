@@ -1,0 +1,45 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-01-23T12:38:38.265Z",
+  "description": "Tool for getting the transactions of a Coinbase wallet after restoring it",
+  "downloads": 0,
+  "icon_url": "",
+  "id": "coinbase-transactions-getter",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::coinbase_transactions_getter"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Coinbase Transactions Getter",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/coinbase-transactions-getter",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/coinbase-transactions-getter",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "coinbase",
+    "balance",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-23T12:38:38.265Z",
+  "version": "1.0.0"
+}

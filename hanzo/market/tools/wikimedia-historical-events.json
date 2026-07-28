@@ -1,0 +1,50 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:26.836Z",
+  "description": "Get historical events, births, deaths, and holidays for a specific date from Wikimedia",
+  "downloads": 3,
+  "icon_url": "",
+  "id": "wikimedia-historical-events",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::wikimedia_historical_events"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Wikimedia Historical Events",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/wikimedia-historical-events",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/wikimedia-historical-events",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "wikimedia",
+    "history",
+    "wikipedia",
+    "events",
+    "onthisday",
+    "births",
+    "deaths",
+    "holidays"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:26.836Z",
+  "version": "1.0.0"
+}

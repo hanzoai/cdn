@@ -20,34 +20,62 @@ hanzo/
 
 ## Market (no backend required)
 
-The Hanzo / Lux / Zoo desktop apps load their store catalog as **static JSON**
-from here, so they work with **no backend**. The app bundles the same files as an
-offline fallback (CDN-first, bundle-fallback).
+The Hanzo / Lux / Zoo desktop apps read their catalog as **static JSON** from
+here, so the Market works with **no backend**. Every read is a file. Each app
+bundles a trimmed copy of the same documents and falls back to it when the CDN
+is unreachable, so the Market also works with no network.
 
 | URL | Contents |
 |-----|----------|
-| `cdn.hanzo.ai/market/index.json` | manifest (versions, counts, endpoints) |
-| `cdn.hanzo.ai/market/agents.json` | agents catalog (paginated `{products,total,…}`) |
-| `cdn.hanzo.ai/market/tools.json` | tools catalog |
+| `cdn.hanzo.ai/market/index.json` | manifest: `schema`, `version`, counts, file map |
+| `cdn.hanzo.ai/market/agents.json` | agents catalog (`{products,total,page,limit,totalPages}`) |
+| `cdn.hanzo.ai/market/tools.json` | tools catalog, same shape |
 | `cdn.hanzo.ai/market/categories.json` | categories |
 | `cdn.hanzo.ai/market/featured.json` | featured collections |
 | `cdn.hanzo.ai/market/plugins.json` | plugin/integration registry (composio) |
 | `cdn.hanzo.ai/market/tools/{id}.json` | per-tool detail |
 
-Regenerate from the desktop app's bundled data with `scripts/gen-market.py`.
-**CORS:** the Worker must send `Access-Control-Allow-Origin: *` on `/market/*`
-so the webviews can fetch directly.
+**Versioning.** `index.json` carries a `schema` (bumped only on a breaking shape
+change; a client that does not recognise it keeps using its bundle) and a
+`version` that is a content digest over every served document. The version
+changes if and only if what the CDN serves changes, which is what makes a deploy
+verifiable — `deploy.sh` refuses to succeed unless the edge reports the version
+the repo just built.
+
+**CORS:** the Worker sends `Access-Control-Allow-Origin: *` so app webviews can
+fetch directly.
+
+### Regenerating
+
+`scripts/market.py` is the only thing that writes catalog files — the CDN
+documents, the apps' offline bundles and the CI gate all come from it, so they
+cannot disagree about the schema or the digest.
+
+```bash
+scripts/market.py gen --from ../store \
+  --bundle ../desktop/apps/hanzo-desktop/src/lib/market-catalog.json \
+  --bundle ../../zoo/app/apps/lux-desktop/src/lib/market-catalog.json \
+  --bundle ../../zoo/app/apps/zoo-desktop/src/lib/market-catalog.json
+
+scripts/market.py check    # CI gate: valid JSON, manifest matches, digest matches
+```
+
+`--from` is a checkout of the curated flatfile catalog (`hanzoai/store`): one
+JSON per item under `data/agents/` and `data/tools/`. That repo stays the
+editorial source — a CMS or commerce backend publishes **into** this layout
+rather than being queried at read time, which is what keeps reads backend-less.
 
 ## Deployment
 
-```bash
-# (A) existing tool — uploads the whole hanzo/ tree to R2
-cd ~/work/hanzo/cdn-worker
-./upload.sh ~/work/hanzo/cdn/hanzo hanzo
+CI (`hanzo.yml` → `hanzoai/ci`) gates the catalog on every push. Publishing is
+this repo's `deploy.sh`: upload to R2, purge the Cloudflare edge for exactly the
+URLs written, then verify the live manifest matches the repo.
 
-# (B) self-contained — push just the market data
-export CLOUDFLARE_API_TOKEN=... CLOUDFLARE_ACCOUNT_ID=...
-R2_BUCKET=pub ./deploy.sh
+```bash
+export CLOUDFLARE_API_TOKEN=...           # R2 write + Cache Purge on the zone
+export CLOUDFLARE_ZONE_ID=...             # enables purge-on-deploy
+./deploy.sh                               # market catalog (default)
+SUBTREE=hanzo ./deploy.sh                 # the whole asset tree
 ```
 
 ## Domains

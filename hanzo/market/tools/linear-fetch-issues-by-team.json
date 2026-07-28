@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-05-05T19:06:53.256Z",
+  "description": "Fetches open issues from a Linear team. It implements pagination",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "linear-fetch-issues-by-team",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::linear_fetch_issues_by_team"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Linear Fetch Issues By Team",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/linear-fetch-issues-by-team",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/linear-fetch-issues-by-team",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "linear",
+    "issues",
+    "fetch",
+    "sdk"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-05T19:06:53.256Z",
+  "version": "1.0.0"
+}

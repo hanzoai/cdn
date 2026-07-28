@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-04-30T15:50:54.259Z",
+  "description": "This tool reads an input CSV file, processes specified columns and combine them according to a user-defined prompt using an LLM, and adds the results to a new column in the output CSV. It supports error handling, retries, skips rows with empty cells, and provides detailed processing statistics. The output can either override the input file, or be saved to a new CSV file with a timestamp (e.g., \"input_processed_20250421_143022.csv\") and placed in the same folder as the input CSV.\n\nHow to Use :\n\n1. Configure Defaults : Set default CSV parameters : delimiter (e.g., ';'), encoding (e.g., 'utf-8'), quotechar (e.g., '\"'), max LLM retries (e.g., 2), and default output behavior ('new_file' or 'override').\n\n2. Prepare Input CSV file : Use an existing CSV file with the data to process.\n\n3. Provide a prompt with {} placeholders matching CSV column names (e.g., \"Summarize this product description in one sentence : {Description}.\", \"Population of {City} in {Date}, just write the number\").\n\n4. Specify New Column Name : Set the name for the new column to store LLM results (e.g., \"Summary\", \"Population_Size\").\n\n5. Provide Optional Data Description : Include a brief context about the data to guide the LLM (e.g., \"Product descriptions from a retail dataset.\").\n\n6. Set Custom CSV Parameters (Optional) : Customize delimiter, encoding, or quotechar to match the input CSV ; defaults from configuration apply if not specified.\n\n7. Choose Output Behavior (Optional) : Select 'new_file' for a new output file or 'override' to replace the input file; defaults to configuration if not set.\n\n8. Run the Tool : Execute with the provided inputs.\n\n9. Review Summary : Check the output message for stats (e.g., total rows, processed rows, empty cell errors, LLM errors) and the output CSV path.\n\n10. Verify Output CSV file : Inspect the resulting CSV with the new column containing LLM-processed data.\n\nHigh LLM Usage Warning : This tool makes an LLM call for each processed row, which may result in significant usage.",
+  "downloads": 6,
+  "icon_url": "",
+  "id": "csv-column-ai-combinator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::csv_column_ai_combinator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "CSV column AI combinator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/csv-column-ai-combinator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/csv-column-ai-combinator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "CSV",
+    "processing",
+    "data",
+    "column",
+    "combine"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-30T15:50:54.259Z",
+  "version": "1.0.0"
+}

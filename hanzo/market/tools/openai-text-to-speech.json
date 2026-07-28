@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-08-12T02:19:45.479Z",
+  "description": "This tool converts text into high-quality spoken audio using OpenAI's Text-to-Speech (TTS) API. It allows users to customize the output by selecting from a variety of voices, choosing a TTS model (including tts-1, tts-1-hd, and gpt-4o-mini-tts), and adjusting the speech speed. For the gpt-4o-mini-tts model, users can provide specific instructions to control elements like emotion, accent, and tone. The final audio is saved in a user-selected format (e.g., MP3, WAV, FLAC) and the file path is returned.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "openai-text-to-speech",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::openai_text_to_speech"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "OpenAI Text-to-Speech",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/openai-text-to-speech",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/openai-text-to-speech",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "TTS",
+    "text-to-speech",
+    "OpenAI",
+    "audio generation",
+    "speech synthesis",
+    "speech"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-12T02:19:45.479Z",
+  "version": "1.0.0"
+}

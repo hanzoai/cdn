@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-10-16T11:54:39.128Z",
+  "description": "This tool enhances prompt results by querying multiple LLMs with a single prompt. It then uses a final \"synthesizer\" LLM to analyze all the individual responses and craft one superior, comprehensive answer that combines the best elements of each.\n\n## How to Use\n\n1.  Set the `processing_mode` to `parallel` (faster, staggered start) or 'sequential' (if using multiple local models).\n2.  List the processing LLMs, using their Hanzo IDs (e.g., `Hanzo_free_trial, gpt_5_mini, gemini_2_5_pro`).\n3.  Choose a powerful synthesizer LLM in `default_synthesizer_LLM` to create the final answer, using its Hanzo ID (e.g., `Hanzo_free_trial').\n4. Provide your prompt in the `user_prompt` input.\n",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "multi-llm-prompt-processor-and-synthesizer",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::multi_llm_prompt_processor_and_synthesizer"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Multi-LLM Prompt Processor and Synthesizer",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/multi-llm-prompt-processor-and-synthesizer",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/multi-llm-prompt-processor-and-synthesizer",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "llm",
+    "synthesis",
+    "multi-LLM",
+    "prompt-processing",
+    "LLM panel"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-10-16T11:54:39.128Z",
+  "version": "1.0.0"
+}

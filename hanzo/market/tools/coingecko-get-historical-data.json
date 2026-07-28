@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:13.354Z",
+  "description": "Retrieves historical price, market-cap, and volume data for a coin over a date range (from_date to to_date).",
+  "downloads": 9,
+  "icon_url": "",
+  "id": "coingecko-get-historical-data",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::coingecko_get_historical_data"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "coingecko-get-historical-data",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/coingecko-get-historical-data",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/coingecko-get-historical-data",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "coingecko",
+    "cryptocurrency",
+    "historical",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:13.354Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-01-28T13:59:07.358Z",
+  "description": "Converts text files (.txt or .md) to audio files using high-quality text-to-speech synthesis",
+  "downloads": 18,
+  "icon_url": "",
+  "id": "text-to-audio",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::text_to_audio"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Text to Audio",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/text-to-audio",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/text-to-audio",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "text-to-speech",
+    "audio",
+    "conversion",
+    "text",
+    "markdown"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-28T13:59:07.358Z",
+  "version": "1.0.0"
+}

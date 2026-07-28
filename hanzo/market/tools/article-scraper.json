@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:12:37.863Z",
+  "description": "Extracts article text, authors, images, and metadata from a given URL or raw HTML using newspaper3k",
+  "downloads": 12,
+  "icon_url": "",
+  "id": "article-scraper",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::article_scraper"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Article Scraper",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/article-scraper",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/article-scraper",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "article",
+    "news",
+    "newspaper3k",
+    "scraper",
+    "metadata",
+    "text extraction"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:12:37.863Z",
+  "version": "1.0.0"
+}

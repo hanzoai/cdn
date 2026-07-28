@@ -1,0 +1,52 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-08-12T02:20:30.701Z",
+  "description": "This advanced TTS tool transforms a simple text script into a dynamic, two-speaker conversational audio file using Google's Gemini TTS models.\nIt automatically analyzes the dialogue to select the most fitting voices for each speaker, or allows for precise manual control. A key feature is its ability to enhance the script with stylistic directions (e.g., \"speak excitedly,\" \"sound tired\"), resulting in a significantly more natural and expressive performance. Ideal for creating engaging podcasts, dialogue for videos, or any application requiring realistic two-person conversations.",
+  "downloads": 3,
+  "icon_url": "",
+  "id": "gemini-enhanced-text-to-speech-2-speakers-dialog",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::gemini_enhanced_text_to_speech___2_speakers_dialog"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Gemini Enhanced Text to Speech - 2 Speakers Dialog",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/gemini-enhanced-text-to-speech-2-speakers-dialog",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/gemini-enhanced-text-to-speech---2-speakers-dialog",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "text-to-speech",
+    "tts",
+    "google",
+    "gemini",
+    "multi-speaker",
+    "dialogue",
+    "conversation",
+    "speech synthesis",
+    "audio generation",
+    "enhanced"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-12T02:20:30.701Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-01-27T13:43:42.087Z",
+  "description": "Writes the text contents of a file to the given path.",
+  "downloads": 1499,
+  "icon_url": "",
+  "id": "write-file-contents",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::write_file_contents"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Write File Contents",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/write-file-contents",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/write-file-contents",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "file",
+    "write",
+    "save",
+    "content",
+    "text"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-27T13:43:42.087Z",
+  "version": "1.0.0"
+}

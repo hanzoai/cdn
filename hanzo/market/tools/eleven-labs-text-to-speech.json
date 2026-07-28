@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-02-03T19:44:41.424Z",
+  "description": "Converts text to speech using Eleven Labs API and saves the audio as an MP3 file.",
+  "downloads": 17,
+  "icon_url": "",
+  "id": "eleven-labs-text-to-speech",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::eleven_labs_text_to_speech"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Eleven Labs Text-to-Speech",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/eleven-labs-text-to-speech",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/eleven-labs-text-to-speech",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "text-to-speech",
+    "audio",
+    "Eleven Labs",
+    "API"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-03T19:44:41.424Z",
+  "version": "1.0.0"
+}

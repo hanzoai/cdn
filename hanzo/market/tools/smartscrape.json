@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-10-12T17:06:16.712Z",
+  "description": "SmartScrape extracts specific data from web pages using a large language model. Users provide a URL and instructions for what content to extract, along with optional formatting guidelines. The tool processes the page and returns the requested data in the specified format. To use, input a URL and clear extraction instructions (e.g., \"Extract product prices\") with optional format rules (e.g., \"Return as: Price: $X\").",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "smartscrape",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::smartscrape"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "SmartScrape",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/smartscrape",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/smartscrape",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "extract",
+    "web",
+    "webpage",
+    "text extraction",
+    "web scraping",
+    "LLM scraping",
+    "formatted"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-10-12T17:06:16.712Z",
+  "version": "1.0.0"
+}

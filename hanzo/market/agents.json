@@ -1,158 +1,500 @@
 {
+  "limit": 23,
+  "page": 1,
   "products": [
     {
-      "id": "zoo-eco-agent",
-      "name": "Eco Assistant",
-      "description": "An eco-friendly AI assistant focused on sustainability and environmental awareness. Helps with green living tips, carbon footprint calculations, and eco-conscious decision making.",
-      "author": "AI Team",
-      "downloads": 15420,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-eco-assistant",
+      "author": "hanzo.ai",
       "category": {
-        "id": "sustainability",
-        "name": "Sustainability",
-        "description": "Agents focused on environmental and sustainability topics",
-        "examples": "Carbon tracking, eco tips, green living"
-      }
-    },
-    {
-      "id": "zoo-coder-agent",
-      "name": "Code Master",
-      "description": "Advanced coding assistant with expertise in multiple programming languages. Specializes in code review, debugging, and architecture design.",
-      "author": "AI Team",
-      "downloads": 28350,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-code-master",
-      "category": {
-        "id": "development",
-        "name": "Development",
-        "description": "Programming and software development assistants",
-        "examples": "Code review, debugging, architecture"
-      }
-    },
-    {
-      "id": "zoo-creative-agent",
-      "name": "Creative Studio",
-      "description": "Creative writing and content generation specialist. Helps with storytelling, marketing copy, and artistic brainstorming.",
-      "author": "AI Team",
-      "downloads": 9876,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-creative-studio",
-      "category": {
-        "id": "creative",
-        "name": "Creative",
-        "description": "Creative writing and content generation",
-        "examples": "Stories, marketing, brainstorming"
-      }
-    },
-    {
-      "id": "zoo-data-analyst",
-      "name": "Data Analyst",
-      "description": "Data analysis and visualization expert. Helps with data interpretation, statistical analysis, and creating insightful reports.",
-      "author": "AI Team",
-      "downloads": 12543,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-data-analyst",
-      "category": {
-        "id": "analytics",
-        "name": "Analytics",
-        "description": "Data analysis and business intelligence",
-        "examples": "Statistics, reports, visualizations"
-      }
-    },
-    {
-      "id": "zoo-tutor-agent",
-      "name": "Learning Companion",
-      "description": "Educational assistant for personalized learning. Adapts to your learning style and helps with various subjects.",
-      "author": "AI Team",
-      "downloads": 18920,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-learning-companion",
-      "category": {
+        "description": "",
+        "examples": "",
         "id": "education",
-        "name": "Education",
-        "description": "Learning and educational assistants",
-        "examples": "Tutoring, homework help, study guides"
-      }
+        "name": "Education"
+      },
+      "description": "An AI assistant that analyzes audio from any video or podcast URL to answer your questions about its content. Compatible with any website or platform supported by yt-dlp.",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "audio-insight",
+      "license": "MIT",
+      "name": "Audio Insight",
+      "path": "/agents/audio-insight",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/audio-insight",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
     },
     {
-      "id": "zoo-health-agent",
-      "name": "Wellness Coach",
-      "description": "Health and wellness advisor providing fitness tips, nutrition guidance, and mental health support.",
-      "author": "AI Team",
-      "downloads": 7654,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-wellness-coach",
+      "author": "hanzo.ai",
       "category": {
-        "id": "health",
-        "name": "Health & Wellness",
-        "description": "Health, fitness, and wellness guidance",
-        "examples": "Fitness, nutrition, mindfulness"
-      }
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Ingests a local code directory or a github repo and can analyze it. Useful for code discovery and reviews, docs generation, codebase analysis and improvements.",
+      "downloads": 13,
+      "icon_url": "",
+      "id": "code-directory-and-git-repository-analyzer",
+      "license": "MIT",
+      "name": "Code Directory and Git Repository Analyzer",
+      "path": "/agents/code-directory-and-git-repository-analyzer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/code-directory-and-git-repository-analyzer",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
     },
     {
-      "id": "zoo-finance-agent",
-      "name": "Finance Advisor",
-      "description": "Personal finance assistant for budgeting, investment insights, and financial planning.",
-      "author": "AI Team",
-      "downloads": 11234,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-finance-advisor",
+      "author": "hanzo.ai",
       "category": {
+        "description": "",
+        "examples": "",
+        "id": "books",
+        "name": "Books"
+      },
+      "description": "This E-Librarian AI Agent is a digital librarian designed to help users locate and access ebooks.\n\nIt searches digital archives and provides detailed results for each title, including the author, publication year, a brief synopsis, a direct link, and a cover image.\nTo ensure comprehensive results, the agent supplements its archive searches with Google Search for more obscure information or to answer general book-related questions.\nIt also provides guidance on potential access issues, such as suggesting a VPN for region-restricted content.\n\nTo expand this agent's capabilities, users are invited to integrate additional ebook search tools or recommendation engines.",
+      "downloads": 6,
+      "icon_url": "",
+      "id": "e-librarian",
+      "license": "MIT",
+      "name": "E-Librarian",
+      "path": "/agents/e-librarian",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/e-librarian",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "photo-video",
+        "name": "Photo & Video"
+      },
+      "description": "This Enhanced Image Generator Agent uses an extensive image generation guide to craft precise prompts before creating visuals.\nDon't hesitate to change its image generation tool.",
+      "downloads": 10,
+      "icon_url": "",
+      "id": "enhanced-image-generator",
+      "license": "MIT",
+      "name": "Enhanced image generator",
+      "path": "/agents/enhanced-image-generator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/enhanced-image-generator",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
         "id": "finance",
-        "name": "Finance",
-        "description": "Financial planning and investment guidance",
-        "examples": "Budgeting, investing, planning"
-      }
+        "name": "Finance"
+      },
+      "description": "Patagonia Jacket Guy giving financial advice",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "finance-bro",
+      "license": "MIT",
+      "name": "Finance Bro",
+      "path": "/agents/finance-bro",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/finance-bro",
+      "tags": [
+        "finance",
+        "bro",
+        "agent"
+      ],
+      "type": "Agent",
+      "version": "1.0.0"
     },
     {
-      "id": "zoo-research-agent",
-      "name": "Research Assistant",
-      "description": "Academic and professional research helper. Assists with literature reviews, citations, and fact-checking.",
-      "author": "AI Team",
-      "downloads": 14567,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-research-assistant",
+      "author": "hanzo.ai",
       "category": {
-        "id": "research",
-        "name": "Research",
-        "description": "Academic and professional research",
-        "examples": "Literature review, citations, fact-checking"
-      }
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "This Agent transforms a simple story idea into a complete, richly illustrated narrative.\n\nAfter expanding the story, it identifies the most compelling scenes and generates high-quality, stylistically consistent images for them using detailed prompts.The final output is a single, ready-to-read story where the generated images are seamlessly embedded within the text, bringing the tale to life.\n\nFeel free to edit the Agent to pick a different image generation tool.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "illustrated-story-creator",
+      "license": "MIT",
+      "name": "Illustrated Story Creator",
+      "path": "/agents/illustrated-story-creator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/illustrated-story-creator",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
     },
     {
-      "id": "zoo-travel-agent",
-      "name": "Travel Planner",
-      "description": "Travel planning assistant for creating itineraries, finding deals, and discovering destinations.",
-      "author": "AI Team",
-      "downloads": 8901,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-travel-planner",
+      "author": "hanzo.ai",
       "category": {
-        "id": "travel",
-        "name": "Travel",
-        "description": "Travel planning and recommendations",
-        "examples": "Itineraries, destinations, travel tips"
-      }
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Find and trade stablecoin arbitrage opportunities in Jupiter",
+      "downloads": 3068,
+      "icon_url": "",
+      "id": "jupiter-stablecoin-arbitrager",
+      "license": "MIT",
+      "name": "Jupiter Stablecoin Arbitrager",
+      "path": "/agents/jupiter-stablecoin-arbitrager",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/jupiter-stablecoin-arbitrager",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
     },
     {
-      "id": "zoo-legal-agent",
-      "name": "Legal Assistant",
-      "description": "Legal document assistant for contract reviews, legal research, and general legal guidance (not legal advice).",
-      "author": "AI Team",
-      "downloads": 6543,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-legal-assistant",
+      "author": "hanzo.ai",
       "category": {
-        "id": "legal",
-        "name": "Legal",
-        "description": "Legal document assistance and research",
-        "examples": "Contracts, legal research, documents"
-      }
+        "description": "",
+        "examples": "",
+        "id": "education",
+        "name": "Education"
+      },
+      "description": "Creates a learning plan with videos to watch, webpages to read, and articles to study.",
+      "downloads": 2900,
+      "icon_url": "",
+      "id": "learning-tutor",
+      "license": "MIT",
+      "name": "Learning Tutor",
+      "path": "/agents/learning-tutor",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/learning-tutor",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "https://linear.app/ task manager.",
+      "downloads": 3076,
+      "icon_url": "",
+      "id": "linear-agent",
+      "license": "MIT",
+      "name": "Linear Agent",
+      "path": "/agents/linear-agent",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/linear-agent",
+      "tags": [
+        "linear",
+        "agent",
+        "linear.app",
+        "task manager"
+      ],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Generates and edits markdown files precisely, targeting specific sections.\nLink it to diverse search, file reader, and media generation tools to automate content creation in markdown.",
+      "downloads": 7,
+      "icon_url": "",
+      "id": "markdown-content-writer",
+      "license": "MIT",
+      "name": "Markdown content writer",
+      "path": "/agents/markdown-content-writer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-content-writer",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Resolves math problems by breaking them down into multiple steps, and performing calculations using a python script creator and executor tool.",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "math-problem-solver",
+      "license": "MIT",
+      "name": "Math problem solver",
+      "path": "/agents/math-problem-solver",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/math-problem-solver",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "graphics-design",
+        "name": "Graphics & Design"
+      },
+      "description": "Converts content into an interactive Mind Map. Can fetch content from URLs too.",
+      "downloads": 11,
+      "icon_url": "",
+      "id": "mind-map-creator",
+      "license": "MIT",
+      "name": "Mind Map Creator",
+      "path": "/agents/mind-map-creator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/mind-map-creator",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "business",
+        "name": "Business"
+      },
+      "description": "This expert uses the core negotiation strategies of Chris Voss, William Ury, Roger Fisher, Herb Cohen, Jim Camp, and Stuart Diamond, highlighting their main teachings and real-world examples in a straightforward, practical way. It uses public available knowledge.",
+      "downloads": 3052,
+      "icon_url": "",
+      "id": "negotiation-expert",
+      "license": "MIT",
+      "name": "Negotiation Expert",
+      "path": "/agents/negotiation-expert",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/negotiation-expert",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "graphics-design",
+        "name": "Graphics & Design"
+      },
+      "description": "Image generation Agent specialized in creating posters. Feel free to equip it with a different image generation tool.",
+      "downloads": 7,
+      "icon_url": "",
+      "id": "poster-creator",
+      "license": "MIT",
+      "name": "Poster Creator",
+      "path": "/agents/poster-creator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/poster-creator",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Writes and improves prompts using its knowledge of system prompts from major AI models and agents.",
+      "downloads": 17,
+      "icon_url": "",
+      "id": "prompt-writer",
+      "license": "MIT",
+      "name": "Prompt writer",
+      "path": "/agents/prompt-writer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/prompt-writer",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "education",
+        "name": "Education"
+      },
+      "description": "AI Agent specialized in helping you repair and fix broken things (web and youtube access).",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "repair-mate",
+      "license": "MIT",
+      "name": "Repair mate",
+      "path": "/agents/repair-mate",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/repair-mate",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "health-fitness",
+        "name": "Health & Fitness"
+      },
+      "description": "Expert on running training and supplementation, follows advice of experts such as Jack Daniels, Pete Pfitzinger, Matt Fitzgerald among others to prepare you for distances from 5K to the marathon.",
+      "downloads": 6,
+      "icon_url": "",
+      "id": "running-coach",
+      "license": "MIT",
+      "name": "Running Coach",
+      "path": "/agents/running-coach",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/running-coach",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "food-drink",
+        "name": "Food & Drink"
+      },
+      "description": "Composes salads according to the user's query and to its salad cooking guide, and creates detailed visuals for them.\nUse text to describe your dream salad, or even add pictures of your available ingredients.\nDon't hesitate to change its image generation tool for your preferred one.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "salad-composer",
+      "license": "MIT",
+      "name": "Salad Composer",
+      "path": "/agents/salad-composer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/salad-composer",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "graphics-design",
+        "name": "Graphics & Design"
+      },
+      "description": "Creates squared logos and rectangular banners for Hanzo tools to list on Hanzo AI store. Just provide your tool name and description, the number of logos and/or banners to generate, and optionaly add minimal instruction. Might need multiple runs to get a result you like.",
+      "downloads": 6,
+      "icon_url": "",
+      "id": "shinkai-tool-logo-and-banner-creator",
+      "license": "MIT",
+      "name": "Hanzo tool logo and banner creator",
+      "path": "/agents/shinkai-tool-logo-and-banner-creator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/shinkai-tool-logo-and-banner-creator",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "business",
+        "name": "Business"
+      },
+      "description": "You are an expert that follows the naming philosophies and frameworks of leading experts Alexandra Watkins, Rob Meyerson, Jeremy Miller, Brad Flowers, Steve Manning & Jay Jurisich (Igor International), and David Placek (Lexicon Branding). Drawing from their books and agency experience, it offers practical, real-world advice for founders seeking memorable, effective names for tech startups.",
+      "downloads": 3050,
+      "icon_url": "",
+      "id": "startup-naming-expert",
+      "license": "MIT",
+      "name": "Startup Naming Expert",
+      "path": "/agents/startup-naming-expert",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/startup-naming-expert",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This expert distills practical storytelling frameworks and philosophies from leading experts\u2014Donald Miller, Andy Raskin, Seth Godin, Nancy Duarte, Robert McKee, Park Howell, Bernadette Jiwa, and Jonah Sachs\u2014offering startup founders actionable ways to craft marketing narratives that connect, inspire, and drive results.",
+      "downloads": 3040,
+      "icon_url": "",
+      "id": "startup-storyteller-expert",
+      "license": "MIT",
+      "name": "Startup Storyteller Expert",
+      "path": "/agents/startup-storyteller-expert",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/startup-storyteller-expert",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "This expert has access to multiple tools to analyze and extract any information needed from X (Twitter)",
+      "downloads": 3049,
+      "icon_url": "",
+      "id": "twitter-expert-read-only",
+      "license": "MIT",
+      "name": "Twitter Expert (Read Only)",
+      "path": "/agents/twitter-expert-read-only",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/twitter-expert---read-only",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This expert has access to youtube search (using serpapi) and to download video transcripts. If a video doesn't have a transcript, it can download the audio and then process it to extract its transcript.",
+      "downloads": 3038,
+      "icon_url": "",
+      "id": "youtube-expert",
+      "license": "MIT",
+      "name": "Youtube Expert",
+      "path": "/agents/youtube-expert",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/youtube-expert",
+      "tags": [],
+      "type": "Agent",
+      "version": "1.0.0"
     }
   ],
-  "total": 10,
-  "page": 1,
-  "limit": 10,
+  "total": 23,
   "totalPages": 1
 }

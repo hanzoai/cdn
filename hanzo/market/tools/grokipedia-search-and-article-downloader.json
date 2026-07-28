@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-10-29T16:32:18.112Z",
+  "description": "Searches Grokipedia for a given query, uses LLM to select and download content from the most relevant articles, or falls back to top result links.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "grokipedia-search-and-article-downloader",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::grokipedia_search_and_article_downloader"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Grokipedia Search and Article Downloader",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/grokipedia-search-and-article-downloader",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/grokipedia-search-and-article-downloader",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "grokipedia",
+    "search",
+    "article",
+    "source"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-10-29T16:32:18.112Z",
+  "version": "1.0.0"
+}

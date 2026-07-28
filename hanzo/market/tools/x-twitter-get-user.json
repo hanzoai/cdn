@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "social-networking",
+    "name": "Social Networking"
+  },
+  "changelog": "",
+  "created_at": "2025-04-09T22:11:50.823Z",
+  "description": "Function to fetch Twitter user information by username.",
+  "downloads": 1093,
+  "icon_url": "",
+  "id": "x-twitter-get-user",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::x_twitter_get_user"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "X/Twitter Get User",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/x-twitter-get-user",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/x-twitter-get-user",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "Twitter",
+    "API",
+    "User",
+    "TwttrApi",
+    "X"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-09T22:11:50.823Z",
+  "version": "1.0.0"
+}

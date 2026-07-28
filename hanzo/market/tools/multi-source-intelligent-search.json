@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-10-14T16:30:39.570Z",
+  "description": "This tool identifies the best sources for a user query.\n\nIt intelligently routes to the most adapted search tools (including web search, YouTube, arXiv, e-books, news, and PubMed), and aggregates best results.\n\nTo guide the tool on which search tools to use, be explicit.\n\nUse the parameters to customize the depth of your search.\n\nThis tool first requires the installation of all underlying search tools.\n\nFork this tool to add or remove search tools, and to customize the instructions for each search tool.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "multi-source-intelligent-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::multi_source_intelligent_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Multi-Source Intelligent Search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/multi-source-intelligent-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/multi-source-intelligent-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "search",
+    "multi source",
+    "source",
+    "best source",
+    "web",
+    "research"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-10-14T16:30:39.570Z",
+  "version": "1.0.0"
+}

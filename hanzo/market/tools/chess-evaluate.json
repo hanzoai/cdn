@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "games",
+    "name": "Games"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:12:46.496Z",
+  "description": "Evaluate a chess position using Stockfish at a given depth",
+  "downloads": 3,
+  "icon_url": "",
+  "id": "chess-evaluate",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::chess_evaluate"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Chess Evaluate",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/chess-evaluate",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/chess-evaluate",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "chess",
+    "stockfish",
+    "evaluation",
+    "analysis",
+    "engine",
+    "position"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:12:46.496Z",
+  "version": "1.0.0"
+}

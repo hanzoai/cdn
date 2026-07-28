@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "social-networking",
+    "name": "Social Networking"
+  },
+  "changelog": "",
+  "created_at": "2025-04-09T22:12:00.745Z",
+  "description": "Function to search for Twitter users based on a query string.",
+  "downloads": 768,
+  "icon_url": "",
+  "id": "x-twitter-search-users",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::x_twitter_search_users"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "X/Twitter Search Users",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/x-twitter-search-users",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/x-twitter-search-users",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "twitter",
+    "user search",
+    "api",
+    "users",
+    "X"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-09T22:12:00.745Z",
+  "version": "1.0.0"
+}

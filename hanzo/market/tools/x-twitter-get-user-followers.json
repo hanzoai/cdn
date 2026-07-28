@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "social-networking",
+    "name": "Social Networking"
+  },
+  "changelog": "",
+  "created_at": "2025-04-09T22:13:27.538Z",
+  "description": "Function to fetch the list of users who follow a specific Twitter user.",
+  "downloads": 717,
+  "icon_url": "",
+  "id": "x-twitter-get-user-followers",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::x_twitter_get_user_followers"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "X/Twitter Get User Followers",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/x-twitter-get-user-followers",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/x-twitter-get-user-followers",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "twitter",
+    "followers",
+    "api",
+    "users",
+    "X"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-09T22:13:27.538Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "productivity",
+    "name": "Productivity"
+  },
+  "changelog": "",
+  "created_at": "2025-05-12T13:27:21.697Z",
+  "description": "This tool organizes documents by topic.\n\nIt scans a specified folder for supported file types (PDF, DOCX, ODT, PPTX, ODP, TXT, MD, CSV, XLSX, ODS), extracts text, generates summaries using an LLM, proposes and refines topic categories with user feedback, classifies files into topics, and moves them into corresponding subfolders. User confirmation is required before file movement. The tool handles errors, resolves file name conflicts, and provides a detailed process summary.\n\nWarning: High LLM usage may occur due to multiple calls per document. Configure the tool to use an LLM optimized for frequent calls to balance performance and cost.\n\nThis tools requires the 3 human-in-the-loop tools : options selection, confirmation dialog, clarification dialog.",
+  "downloads": 30,
+  "icon_url": "",
+  "id": "documents-folder-organizer-with-topic-classification",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::documents_folder_organizer_with_topic_classification"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Documents Folder Organizer with Topic Classification",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/documents-folder-organizer-with-topic-classification",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/documents-folder-organizer-with-topic-classification",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "documents",
+    "folder classifier",
+    "document sorting",
+    "topic",
+    "file mover",
+    "classify",
+    "organize"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-12T13:27:21.697Z",
+  "version": "1.0.0"
+}

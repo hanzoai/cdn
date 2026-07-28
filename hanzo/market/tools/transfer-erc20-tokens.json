@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-02-13T14:00:36.414Z",
+  "description": "Sending ERC20 tokens specified address.",
+  "downloads": 35,
+  "icon_url": "",
+  "id": "transfer-erc20-tokens",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::transfer_erc20_tokens"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Transfer ERC20 Tokens",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/transfer-erc20-tokens",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/transfer-erc20-tokens",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "wallet",
+    "token",
+    "transfer",
+    "crypto",
+    "erc20"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-13T14:00:36.414Z",
+  "version": "1.0.0"
+}

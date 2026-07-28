@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-01-27T13:43:38.175Z",
+  "description": "Fetches the transcript of a YouTube video and generates a formatted summary using an LLM.",
+  "downloads": 887,
+  "icon_url": "",
+  "id": "youtube-transcript-summarizer",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::youtube_transcript_summarizer"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Youtube Transcript Summarizer",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/youtube-transcript-summarizer",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/youtube-transcript-summarizer",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "youtube",
+    "transcript",
+    "summary",
+    "video",
+    "LLM"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-27T13:43:38.175Z",
+  "version": "1.0.0"
+}

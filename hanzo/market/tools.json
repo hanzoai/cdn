@@ -1,83 +1,4838 @@
 {
+  "limit": 179,
+  "page": 1,
   "products": [
     {
-      "id": "zoo-python-runner",
-      "name": "Python Code Runner",
-      "description": "Execute Python code safely in an isolated environment with full standard library support.",
-      "author": "AI Team",
-      "downloads": 45678,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-python-runner",
+      "author": "hanzo.ai",
       "category": {
-        "id": "development",
-        "name": "Development Tools",
-        "description": "Code execution and development utilities",
-        "examples": "Code runners, debuggers, formatters"
-      }
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Tool to make requests to the Airtable Developer API using OAuth for authentication.",
+      "downloads": 6,
+      "icon_url": "",
+      "id": "airtable-developer-api",
+      "license": "MIT",
+      "name": "Airtable Developer API",
+      "path": "/tools/airtable-developer-api",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/airtable-developer-api",
+      "tags": [
+        "airtable",
+        "api",
+        "oauth"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
     },
     {
-      "id": "zoo-web-scraper",
-      "name": "Web Scraper Pro",
-      "description": "Advanced web scraping tool with CSS selectors, XPath, and JavaScript rendering support.",
-      "author": "AI Team",
-      "downloads": 23456,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-web-scraper",
+      "author": "hanzo.ai",
       "category": {
-        "id": "data",
-        "name": "Data Tools",
-        "description": "Data collection and processing tools",
-        "examples": "Scrapers, parsers, converters"
-      }
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "This tool functions as a personal soundscape generator, creating single ambient audio experiences tailored to your specific prompts. By leveraging a Large Language Model (LLM), it intelligently selects and mixes sounds from a library to produce a unique MP3 file that matches the mood or environment you describe.\n\n(Note: To build longer evolving sound journeys, use the tool 'ambient sound journey composer', which uses the present tool under the hood.)\n\n### How to Use the Tool:\n\nThis tool offers a straightforward, step-by-step process for creating your ideal ambient soundscape:\n\n1.  **Download the Sound Library**: Before you can generate any soundscapes, you must first download the necessary audio assets. To do this, simply run the tool with the `download_assets` option set to `True`. This will fetch the default sound library from a GitHub repository and store it on your local machine. The tool supports .mp3 and .wav sound files.\n\n2.  **Customize with Your Own Sounds (Optional)**: You have the creative freedom to expand the sound library. To add your own audio, just place any MP3 or WAV files into the designated `assets_folder`. You can also create subfolders to organize your sounds by category. For best results, use only a 2 level depth (categories, subcategories, no more). The tool will automatically detect and integrate these new files, making them available for your soundscapes.\n\n3.  **Generate Your Soundscape**: Once your sound library is ready, you can start creating. Provide a descriptive `prompt` detailing the type of ambient sound you want (e.g., \"a peaceful forest with a gentle stream and distant birds\"). The tool will then generate a custom MP3 file based on your description.\n\n4.  **Explore Your Sound Options (Optional)**: If you're unsure what sounds are available or want to get ideas for your prompts, you can set the `show_available_sounds` option to `True`. This will provide a complete list of all the sounds in your library, including any you've added yourself, without generating an audio file.",
+      "downloads": 0,
+      "icon_url": "",
+      "id": "ambient-sound-composer",
+      "license": "MIT",
+      "name": "Ambient Sound Composer",
+      "path": "/tools/ambient-sound-composer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/ambient-sound-composer",
+      "tags": [
+        "soundscape",
+        "ambient",
+        "sound",
+        "relax"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
     },
     {
-      "id": "zoo-api-tester",
-      "name": "API Testing Suite",
-      "description": "Comprehensive API testing tool with request builder, response validation, and test automation.",
-      "author": "AI Team",
-      "downloads": 19876,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-api-tester",
+      "author": "hanzo.ai",
       "category": {
-        "id": "development",
-        "name": "Development Tools",
-        "description": "API development and testing",
-        "examples": "API testing, debugging, documentation"
-      }
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "This tool crafts custom, long-form evolving ambient soundscapes from a simple text description. It intelligently orchestrates a detailed composition plan, breaking the total duration into smaller, evolving segments. It then generates each segment individually, ensuring smooth, gradual transitions before seamlessly stitching them into a single, continuous MP3 audio file. It relies on local sound assets.\n\nIt's perfect for creating background audio for focus, relaxation, or storytelling that evolves over time.\n\nThis tool relies on the 'ambient sound composer' tool, which you can configure first.\n\n### How to Use It\n\nTo create your soundscape, simply write a descriptive `request` outlining the audio journey you envision. Be as detailed as you would like, or vague for more random outputs. You can define the `total_duration_minutes`, suggest a number of `segments` to guide the pacing, and provide a custom `output_filename` for the final MP3. These core inputs give you direct control over the final audio composition.\n\nFor more insight, you can use several optional toggles. Set `show_available_sounds` to `true` to get a list of all sound building blocks without generating audio. To see the AI's step-by-step \"recipe\" for your track, enable `show_composition_plan`. Finally, if you wish to examine the individual audio clips used, you can choose to `keep_intermediate_files` rather than having them automatically deleted.",
+      "downloads": 0,
+      "icon_url": "",
+      "id": "ambient-sound-journey-composer",
+      "license": "MIT",
+      "name": "Ambient Sound Journey Composer",
+      "path": "/tools/ambient-sound-journey-composer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/ambient-sound-journey-composer",
+      "tags": [
+        "ambient",
+        "audio",
+        "sound ",
+        "journey",
+        "soudscape"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
     },
     {
-      "id": "zoo-image-processor",
-      "name": "Image Processor",
-      "description": "Image manipulation tool with resize, crop, filter, and format conversion capabilities.",
-      "author": "AI Team",
-      "downloads": 34567,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-image-processor",
+      "author": "hanzo.ai",
       "category": {
-        "id": "media",
-        "name": "Media Tools",
-        "description": "Image and media processing",
-        "examples": "Image editing, conversion, optimization"
-      }
+        "description": "",
+        "examples": "",
+        "id": "books",
+        "name": "Books"
+      },
+      "description": "Searches for eBooks from Anna's Archive, and returns information including title, author, year, Anna's archive page url, MD5.\n\nSupports searching by title, author and keywords. Includes optional category filter.\n\nIf a complex query fails, try searching just with a title, or just with an author.\n\nNote : the reliability of this tool might fluctuate.\n- It is based on web scrapping, so changes in Anna's Archive website might break the search feature. Feel free to fork and update the tool's code.\n- Anna's Archive search servers might be slow. You sometimes have to retry your search.",
+      "downloads": 889,
+      "icon_url": "",
+      "id": "anna-s-archive-ebook-search-web-scrapping-based",
+      "license": "MIT",
+      "name": "Anna's Archive Ebook Search - Web Scrapping based",
+      "path": "/tools/anna-s-archive-ebook-search-web-scrapping-based",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/anna-s-archive-ebook-search---web-scrapping-based",
+      "tags": [
+        "book",
+        "search",
+        "library",
+        "archive",
+        "anna",
+        "ebook",
+        "epub"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
     },
     {
-      "id": "zoo-pdf-toolkit",
-      "name": "PDF Toolkit",
-      "description": "PDF manipulation suite for merging, splitting, extracting, and converting PDF documents.",
-      "author": "AI Team",
-      "downloads": 28901,
-      "icon_url": "/app-logo.png",
-      "router_key": "zoo-pdf-toolkit",
+      "author": "hanzo.ai",
       "category": {
-        "id": "documents",
-        "name": "Document Tools",
-        "description": "Document processing and management",
-        "examples": "PDF editing, conversion, extraction"
-      }
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Extracts article text, authors, images, and metadata from a given URL or raw HTML using newspaper3k",
+      "downloads": 12,
+      "icon_url": "",
+      "id": "article-scraper",
+      "license": "MIT",
+      "name": "Article Scraper",
+      "path": "/tools/article-scraper",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/article-scraper",
+      "tags": [
+        "article",
+        "news",
+        "newspaper3k",
+        "scraper",
+        "metadata",
+        "text extraction"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Download an arXiv paper PDF and optionally convert it to Markdown",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "arxiv-download",
+      "license": "MIT",
+      "name": "arxiv-download",
+      "path": "/tools/arxiv-download",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/arxiv-download",
+      "tags": [
+        "arxiv",
+        "pdf",
+        "download",
+        "markdown",
+        "research",
+        "paper"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Search for papers on arXiv with optional date range and category filters",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "arxiv-search",
+      "license": "MIT",
+      "name": "arxiv-search",
+      "path": "/tools/arxiv-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/arxiv-search",
+      "tags": [
+        "arxiv",
+        "search",
+        "papers",
+        "research",
+        "academic",
+        "scientific"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Downloads audio from any URL on websites and platforms supported by yt-dlp and converts it to MP3 at 192kbps quality.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "audio-downloader",
+      "license": "MIT",
+      "name": "Audio Downloader",
+      "path": "/tools/audio-downloader",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/audio-downloader",
+      "tags": [
+        "audio",
+        "download",
+        "yt-dlp",
+        "mp3",
+        "extract audio"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Ask questions about any local audio file. This tool passes your audio and prompt to a multimodal LLM for analysis.\n\nFor long audio files, you might prefer to convert the audio to text first, and the use a LLM on the text.",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "audio-llm-processor",
+      "license": "MIT",
+      "name": "Audio LLM Processor",
+      "path": "/tools/audio-llm-processor",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/audio-llm-processor",
+      "tags": [
+        "audio",
+        "audio analysis",
+        "audio to text",
+        "transcription",
+        "mp3"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This tool transcribes audio files to text using the faster-whisper model.",
+      "downloads": 1261,
+      "icon_url": "",
+      "id": "audio-to-text-transcription",
+      "license": "MIT",
+      "name": "Audio to Text Transcription",
+      "path": "/tools/audio-to-text-transcription",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/audio-to-text-transcription",
+      "tags": [
+        "audio",
+        "transcription",
+        "whisper",
+        "faster-whisper",
+        "speech-to-text"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "graphics-design",
+        "name": "Graphics & Design"
+      },
+      "description": "Fetches brand icons in SVG format from the Simple Icons CDN (2000+ assets) based on the brand name and colour choice inputs.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "brand-icons-svg-fetcher",
+      "license": "MIT",
+      "name": "Brand Icons SVG Fetcher",
+      "path": "/tools/brand-icons-svg-fetcher",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/brand-icons-svg-fetcher",
+      "tags": [
+        "icons",
+        "simple icons",
+        "svg",
+        "brand icons",
+        "download",
+        "fetch",
+        "brand",
+        "logo"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "games",
+        "name": "Games"
+      },
+      "description": "Evaluate a chess position using Stockfish at a given depth",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "chess-evaluate",
+      "license": "MIT",
+      "name": "Chess Evaluate",
+      "path": "/tools/chess-evaluate",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/chess-evaluate",
+      "tags": [
+        "chess",
+        "stockfish",
+        "evaluation",
+        "analysis",
+        "engine",
+        "position"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "games",
+        "name": "Games"
+      },
+      "description": "Generate a PNG image of a chess position from FEN notation with optional last move highlighting",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "chess-generate-image",
+      "license": "MIT",
+      "name": "Chess Generate Image",
+      "path": "/tools/chess-generate-image",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/chess-generate-image",
+      "tags": [
+        "chess",
+        "image",
+        "png",
+        "fen",
+        "board",
+        "visualization"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "games",
+        "name": "Games"
+      },
+      "description": "Apply a move in UCI format to a given FEN and return the resulting position",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "chess-move",
+      "license": "MIT",
+      "name": "Chess Move",
+      "path": "/tools/chess-move",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/chess-move",
+      "tags": [
+        "chess",
+        "move",
+        "uci",
+        "fen",
+        "position",
+        "game"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Opens a configurable dialog to request clarification, precision, additional information, etc. and outputs the information given by the user.\n\nUse it inside tools and workflows as a human-in-the-loop component.\n\nYou can configure the :\n- title of the dialog\n- text of the dialog\n- labels of the 'submit' and 'ignore' buttons.\n\nWhen included inside another tool using Hanzo's AI tool building assistant, the LLM should be able to automatically adapt the title, text, and buttons of the dialog to suit your tool.\n\nYou can couple this tool with the Prompt Processor to process the extra information returned from the user and enrich the next step in your tool flow.",
+      "downloads": 15,
+      "icon_url": "",
+      "id": "clarification-dialog-human-in-the-loop",
+      "license": "MIT",
+      "name": "Clarification Dialog - Human In The Loop",
+      "path": "/tools/clarification-dialog-human-in-the-loop",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/clarification-dialog---human-in-the-loop",
+      "tags": [
+        "clarification",
+        "dialog",
+        "precision",
+        "additional",
+        "human in the loop"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Flip a coin with n sides using true randomness from random.org. Supports custom side names and various meta-usage patterns.",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "coin-flip-tool",
+      "license": "MIT",
+      "name": "Coin Flip Tool",
+      "path": "/tools/coin-flip-tool",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coin-flip-tool",
+      "tags": [
+        "random",
+        "coin-flip",
+        "decision-making",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Tool for getting the balance of a Coinbase wallet after restoring it",
+      "downloads": 0,
+      "icon_url": "",
+      "id": "coinbase-balance-getter",
+      "license": "MIT",
+      "name": "Coinbase Balance Getter",
+      "path": "/tools/coinbase-balance-getter",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coinbase-balance-getter",
+      "tags": [
+        "coinbase",
+        "balance",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Tool for calling a faucet on Coinbase",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "coinbase-faucet-caller",
+      "license": "MIT",
+      "name": "Coinbase Faucet Caller",
+      "path": "/tools/coinbase-faucet-caller",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coinbase-faucet-caller",
+      "tags": [
+        "coinbase",
+        "faucet",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Tool for getting the default address of a Coinbase wallet",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "coinbase-my-address-getter",
+      "license": "MIT",
+      "name": "Coinbase My Address Getter",
+      "path": "/tools/coinbase-my-address-getter",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coinbase-my-address-getter",
+      "tags": [
+        "coinbase",
+        "address",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Tool for restoring a Coinbase wallet and sending a transaction",
+      "downloads": 0,
+      "icon_url": "",
+      "id": "coinbase-transaction-sender",
+      "license": "MIT",
+      "name": "Coinbase Transaction Sender",
+      "path": "/tools/coinbase-transaction-sender",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coinbase-transaction-sender",
+      "tags": [
+        "coinbase",
+        "transaction",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Tool for getting the transactions of a Coinbase wallet after restoring it",
+      "downloads": 0,
+      "icon_url": "",
+      "id": "coinbase-transactions-getter",
+      "license": "MIT",
+      "name": "Coinbase Transactions Getter",
+      "path": "/tools/coinbase-transactions-getter",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coinbase-transactions-getter",
+      "tags": [
+        "coinbase",
+        "balance",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Tool for creating a Coinbase wallet",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "coinbase-wallet-creator",
+      "license": "MIT",
+      "name": "Coinbase Wallet Creator",
+      "path": "/tools/coinbase-wallet-creator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coinbase-wallet-creator",
+      "tags": [
+        "coinbase",
+        "wallet",
+        "creator",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Fetch a paginated list of all coins from CoinGecko. Works by retrieving the entire list and slicing manually.",
+      "downloads": 7,
+      "icon_url": "",
+      "id": "coingecko-get-coins",
+      "license": "MIT",
+      "name": "coingecko-get-coins",
+      "path": "/tools/coingecko-get-coins",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coingecko-get-coins",
+      "tags": [
+        "coingecko",
+        "cryptocurrency",
+        "coins",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Retrieves historical price, market-cap, and volume data for a coin over a date range (from_date to to_date).",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "coingecko-get-historical-data",
+      "license": "MIT",
+      "name": "coingecko-get-historical-data",
+      "path": "/tools/coingecko-get-historical-data",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coingecko-get-historical-data",
+      "tags": [
+        "coingecko",
+        "cryptocurrency",
+        "historical",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "finance",
+        "name": "Finance"
+      },
+      "description": "Fetches cryptocurrency data from CoinMarketCap API and filters it using specified cryptocurrencies.\n\nThe data output includes : name, symbol, rank, price, % price change (1h, 24h, 7d, 30d, 60d, 90d), market cap, fully diluted market cap, max supply, circulating supply, % market cap dominance, volume 24h, and time of last update.\n\nThe tool requires an API key.\n\nIn configuration, set the list of cryptocurrencies you are interested in, as well as the fiat currency to convert to.",
+      "downloads": 13,
+      "icon_url": "",
+      "id": "coinmarketcap-current-data-for-selected-coins",
+      "license": "MIT",
+      "name": "Coinmarketcap - current data for selected coins",
+      "path": "/tools/coinmarketcap-current-data-for-selected-coins",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/coinmarketcap---current-data-for-selected-coins",
+      "tags": [
+        "cryptocurrency",
+        "coinmarketcap",
+        "coin",
+        "crypto data",
+        "price",
+        "crypto"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Opens a configurable confirmation dialog, and outputs the choice made by the user.\n\nUse it inside tools and workflows as a human-in-the-loop component.\n\nYou can configure the :\n- title of the dialog\n- text of the dialog\n- labels of the 'yes' and 'no' buttons.\n\nWhen included inside another tool using Hanzo's AI tool building assistant, the LLM should be able to automatically adapt the title, text, and buttons of the dialog, as well as use the choice returned from the user to create appropriate conditional logic in your tool.",
+      "downloads": 12,
+      "icon_url": "",
+      "id": "confirmation-dialog-human-in-the-loop",
+      "license": "MIT",
+      "name": "Confirmation Dialog - Human In The Loop",
+      "path": "/tools/confirmation-dialog-human-in-the-loop",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/confirmation-dialog---human-in-the-loop",
+      "tags": [
+        "confirmation",
+        "dialog",
+        "confirm",
+        "accept",
+        "human in the loop"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Tool to copy a file from a source path to a target directory, preserving the filename and extension.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "copy-file-to",
+      "license": "MIT",
+      "name": "Copy File To",
+      "path": "/tools/copy-file-to",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/copy-file-to",
+      "tags": [
+        "file copy",
+        "move file",
+        "file management",
+        "paste",
+        "copy"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This tool reads an input CSV file, processes specified columns and combine them according to a user-defined prompt using an LLM, and adds the results to a new column in the output CSV. It supports error handling, retries, skips rows with empty cells, and provides detailed processing statistics. The output can either override the input file, or be saved to a new CSV file with a timestamp (e.g., \"input_processed_20250421_143022.csv\") and placed in the same folder as the input CSV.\n\nHow to Use :\n\n1. Configure Defaults : Set default CSV parameters : delimiter (e.g., ';'), encoding (e.g., 'utf-8'), quotechar (e.g., '\"'), max LLM retries (e.g., 2), and default output behavior ('new_file' or 'override').\n\n2. Prepare Input CSV file : Use an existing CSV file with the data to process.\n\n3. Provide a prompt with {} placeholders matching CSV column names (e.g., \"Summarize this product description in one sentence : {Description}.\", \"Population of {City} in {Date}, just write the number\").\n\n4. Specify New Column Name : Set the name for the new column to store LLM results (e.g., \"Summary\", \"Population_Size\").\n\n5. Provide Optional Data Description : Include a brief context about the data to guide the LLM (e.g., \"Product descriptions from a retail dataset.\").\n\n6. Set Custom CSV Parameters (Optional) : Customize delimiter, encoding, or quotechar to match the input CSV ; defaults from configuration apply if not specified.\n\n7. Choose Output Behavior (Optional) : Select 'new_file' for a new output file or 'override' to replace the input file; defaults to configuration if not set.\n\n8. Run the Tool : Execute with the provided inputs.\n\n9. Review Summary : Check the output message for stats (e.g., total rows, processed rows, empty cell errors, LLM errors) and the output CSV path.\n\n10. Verify Output CSV file : Inspect the resulting CSV with the new column containing LLM-processed data.\n\nHigh LLM Usage Warning : This tool makes an LLM call for each processed row, which may result in significant usage.",
+      "downloads": 6,
+      "icon_url": "",
+      "id": "csv-column-ai-combinator",
+      "license": "MIT",
+      "name": "CSV column AI combinator",
+      "path": "/tools/csv-column-ai-combinator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/csv-column-ai-combinator",
+      "tags": [
+        "CSV",
+        "processing",
+        "data",
+        "column",
+        "combine"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This tool reads an input CSV file, categorizes values in a specified column into predefined categories using a LLM, and writes the results to a new CSV file with an additional column for the categories. It includes error handling, retries, skips empty values, and provides a summary of the processing results.\n\nThe output can either override the input file, or be saved to a new CSV file with a timestamp (e.g., \"input_processed_20250421_143022.csv\") and placed in the same folder as the input CSV.\n\nHow to Use :\n\n0. In configuration, set default CSV parameters : delimiter (e.g., ';'), encoding (e.g., 'utf-8'), and quotechar (e.g., '\"') ; and set the max number of retries for the LLM categorization (e.g., 2), and the default output behavior ('new_file' or 'override').\n\n1. Prepare an Input CSV File : Create or use an existing CSV file containing the data you want to categorize.\n\n2. Define Categories : Provide a comma-separated string of categories (e.g., \"Electronics, Clothing, Home Goods, Toys, Other\").\n\n3. Specify the Column to Categorize : Indicate the column name in the CSV that contains the data to be categorized (e.g., \"Description\").\n\n4. Choose a New Column Name : Set the name for the new column that will store the categorization results (e.g., \"Category\").\n\n5. Provide an Optional Data Description : Add a brief description of the data to assist the LLM in understanding the context (e.g., \"Product descriptions from an e-commerce store.\").\n\n6. Set Custom CSV Parameters (Optional), make sure they match the parameters of the input CSV file : Customize the delimiter (e.g., \";\"), encoding (e.g., \"utf-8\"), or quote character (e.g., '\"') if needed; otherwise, defaults from configuration will be applied.\n\n7. Choose Output Behavior (Optional): Select 'new_file' for a new output file or 'override' to replace the input file; defaults to configuration if not set.\n\n8. Run the Tool : Execute the tool with the provided inputs.\n\n9. Check the Summary : After processing, review the summary message for statistics (e.g., total rows, categorized rows, skipped rows, errors) and the path to the output CSV file.\n\n10. Check the output CSV file with the categorization.\n\nHigh LLM usage warning : this tool creates a LLM call for each cell to process.",
+      "downloads": 4,
+      "icon_url": "",
+      "id": "csv-column-categorizer",
+      "license": "MIT",
+      "name": "CSV Column Categorizer",
+      "path": "/tools/csv-column-categorizer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/csv-column-categorizer",
+      "tags": [
+        "csv",
+        "categorization",
+        "column",
+        "categorizer",
+        "data"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "This tool automates in-depth online research, and generates a comprehensive, multi-section report in a structured Markdown format, with sources.\n\nSimply provide a research topic.\nYou can be specific to narrow the focus or vague to encourage broader exploration.\n\nThe research depth is configurable, allowing you to control key parameters such as the number of sources to analyze per query, and the depth of its self-correction and reflection cycles.\n\nThe process includes:\n- creating a detailed research plan.\n- performing targeted web searches.\n- analyzing and synthesizing information from the best sources.\n- reflecting on the initial draft to identify and fill knowledge gaps.\n\nThe final output is a polished document complete with a title, abstract, table of contents, conclusion, and a full list of cited references, saved as a Markdown file.\n\nThe tool leverages parallel processing to efficiently gather and analaze information.",
+      "downloads": 12,
+      "icon_url": "",
+      "id": "deep-research",
+      "license": "MIT",
+      "name": "Deep Research",
+      "path": "/tools/deep-research",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/deep-research",
+      "tags": [
+        "deep research",
+        "research",
+        "report",
+        "search",
+        "biblio"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "games",
+        "name": "Games"
+      },
+      "description": "Simulates rolling a die with a configurable number of sides, generating a cryptographically secure random integer from 1 to the specified maximum using Python\u2019s secrets module. Fully on-device.\n\n",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "dice-roller",
+      "license": "MIT",
+      "name": "Dice Roller",
+      "path": "/tools/dice-roller",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/dice-roller",
+      "tags": [
+        "random",
+        "dice",
+        "roller",
+        "dice roll",
+        "random number"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Ingests local directories or remote GitHub repositories and consolidates their contents into a single, structured text file, optimized for LLM analysis.\n\nKey Features:\n\n*   Dual Source Ingestion: Processes code from either a local file path or a direct GitHub repository URL.\n*   Structured Output: Generates a clean document containing a summary, a visual directory tree, and the full content of each included file.\n*   Granular Content Filtering: Provides robust control over what gets included, with sensible defaults for:\n    *   Ignoring common directories (`.git`, `node_modules`, `__pycache__`, etc.).\n    *   Ignoring binary and non-text file extensions (`.pyc`, `.png`, `.pdf`, etc.).\n    *   Including only recognized code-like files (`.py`, `.js`, `.yml`, `.md`, etc.).\n*   File Size Capping: Prevents overly large outputs by skipping the content of individual files that exceed a configurable size limit.\n*   Flexible Export Formats: Outputs the final document as either Markdown (`.md`) for rich formatting or Plain Text (`.txt`) for maximum compatibility.\n*   LLM-Ready Metrics: Reports the total token count (using `cl100k_base`) and final file size upon completion.\n\nNotes:\n\n*   Individual files larger than 100 KB are skipped by default to manage output size. This limit is configurable via the `max_file_size_kb` input.\n*   The tool recursively scans all subdirectories, building a complete map of the project structure while applying the filtering rules.\n*   The `git` command-line tool must be installed and accessible in your system's PATH to process GitHub URLs.",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "directory-and-repo-ingestion",
+      "license": "MIT",
+      "name": "Directory and Repo Ingestion",
+      "path": "/tools/directory-and-repo-ingestion",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/directory-and-repo-ingestion",
+      "tags": [
+        "directory",
+        "repository",
+        "git",
+        "github",
+        "ingest",
+        "code",
+        "code base"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Fetches a limited number of messages from a specified Discord channel using a bot token.\n\nSet your bot token in config.\nChoose the channel ID to fetch.\nSet a limit on the number of messages to fetch.\nFilter by user if needed.\n\nYou must first create a discord bot (https://discord.com/developers/applications), invite it to a server you administrate, and give it the permissions it requires.",
+      "downloads": 0,
+      "icon_url": "",
+      "id": "discord-messages-fetcher",
+      "license": "MIT",
+      "name": "Discord Messages Fetcher",
+      "path": "/tools/discord-messages-fetcher",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/discord-messages-fetcher",
+      "tags": [
+        "discord",
+        "message",
+        "fetch",
+        "read",
+        "bot"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "This tool sends a message to a specific Discord channel using a bot. It can also be used to reply to an existing message or mention a user.\n\nHow to Use:\n\n1.  Provide your Discord Bot Token for authentication. You need to set it up first (https://discord.com/developers/applications), and give the required permissions.\n2.  Set the ID of the channel where the message will be sent (numeric ID).\n3.  Write the text for your message.\n4.  Optional : Add the ID of a message to reply to it (numeric ID).\n5.  Optional : Add users' ID to mention them  (numeric ID).",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "discord-send-message",
+      "license": "MIT",
+      "name": "Discord Send Message",
+      "path": "/tools/discord-send-message",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/discord-send-message",
+      "tags": [
+        "discord",
+        "message",
+        "send",
+        "reply",
+        "bot"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "productivity",
+        "name": "Productivity"
+      },
+      "description": "This tool organizes documents by topic.\n\nIt scans a specified folder for supported file types (PDF, DOCX, ODT, PPTX, ODP, TXT, MD, CSV, XLSX, ODS), extracts text, generates summaries using an LLM, proposes and refines topic categories with user feedback, classifies files into topics, and moves them into corresponding subfolders. User confirmation is required before file movement. The tool handles errors, resolves file name conflicts, and provides a detailed process summary.\n\nWarning: High LLM usage may occur due to multiple calls per document. Configure the tool to use an LLM optimized for frequent calls to balance performance and cost.\n\nThis tools requires the 3 human-in-the-loop tools : options selection, confirmation dialog, clarification dialog.",
+      "downloads": 30,
+      "icon_url": "",
+      "id": "documents-folder-organizer-with-topic-classification",
+      "license": "MIT",
+      "name": "Documents Folder Organizer with Topic Classification",
+      "path": "/tools/documents-folder-organizer-with-topic-classification",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/documents-folder-organizer-with-topic-classification",
+      "tags": [
+        "documents",
+        "folder classifier",
+        "document sorting",
+        "topic",
+        "file mover",
+        "classify",
+        "organize"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Downloads a URL and converts its HTML content to Markdown",
+      "downloads": 728,
+      "icon_url": "",
+      "id": "download-pages",
+      "license": "MIT",
+      "name": "Download Pages",
+      "path": "/tools/download-pages",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/download-pages",
+      "tags": [
+        "HTML to Markdown",
+        "web page downloader",
+        "content conversion",
+        "URL to Markdown"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Searches the DuckDuckGo search engine. Example result: [{\"title\": \"IMDb Top 250 Movies\", \"description\": \"Find out which <b>movies</b> are rated as the <b>best</b> <b>of</b> <b>all</b> <b>time</b> by IMDb users. See the list of 250 titles sorted by ranking, genre, year, and rating, and learn how the list is determined.\", \"url\": \"https://www.imdb.com/chart/top/\"}]",
+      "downloads": 1131,
+      "icon_url": "",
+      "id": "duckduckgo-search",
+      "license": "MIT",
+      "name": "DuckDuckGo Search",
+      "path": "/tools/duckduckgo-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/duckduckgo-search",
+      "tags": [
+        "duckduckgo",
+        "search",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Converts text to speech using Eleven Labs API and saves the audio as an MP3 file.",
+      "downloads": 17,
+      "icon_url": "",
+      "id": "eleven-labs-text-to-speech",
+      "license": "MIT",
+      "name": "Eleven Labs Text-to-Speech",
+      "path": "/tools/eleven-labs-text-to-speech",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/eleven-labs-text-to-speech",
+      "tags": [
+        "text-to-speech",
+        "audio",
+        "Eleven Labs",
+        "API"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Isolates audio from YouTube videos or processes local audio files using ElevenLabs API.",
+      "downloads": 7,
+      "icon_url": "",
+      "id": "elevenlabs-isolate-voice",
+      "license": "MIT",
+      "name": "ElevenLabs Isolate Voice",
+      "path": "/tools/elevenlabs-isolate-voice",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/elevenlabs-isolate-voice",
+      "tags": [
+        "youtube",
+        "audio",
+        "isolation",
+        "elevenlabs"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "business",
+        "name": "Business"
+      },
+      "description": "Generates responses to emails based on a given context and memory, and logs answered emails in a database.",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "email-answerer",
+      "license": "MIT",
+      "name": "Email Answerer",
+      "path": "/tools/email-answerer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/email-answerer",
+      "tags": [
+        "email",
+        "responder",
+        "database",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "business",
+        "name": "Business"
+      },
+      "description": "Fetches emails from an IMAP server and returns their subject, date, sender, and text content.",
+      "downloads": 1514,
+      "icon_url": "",
+      "id": "email-fetcher",
+      "license": "MIT",
+      "name": "Email Fetcher",
+      "path": "/tools/email-fetcher",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/email-fetcher",
+      "tags": [
+        "email",
+        "imap",
+        "fetch",
+        "parser"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This tool fetches the content of an entire website starting from a given URL. It then saves all the text from the site into a single, organized text file on your computer. You can limit the max number of pages it downloads, and the concurrency.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "fetch-full-site-to-text",
+      "license": "MIT",
+      "name": "Fetch Full Site to Text",
+      "path": "/tools/fetch-full-site-to-text",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/fetch-full-site-to-text",
+      "tags": [
+        "sitefetch",
+        "url",
+        "entire website",
+        "full site",
+        "fetch",
+        "extract",
+        "download website",
+        "text export"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This advanced TTS tool transforms a simple text script into a dynamic, two-speaker conversational audio file using Google's Gemini TTS models.\nIt automatically analyzes the dialogue to select the most fitting voices for each speaker, or allows for precise manual control. A key feature is its ability to enhance the script with stylistic directions (e.g., \"speak excitedly,\" \"sound tired\"), resulting in a significantly more natural and expressive performance. Ideal for creating engaging podcasts, dialogue for videos, or any application requiring realistic two-person conversations.",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "gemini-enhanced-text-to-speech-2-speakers-dialog",
+      "license": "MIT",
+      "name": "Gemini Enhanced Text to Speech - 2 Speakers Dialog",
+      "path": "/tools/gemini-enhanced-text-to-speech-2-speakers-dialog",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/gemini-enhanced-text-to-speech---2-speakers-dialog",
+      "tags": [
+        "text-to-speech",
+        "tts",
+        "google",
+        "gemini",
+        "multi-speaker",
+        "dialogue",
+        "conversation",
+        "speech synthesis",
+        "audio generation",
+        "enhanced"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This tool leverages a two-step AI process to create natural-sounding, single-speaker audio from your text. First, it uses a language model to analyze and refine your prompt, adding stylistic instructions for tone, pace, and emotion to achieve a more expressive result. Then, in its \"auto\" mode, it intelligently selects the most appropriate voice from a diverse list of over 30 options, matching the voice's characteristics to the content. The final output is a high-quality .wav audio file, perfect for a wide range of applications.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "gemini-enhanced-text-to-speech-single-speaker",
+      "license": "MIT",
+      "name": "Gemini Enhanced Text to Speech - Single Speaker",
+      "path": "/tools/gemini-enhanced-text-to-speech-single-speaker",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/gemini-enhanced-text-to-speech---single-speaker",
+      "tags": [
+        "text-to-speech",
+        "google",
+        "gemini",
+        "tts",
+        "voice selection",
+        "speech synthesis",
+        "speech",
+        "enhanced"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This tool launches a specified application to open a designated file or directory.\nYou provide the path to the executable (e.g., 'notepad.exe', 'C:\\Program Files\\RStudio\\rstudio.exe'), the path to the file or directory you want it to open (e.g., 'path_to\\personal_notes.txt', 'path_to\\R_project_directory'), and any optional additional command-line arguments.\nThe tool reports success, the process ID (PID), and the command executed.\n\nPrompt Examples:\n\n1. Open a text file with Notepad (Windows)\n\nTo open the text file C:\\Users\\YourUser\\Documents\\personal_notes.txt using notepad.exe:\n\nexecutable_path: \"notepad.exe\"\nfile_to_open_path: \"C:\\\\Users\\\\YourUser\\\\Documents\\\\personal_notes.txt\"\nadditional_args: []\n\n2. Open an R project directory with RStudio (Windows)\n\nTo open the R project located in the directory D:\\Work\\R_Projects\\Customer_Churn_Analysis using a specific RStudio installation:\n\nexecutable_path: \"C:\\\\Program Files\\\\RStudio\\\\rstudio.exe\"\nfile_to_open_path: \"D:\\\\Work\\\\R_Projects\\\\Customer_Churn_Analysis\"\nadditional_args: []\n\n3. Open a document with LibreOffice Writer (Windows)\n\nTo open the document C:\\Shared\\TeamReports\\Q3_Summary.docx using a specific LibreOffice Writer installation, perhaps with an argument to open it read-only (if supported, e.g., --view or similar, specific arguments depend on the application):\n\nexecutable_path: \"C:\\\\Program Files\\\\LibreOffice\\\\program\\\\swriter.exe\"\nfile_to_open_path: \"C:\\\\Shared\\\\TeamReports\\\\Q3_Summary.docx\"\nadditional_args: [\"--view\"]\n(Note: --view is an example; actual read-only flags vary by application. For simple opening, [] is fine.)\n\n4. Open an image file with Microsoft Paint (Windows)\n\nTo open the image C:\\MyPictures\\Holiday\\beach.jpg using mspaint.exe:\n\nexecutable_path: \"mspaint.exe\"\nfile_to_open_path: \"C:\\\\MyPictures\\\\Holiday\\\\beach.jpg\"\nadditional_args: []\n\n5. Open an R script with RStudio and additional options (assuming 'rstudio' is in PATH)\n\nTo open the R script /home/data_scientist/projects/my_analysis_v2.R using the rstudio command, without restoring the previous workspace or environment:\n\nexecutable_path: \"rstudio\"\nfile_to_open_path: \"/home/data_scientist/projects/my_analysis_v2.R\"\nadditional_args: [\"--no-restore-workspace\", \"--no-environ\"]",
+      "downloads": 6,
+      "icon_url": "",
+      "id": "generic-application-launcher",
+      "license": "MIT",
+      "name": "Generic Application Launcher",
+      "path": "/tools/generic-application-launcher",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/generic-application-launcher",
+      "tags": [
+        "software",
+        "launcher",
+        "process",
+        "executable",
+        "open",
+        "application",
+        "run",
+        "app"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Creates an article in a Ghost CMS using Ghost Admin API.",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "ghost-post-blog",
+      "license": "MIT",
+      "name": "Ghost Post Blog",
+      "path": "/tools/ghost-post-blog",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/ghost-post-blog",
+      "tags": [
+        "ghost",
+        "api",
+        "article",
+        "cms"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "Searches the Giphy API for GIFs based on query and parameters.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "gif-search-giphy",
+      "license": "MIT",
+      "name": "GIF search - Giphy",
+      "path": "/tools/gif-search-giphy",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/gif-search---giphy",
+      "tags": [
+        "giphy",
+        "gif search",
+        "gif",
+        "search",
+        "media"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Tool to make requests to the GitHub API using OAuth for authentication.",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "github-api-request",
+      "license": "MIT",
+      "name": "GitHub API Request",
+      "path": "/tools/github-api-request",
+      "repository": "local:::__official_shinkai:::github_api_request",
+      "router_key": "@hanzo/github-api-request",
+      "tags": [
+        "github",
+        "api",
+        "request",
+        "oauth"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Tool to make requests to the Gmail Developer API using OAuth for authentication.",
+      "downloads": 16,
+      "icon_url": "",
+      "id": "gmail-developer-api",
+      "license": "MIT",
+      "name": "Gmail Developer API",
+      "path": "/tools/gmail-developer-api",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/gmail-developer-api",
+      "tags": [
+        "gmail",
+        "api",
+        "request",
+        "oauth"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Tool to make requests to the Google Drive Developer API using OAuth for authentication.",
+      "downloads": 22,
+      "icon_url": "",
+      "id": "google-drive-developer-api",
+      "license": "MIT",
+      "name": "Google Drive Developer API",
+      "path": "/tools/google-drive-developer-api",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/google-drive-developer-api",
+      "tags": [
+        "google",
+        "drive",
+        "documents",
+        "api",
+        "request",
+        "oauth"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Performs a Google Maps search using SerpAPI and returns the results in JSON or HTML format.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "google-maps-with-serpapi",
+      "license": "MIT",
+      "name": "Google Maps with SerpAPI",
+      "path": "/tools/google-maps-with-serpapi",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/google-maps-with-serpapi",
+      "tags": [
+        "google",
+        "maps",
+        "search",
+        "serpapi",
+        "business"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "news",
+        "name": "News"
+      },
+      "description": "Searches Google News for headlines and articles via SerpAPI. Requires SERP_API_KEY in configuration.",
+      "downloads": 17,
+      "icon_url": "",
+      "id": "google-news-search",
+      "license": "MIT",
+      "name": "Google News Search",
+      "path": "/tools/google-news-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/google-news-search",
+      "tags": [
+        "google-news",
+        "serpapi",
+        "news",
+        "search"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Searches for publications on Google Scholar.\nReturns a structured list of academic publications with details like titles, authors, abstracts, and citation counts.\n\nTo use it, simply provide a search query. You can optionally narrow the results by specifying a start and end year for your search.\n\nThe tool performs a robust search by first attempting to use the scholarly library to retrieve rich metadata. If that fails or returns no results, it automatically falls back to a direct web scraping method to ensure maximum reliability.\nThe output also indicates which search method was successfully used.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "google-scholar-search",
+      "license": "MIT",
+      "name": "Google Scholar Search",
+      "path": "/tools/google-scholar-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/google-scholar-search",
+      "tags": [
+        "scholar",
+        "google scholar",
+        "search",
+        "academic",
+        "papers",
+        "google",
+        "biblio"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Performs a Google search using SerpAPI and returns the results in JSON or HTML format.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "google-search-with-serpapi",
+      "license": "MIT",
+      "name": "Google Search with SerpAPI",
+      "path": "/tools/google-search-with-serpapi",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/google-search-with-serpapi",
+      "tags": [
+        "google",
+        "search",
+        "serpapi",
+        "api"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "This function takes a question as input and returns a comprehensive answer, along with the sources and statements used to generate the answer.",
+      "downloads": 547,
+      "icon_url": "",
+      "id": "google-search",
+      "license": "MIT",
+      "name": "Google Search",
+      "path": "/tools/google-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/google-search",
+      "tags": [
+        "search",
+        "answer generation",
+        "fact extraction",
+        "wikipedia",
+        "google"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Searches Grokipedia for a given query, uses LLM to select and download content from the most relevant articles, or falls back to top result links.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "grokipedia-search-and-article-downloader",
+      "license": "MIT",
+      "name": "Grokipedia Search and Article Downloader",
+      "path": "/tools/grokipedia-search-and-article-downloader",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/grokipedia-search-and-article-downloader",
+      "tags": [
+        "grokipedia",
+        "search",
+        "article",
+        "source"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "news",
+        "name": "News"
+      },
+      "description": "Fetches top tech stories from Hacker News",
+      "downloads": 20,
+      "icon_url": "",
+      "id": "hacker-news",
+      "license": "MIT",
+      "name": "hacker-news",
+      "path": "/tools/hacker-news",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/hacker-news",
+      "tags": [
+        "hacker-news",
+        "news",
+        "tech",
+        "stories"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "This tool transforms a simple story idea into a complete, richly illustrated narrative.\n\nIt begins by expanding the user's description into a full story, then intelligently analyzes the new narrative to pinpoint the most visually compelling scenes. For each selected scene, it crafts a detailed, professional-grade prompt\u2014incorporating any artistic style from the original description\u2014to generate high-quality, stylistically coherent images. The final output is a single, ready-to-read story where the generated images are seamlessly embedded within the text, bringing the tale to life.\n\nFeel free to fork the tool to pick a different image generation tool : duplicate it, edit in the playground, unselect the current image generation tool and select yours, and instruct the AI tool builder to use this new image generation tool instead, without changing anything else.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "illustrated-story-generator",
+      "license": "MIT",
+      "name": "Illustrated Story Generator",
+      "path": "/tools/illustrated-story-generator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/illustrated-story-generator",
+      "tags": [
+        "storytelling",
+        "image generation",
+        "illustration",
+        "story",
+        "illustrated story",
+        "image"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "photo-video",
+        "name": "Photo & Video"
+      },
+      "description": "This tool uses a vision capable LLM to classify images in a folder based on your custom labels, organizes them into subfolders (optional), and creates a COCO-format JSON dataset. It provides a clear summary of results, including any issues like low-confidence labels.\n\nHow to Use :\n\n1. Put your images (.jpg, .png, etc.) in a folder.\n\n2. Specify the folder path, a list of labels (e.g., \"cat\", \"dog\"), and your vision AI model.\n\n3. Choose how to handle images : just label them, copy to label subfolders, or move to subfolders.\n\n4. Set optional preferences, like picking the highest-confidence label instead of all labels, or defining a minimum confidence score.\n\n5. Run the tool to classify images, save a COCO JSON file, and organize images (if selected).\n\n6. Check the JSON file for classifications, subfolders with classified images, and a summary of results.\n\nNotes :\n\n- The tool checks AI outputs for errors, implement retries, and reports issues like invalid labels.\n\n- Supports multiple labels per image.\n\n- If moving images, originals are deleted only after successful organization.\n\n- In configuration you can pick which types of errors to include in the output.\n\nWARNING : possible high LLM usage, depending on the number of images in the folder.\n\n",
+      "downloads": 17,
+      "icon_url": "",
+      "id": "images-folder-classifier-using-vision-llm",
+      "license": "MIT",
+      "name": "Images folder classifier - using vision LLM",
+      "path": "/tools/images-folder-classifier-using-vision-llm",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/images-folder-classifier---using-vision-llm",
+      "tags": [
+        "image",
+        "classification",
+        "vision LLM",
+        "COCO",
+        "folder",
+        "labeling",
+        "sorting"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Sends a control character (like Ctrl-C) to the active iTerm terminal session.",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "iterm-control",
+      "license": "MIT",
+      "name": "iterm-control",
+      "path": "/tools/iterm-control",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/iterm-control",
+      "tags": [
+        "iterm",
+        "terminal",
+        "control",
+        "key",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Reads output from the active iTerm terminal.",
+      "downloads": 8,
+      "icon_url": "",
+      "id": "iterm-read",
+      "license": "MIT",
+      "name": "iterm-read",
+      "path": "/tools/iterm-read",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/iterm-read",
+      "tags": [
+        "iterm",
+        "terminal",
+        "read",
+        "automation",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Writes a command (or text) to the active iTerm terminal.",
+      "downloads": 8,
+      "icon_url": "",
+      "id": "iterm-write",
+      "license": "MIT",
+      "name": "iterm-write",
+      "path": "/tools/iterm-write",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/iterm-write",
+      "tags": [
+        "iterm",
+        "terminal",
+        "automation",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Handles key-value memory storage and retrieval using a database. It stores memories with associated keys and can retrieve them by key.",
+      "downloads": 1519,
+      "icon_url": "",
+      "id": "key-value-memory-management",
+      "license": "MIT",
+      "name": "Key-Value Memory Management",
+      "path": "/tools/key-value-memory-management",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/key-value-memory-management",
+      "tags": [
+        "memory",
+        "remember",
+        "management",
+        "recall",
+        "smart",
+        "agent"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "books",
+        "name": "Books"
+      },
+      "description": "Searches Library Genesis for books and returns download links and other information.\n\nSearch by author, format, title and year.\n\nYou might need to connect to a VPN to use this tool.\n\nNote : The reliability of this tool might fluctuate because mirrors are frequently shut down, and ebooks databases are sometimes separated by library, repository, or genre, each with different link formats.",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "library-genesis-search",
+      "license": "MIT",
+      "name": "Library Genesis Search",
+      "path": "/tools/library-genesis-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/library-genesis-search",
+      "tags": [
+        "libgen",
+        "ebook",
+        "search",
+        "download",
+        "library",
+        "api",
+        "books"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Creates comments on Linear issues and returns the comment and issue details.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "linear-comment-creator",
+      "license": "MIT",
+      "name": "Linear Comment Creator",
+      "path": "/tools/linear-comment-creator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/linear-comment-creator",
+      "tags": [
+        "linear",
+        "comments",
+        "issues",
+        "api"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Creates a new issue in Linear using the Linear API.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "linear-create-issue",
+      "license": "MIT",
+      "name": "Linear Create Issue",
+      "path": "/tools/linear-create-issue",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/linear-create-issue",
+      "tags": [
+        "Linear",
+        "issue",
+        "create",
+        "task management"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Fetches open issues from a Linear team. It implements pagination",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "linear-fetch-issues-by-team",
+      "license": "MIT",
+      "name": "Linear Fetch Issues By Team",
+      "path": "/tools/linear-fetch-issues-by-team",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/linear-fetch-issues-by-team",
+      "tags": [
+        "linear",
+        "issues",
+        "fetch",
+        "sdk"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Fetches issues assigned to a user from Linear using an API key.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "linear-fetch-issues-by-user",
+      "license": "MIT",
+      "name": "Linear Fetch Issues By User",
+      "path": "/tools/linear-fetch-issues-by-user",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/linear-fetch-issues-by-user",
+      "tags": [
+        "linear",
+        "API",
+        "issues",
+        "user",
+        "fetcher"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Fetches workflow states for all Teams or for a specific team using Linear API.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "linear-fetch-workflow-states",
+      "license": "MIT",
+      "name": "Linear Fetch Workflow States",
+      "path": "/tools/linear-fetch-workflow-states",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/linear-fetch-workflow-states",
+      "tags": [
+        "linear",
+        "workflow",
+        "API",
+        "fetch"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Updates an issue in Linear using the provided issue ID and optional fields.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "linear-issue-updater",
+      "license": "MIT",
+      "name": "Linear Issue Updater",
+      "path": "/tools/linear-issue-updater",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/linear-issue-updater",
+      "tags": [
+        "linear",
+        "issue",
+        "updater",
+        "api"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Fetches organization details including teams, labels and users from Linear API.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "linear-organization-fetcher",
+      "license": "MIT",
+      "name": "Linear Organization Fetcher",
+      "path": "/tools/linear-organization-fetcher",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/linear-organization-fetcher",
+      "tags": [
+        "linear",
+        "API",
+        "organization",
+        "teams",
+        "users"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Handles list memory storage and retrieval using a database. It stores memories with associated IDs and can retrieve them by ID or get all memories.",
+      "downloads": 1518,
+      "icon_url": "",
+      "id": "list-memory-management",
+      "license": "MIT",
+      "name": "List Memory Management",
+      "path": "/tools/list-memory-management",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/list-memory-management",
+      "tags": [
+        "memory",
+        "remember",
+        "management",
+        "recall",
+        "smart",
+        "agent"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Add or list calendar events using AppleScript",
+      "downloads": 4,
+      "icon_url": "",
+      "id": "macos-calendar",
+      "license": "MIT",
+      "name": "macos-calendar",
+      "path": "/tools/macos-calendar",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/macos-calendar",
+      "tags": [
+        "macos",
+        "calendar",
+        "events",
+        "automation"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Manage macOS clipboard via AppleScript",
+      "downloads": 4,
+      "icon_url": "",
+      "id": "macos-clipboard",
+      "license": "MIT",
+      "name": "macos-clipboard",
+      "path": "/tools/macos-clipboard",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/macos-clipboard",
+      "tags": [
+        "macos",
+        "clipboard",
+        "automation",
+        "applescript"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Manage files in Finder via AppleScript",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "macos-finder",
+      "license": "MIT",
+      "name": "macos-finder",
+      "path": "/tools/macos-finder",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/macos-finder",
+      "tags": [
+        "macos",
+        "finder",
+        "files",
+        "automation",
+        "applescript"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Control iTerm via AppleScript",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "macos-iterm",
+      "license": "MIT",
+      "name": "macos-iterm",
+      "path": "/tools/macos-iterm",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/macos-iterm",
+      "tags": [
+        "macos",
+        "iterm",
+        "terminal",
+        "automation",
+        "applescript"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Manage macOS notifications and Do Not Disturb via AppleScript",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "macos-notifications",
+      "license": "MIT",
+      "name": "macos-notifications",
+      "path": "/tools/macos-notifications",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/macos-notifications",
+      "tags": [
+        "macos",
+        "notifications",
+        "dnd",
+        "automation",
+        "applescript"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Control macOS system features via AppleScript",
+      "downloads": 4,
+      "icon_url": "",
+      "id": "macos-system",
+      "license": "MIT",
+      "name": "macos-system",
+      "path": "/tools/macos-system",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/macos-system",
+      "tags": [
+        "macos",
+        "system",
+        "volume",
+        "apps",
+        "dark-mode",
+        "battery",
+        "automation",
+        "applescript"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Speaks text aloud using macOS 'say' command. Available voices can be found by running 'say -v ?' in terminal, common voices include: Alex (default), Daniel, Karen, Samantha, Victoria",
+      "downloads": 8,
+      "icon_url": "",
+      "id": "macos-text-to-speech",
+      "license": "MIT",
+      "name": "macOS Text-to-Speech",
+      "path": "/tools/macos-text-to-speech",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/macos-text-to-speech",
+      "tags": [
+        "macos",
+        "say",
+        "text-to-speech",
+        "audio"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Adds a new section to a markdown file. The section title and content are generated by the AI based on the given user prompt. The section is inserted either after, before, or at the end of the most relevant existing section, as determined by the prompt and file content.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "markdown-editing-section-adder",
+      "license": "MIT",
+      "name": "Markdown Editing - Section Adder",
+      "path": "/tools/markdown-editing-section-adder",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-editing---section-adder",
+      "tags": [
+        "markdown",
+        "section",
+        "insert",
+        "file editor",
+        "content",
+        "add"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Reads a markdown file and parses its section (heading) architecture, returning the file path and the parsed section architecture.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "markdown-editing-section-architecture-parser",
+      "license": "MIT",
+      "name": "Markdown Editing -  Section Architecture Parser",
+      "path": "/tools/markdown-editing-section-architecture-parser",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-editing----section-architecture-parser",
+      "tags": [
+        "markdown",
+        "section titles",
+        "heading extraction",
+        "file parser",
+        "architecture"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Deletes a section (and its sub-sections) from a markdown file based on a natural language prompt, using LLM to identify the relevant section.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "markdown-editing-section-deleter",
+      "license": "MIT",
+      "name": "Markdown Editing - Section Deleter",
+      "path": "/tools/markdown-editing-section-deleter",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-editing---section-deleter",
+      "tags": [
+        "markdown",
+        "document editing",
+        "section removal",
+        "file update",
+        "delete",
+        "remove",
+        "section"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Moves an existing section of a markdown file to another location (after or before another section) based on a user prompt, preserving the eventual section hierarchy.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "markdown-editing-section-mover",
+      "license": "MIT",
+      "name": "Markdown Editing - Section Mover",
+      "path": "/tools/markdown-editing-section-mover",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-editing---section-mover",
+      "tags": [
+        "markdown",
+        "section",
+        "move section",
+        "move",
+        "file",
+        "update file",
+        "edit",
+        "before",
+        "after",
+        "md"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Reads a markdown file and, given a user prompt, selects and returns the most relevant section's title, content and hierarchy, along with the file path.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "markdown-editing-section-reader",
+      "license": "MIT",
+      "name": "Markdown Editing - Section Reader",
+      "path": "/tools/markdown-editing-section-reader",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-editing---section-reader",
+      "tags": [
+        "markdown",
+        "section extraction",
+        "read",
+        "read section",
+        "section content",
+        "file"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Updates only the most relevant section of a markdown file using an LLM, based on a user prompt.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "markdown-editing-section-updater",
+      "license": "MIT",
+      "name": "Markdown editing - Section Updater",
+      "path": "/tools/markdown-editing-section-updater",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-editing---section-updater",
+      "tags": [
+        "markdown",
+        "section update",
+        "text editing",
+        "file editing",
+        "section",
+        "update",
+        "md"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Instantly fixes inconsistent and messy section numbering in any Markdown file. This tool logically re-calculates the entire heading hierarchy to ensure it's correct. It then uses an LLM to format the numbering according to your instructions (e.g., \"use roman numerals\") and safely remove old numerical prefixes from the titles. It's smart enough to preserve legitimate numbers that are part of a title, like \"2024 Project Goals.\"",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "markdown-editing-sections-indexing-updater",
+      "license": "MIT",
+      "name": "Markdown Editing - Sections Indexing Updater",
+      "path": "/tools/markdown-editing-sections-indexing-updater",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-editing---sections-indexing-updater",
+      "tags": [
+        "markdown",
+        "section numbering",
+        "update",
+        "title",
+        "numbering",
+        "indexing",
+        "numbers",
+        "md",
+        "file"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "A tool to export text content to a Markdown (.md) file.",
+      "downloads": 13,
+      "icon_url": "",
+      "id": "markdown-exporter",
+      "license": "MIT",
+      "name": "Markdown Exporter",
+      "path": "/tools/markdown-exporter",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-exporter",
+      "tags": [
+        "markdown",
+        "export",
+        "text file",
+        "file save"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Reads the content of a markdown file from a given file path and returns the full markdown content or an explanation if an error occurs.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "markdown-file-reader",
+      "license": "MIT",
+      "name": "Markdown File Reader",
+      "path": "/tools/markdown-file-reader",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-file-reader",
+      "tags": [
+        "markdown",
+        "file",
+        "read",
+        "reader",
+        "content",
+        "md"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "graphics-design",
+        "name": "Graphics & Design"
+      },
+      "description": "Converts Markdown content into an interactive Markmap mind map HTML file, optionally opening the result in the browser. Supports export (PNG, JPG, SVG) and copying features.",
+      "downloads": 4,
+      "icon_url": "",
+      "id": "markdown-to-mind-map",
+      "license": "MIT",
+      "name": "Markdown to Mind Map",
+      "path": "/tools/markdown-to-mind-map",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/markdown-to-mind-map",
+      "tags": [
+        "markdown",
+        "mindmap",
+        "markmap",
+        "visualization",
+        "mind",
+        "map"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Parses and evaluates mathematical expressions. It\u2019s a safer and more math-oriented alternative to using JavaScript\u2019s eval function for mathematical expressions.",
+      "downloads": 1495,
+      "icon_url": "",
+      "id": "math-expression-evaluator",
+      "license": "MIT",
+      "name": "Math Expression Evaluator",
+      "path": "/tools/math-expression-evaluator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/math-expression-evaluator",
+      "tags": [
+        "math",
+        "expr-eval",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Evaluates a math problem and creates and executes a Python script to resolve it. Returns the result, presents it with language, and shows the script executed.",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "math-problem-solver-with-python-script",
+      "license": "MIT",
+      "name": "Math Problem Solver - With Python Script",
+      "path": "/tools/math-problem-solver-with-python-script",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/math-problem-solver---with-python-script",
+      "tags": [
+        "problem",
+        "math",
+        "calculation",
+        "solve",
+        "python"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "Generates a meme image based on a joke by selecting a template and splitting the joke into appropriate parts.",
+      "downloads": 8,
+      "icon_url": "",
+      "id": "meme-generator",
+      "license": "MIT",
+      "name": "Meme Generator",
+      "path": "/tools/meme-generator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/meme-generator",
+      "tags": [
+        "meme",
+        "generator",
+        "joke",
+        "image"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Handles memory insights. Can store and retrive insights. It has two types of insights: GENERAL and SPECIFIC. GENERAL is to store any context data or that is not related to a specific user or identifier. SPECIFIC is to store insights related to a specific user or element identifier.",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "memory-insight-management",
+      "license": "MIT",
+      "name": "Memory Insight Management",
+      "path": "/tools/memory-insight-management",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/memory-insights-management",
+      "tags": [
+        "memory",
+        "remember",
+        "insights",
+        "management",
+        "recall",
+        "smart",
+        "agent"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Handles memory storage and retrieval using a database. It has two types of memories: general and specific. Specific memories are stored in a Hashmap, and can be retrieved by a key.",
+      "downloads": 1522,
+      "icon_url": "",
+      "id": "memory-management",
+      "license": "MIT",
+      "name": "Memory Management",
+      "path": "/tools/memory-management",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/memory-management",
+      "tags": [
+        "memory",
+        "remember",
+        "management",
+        "recall",
+        "smart",
+        "agent"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "graphics-design",
+        "name": "Graphics & Design"
+      },
+      "description": "Generate diagrams and flowcharts using Mermaid syntax, it receives a natural language description and returns a PNG image and the final Mermaid code",
+      "downloads": 24,
+      "icon_url": "",
+      "id": "mermaid",
+      "license": "MIT",
+      "name": "mermaid",
+      "path": "/tools/mermaid",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/mermaid",
+      "tags": [
+        "mermaid",
+        "diagram",
+        "flowchart",
+        "visualization",
+        "markdown"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "music",
+        "name": "Music"
+      },
+      "description": "Concatenates multiple MP3 files into a single MP3 using ffmpeg. It adds them one after another in the defined order.",
+      "downloads": 0,
+      "icon_url": "",
+      "id": "mp3-concatenator",
+      "license": "MIT",
+      "name": "MP3 Concatenator",
+      "path": "/tools/mp3-concatenator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/mp3-concatenator",
+      "tags": [
+        "audio",
+        "mp3",
+        "ffmpeg",
+        "concatenate",
+        "merge",
+        "join"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This tool enhances prompt results by querying multiple LLMs with a single prompt. It then uses a final \"synthesizer\" LLM to analyze all the individual responses and craft one superior, comprehensive answer that combines the best elements of each.\n\n## How to Use\n\n1.  Set the `processing_mode` to `parallel` (faster, staggered start) or 'sequential' (if using multiple local models).\n2.  List the processing LLMs, using their Hanzo IDs (e.g., `Hanzo_free_trial, gpt_5_mini, gemini_2_5_pro`).\n3.  Choose a powerful synthesizer LLM in `default_synthesizer_LLM` to create the final answer, using its Hanzo ID (e.g., `Hanzo_free_trial').\n4. Provide your prompt in the `user_prompt` input.\n",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "multi-llm-prompt-processor-and-synthesizer",
+      "license": "MIT",
+      "name": "Multi-LLM Prompt Processor and Synthesizer",
+      "path": "/tools/multi-llm-prompt-processor-and-synthesizer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/multi-llm-prompt-processor-and-synthesizer",
+      "tags": [
+        "llm",
+        "synthesis",
+        "multi-LLM",
+        "prompt-processing",
+        "LLM panel"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "This tool identifies the best sources for a user query.\n\nIt intelligently routes to the most adapted search tools (including web search, YouTube, arXiv, e-books, news, and PubMed), and aggregates best results.\n\nTo guide the tool on which search tools to use, be explicit.\n\nUse the parameters to customize the depth of your search.\n\nThis tool first requires the installation of all underlying search tools.\n\nFork this tool to add or remove search tools, and to customize the instructions for each search tool.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "multi-source-intelligent-search",
+      "license": "MIT",
+      "name": "Multi-Source Intelligent Search",
+      "path": "/tools/multi-source-intelligent-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/multi-source-intelligent-search",
+      "tags": [
+        "search",
+        "multi source",
+        "source",
+        "best source",
+        "web",
+        "research"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Processes a prompt using multiple LLMs at once and returns their responses with html rendering.",
+      "downloads": 8,
+      "icon_url": "",
+      "id": "multiple-llms-prompt-processor",
+      "license": "MIT",
+      "name": "Multiple LLMs prompt processor",
+      "path": "/tools/multiple-llms-prompt-processor",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/multiple-llms-prompt-processor",
+      "tags": [
+        "LLM",
+        "prompt",
+        "processor",
+        "multiple"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "Generates music using the ElevenLabs Music API.\nSupports both music creation and music modification.\n\nMusic creation: generates a new music according to the user's query, in a prompt-only mode.\n\nMusic modification: generates a music similar to the input music but with modifications according the user's query, using a composition plan.\n\nRequires a valid ElevenLabs API key with credits.\nQueries should respect ElevenLabs policies and terms of services.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "music-generator-elevenlabs",
+      "license": "MIT",
+      "name": "Music Generator - ElevenLabs",
+      "path": "/tools/music-generator-elevenlabs",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/music-generator---elevenlabs",
+      "tags": [
+        "music generation",
+        "audio synthesis",
+        "ElevenLabs",
+        "music",
+        "music generation",
+        "create music",
+        "modify music",
+        "music modification"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "Fetches the Astronomy Picture of the Day from NASA's API.",
+      "downloads": 13,
+      "icon_url": "",
+      "id": "nasa-apod-fetcher",
+      "license": "MIT",
+      "name": "NASA APOD Fetcher",
+      "path": "/tools/nasa-apod-fetcher",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/nasa-apod-fetcher",
+      "tags": [
+        "NASA",
+        "APOD",
+        "astronomy",
+        "picture of the day",
+        "space"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "news",
+        "name": "News"
+      },
+      "description": "Aggregates latest news from multiple sources using newspaper3k, supporting parallel processing and category-based filtering",
+      "downloads": 24,
+      "icon_url": "",
+      "id": "news-aggregator",
+      "license": "MIT",
+      "name": "News Aggregator",
+      "path": "/tools/news-aggregator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/news-aggregator",
+      "tags": [
+        "news",
+        "aggregator",
+        "newspaper3k",
+        "scraper",
+        "articles",
+        "multi-source"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "productivity",
+        "name": "Productivity"
+      },
+      "description": "This tool manages text-based notes across multiple .txt files using natural language prompts.\nIt leverages an LLM to interpret user requests, identify which file to use, and perform actions : read, add, update, delete, move note to top or bottom.\nIt uses confirmation messages before modifying notes.\n\nHow to Use:\n\n1. Set up multiple .txt files by topic with short clear distinct names, and add their path to file paths in configuration.\n\n2. In configuration, also pick which note file to use as default.\n\n3. Type a request in the prompt input. Make it clear which note file to use, and which action to perform.\n\n4. Confirm actions via GUI dialogs when required.\n\nExample Prompts:\n\n- \"Personal notes, add birthday party is at 6 pm on Wednesday.\"\n\n- \"What's the most urgent in my work notes?\"\n\n- \"Update family notes, bike is better gift idea for brother\"\n\n- \"Delete word notes, we're good with all clients calls \" \u2192 Removes specified note.\n\n- \"Move exercise plan to top of personal notes\" \u2192 Reorganizes note to top.\n\n- \"Open family notes\" \u2192 Opens file in default .txt editor.\n\nAdditionally, the tool can also use the content from an image uploaded in the chat to interact with the notes.\n\nTo note, within each file, this tool considers that each distinct paragrah is a different note (uses \"\\n\\n\" as separator).",
+      "downloads": 14,
+      "icon_url": "",
+      "id": "note-manager",
+      "license": "MIT",
+      "name": "Note Manager",
+      "path": "/tools/note-manager",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/note-manager",
+      "tags": [
+        "note manager",
+        "notes",
+        "note"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Sends push notifications to specific groups using ntfy. Supports message priority, tags, and titles. Download the Apps and learn more here: https://ntfy.sh",
+      "downloads": 1516,
+      "icon_url": "",
+      "id": "ntfy-push-notifications",
+      "license": "MIT",
+      "name": "Ntfy Push Notifications",
+      "path": "/tools/ntfy-push-notifications",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/ntfy-push-notifications",
+      "tags": [
+        "notification",
+        "ntfy",
+        "http api",
+        "message sender"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "This tool converts text into high-quality spoken audio using OpenAI's Text-to-Speech (TTS) API. It allows users to customize the output by selecting from a variety of voices, choosing a TTS model (including tts-1, tts-1-hd, and gpt-4o-mini-tts), and adjusting the speech speed. For the gpt-4o-mini-tts model, users can provide specific instructions to control elements like emotion, accent, and tone. The final audio is saved in a user-selected format (e.g., MP3, WAV, FLAC) and the file path is returned.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "openai-text-to-speech",
+      "license": "MIT",
+      "name": "OpenAI Text-to-Speech",
+      "path": "/tools/openai-text-to-speech",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/openai-text-to-speech",
+      "tags": [
+        "TTS",
+        "text-to-speech",
+        "OpenAI",
+        "audio generation",
+        "speech synthesis",
+        "speech"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Opens a configurable dialog with options to select from, and outputs the choice made by the user.\n\nUse it inside tools and workflows as a human-in-the-loop component.\n\nYou can configure the :\n- title of the dialog\n- text of the dialog\n- labels of the options buttons.\n\nWhen included inside another tool using Hanzo's AI tool building assistant, the LLM should be able to automatically adapt the title, the text, the number of options and the buttons of the dialog, as well as use the choice made by the user to trigger the appropriate next step in your tool flow.\n\nIf the options are generated together by a prompt processing, make sure to force the LLM to format things well (options titles and separator) so that options splitting and then processing are done correctly.\n\nIf you want to add a Custom option button for which the user can then add information, on top of proposed options, create a Custom button option that triggers the tool Clarification Dialog - Human In The Loop.",
+      "downloads": 12,
+      "icon_url": "",
+      "id": "options-selection-human-in-the-loop",
+      "license": "MIT",
+      "name": "Options Selection \u2013 Human In The Loop",
+      "path": "/tools/options-selection-human-in-the-loop",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/options-selection---human-in-the-loop",
+      "tags": [
+        "option",
+        "options selection",
+        "choice",
+        "human",
+        "select"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "Extracts text from a PDF, summarizes it, and converts the summary to speech.",
+      "downloads": 10,
+      "icon_url": "",
+      "id": "pdf-summarize-to-audio",
+      "license": "MIT",
+      "name": "PDF Summarize to Audio",
+      "path": "/tools/pdf-summarize-to-audio",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/pdf-summarize-to-audio",
+      "tags": [
+        "PDF",
+        "summary",
+        "text to speech",
+        "audio"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Downloads a PDF from a URL, saves it to user-specified location, extracts its text content, saves the content as a text file, and returns the file paths and extracted text.",
+      "downloads": 575,
+      "icon_url": "",
+      "id": "pdf-text-extractor",
+      "license": "MIT",
+      "name": "PDF Text Extractor",
+      "path": "/tools/pdf-text-extractor",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/pdf-text-extractor",
+      "tags": [
+        "pdf",
+        "download",
+        "text extraction",
+        "url",
+        "pdf to text"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "business",
+        "name": "Business"
+      },
+      "description": "A tool to analyze PDF documents by extracting text and processing it with language models and search engines.",
+      "downloads": 19,
+      "icon_url": "",
+      "id": "pdf-whitepaper-analyzer",
+      "license": "MIT",
+      "name": "PDF Whitepaper Analyzer",
+      "path": "/tools/pdf-whitepaper-analyzer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/pdf-whitepaper-analyzer",
+      "tags": [
+        "PDF",
+        "analysis",
+        "LLM",
+        "text extraction"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Searches the web using Perplexity API (limited)",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "perplexity-api",
+      "license": "MIT",
+      "name": "Perplexity API",
+      "path": "/tools/perplexity-api",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/perplexity-api",
+      "tags": [
+        "perplexity",
+        "api",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Searches the internet using Perplexity",
+      "downloads": 10,
+      "icon_url": "",
+      "id": "perplexity",
+      "license": "MIT",
+      "name": "Perplexity",
+      "path": "/tools/perplexity",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/perplexity",
+      "tags": [
+        "perplexity",
+        "search"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "games",
+        "name": "Games"
+      },
+      "description": "Automatically play Crypto 2048",
+      "downloads": 8,
+      "icon_url": "",
+      "id": "play-crypto-2048",
+      "license": "MIT",
+      "name": "Play Crypto 2048",
+      "path": "/tools/play-crypto-2048",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/play-crypto-2048",
+      "tags": [],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "entertainment",
+        "name": "Entertainment"
+      },
+      "description": "Converts a YouTube video transcript into a podcast using LLM processing.",
+      "downloads": 11,
+      "icon_url": "",
+      "id": "podcast-to-podcast",
+      "license": "MIT",
+      "name": "Podcast to Podcast",
+      "path": "/tools/podcast-to-podcast",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/podcast-to-podcast",
+      "tags": [
+        "YouTube",
+        "transcript",
+        "podcast",
+        "converter",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "education",
+        "name": "Education"
+      },
+      "description": "This tool extracts text from a PowerPoint presentation, creates a lesson text about it, and generates an audio file of the lesson. It extracts content slide by slide and shape by shape. It uses OCR to extract text from image shapes (using Tesseract). It generates a detailed lesson text about the PPTX using a LLM and optional additional instructions. Optionally, it generates a mp3 audio file of the lesson using ElevenLabs text-to-speech. This tool requires Tesseract to be installed for OCR. It also requires the tool \u201cElevenLabs Text to Speech\u201d from the Hanzo AI Store, and an API key for ElevenLabs text-to-speech if choosing to generate audio files. You can download Tesseract from here : https://github.com/UB-Mannheim/tesseract/wiki. You can get an ElevenLabs API key here : https://elevenlabs.io/developers.",
+      "downloads": 29,
+      "icon_url": "",
+      "id": "pptx-content-extractor-with-ocr-and-audio-lesson-generator",
+      "license": "MIT",
+      "name": "PPTX content extractor with OCR and audio lesson generator",
+      "path": "/tools/pptx-content-extractor-with-ocr-and-audio-lesson-generator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/pptx-content-extractor-with-ocr-and-audio-lesson-generator",
+      "tags": [
+        "pptx",
+        "powerpoint",
+        "lesson",
+        "presentation",
+        "audio"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Processes and analyzes PowerPoint files, allowing for reading, retrieving content, analyzing data, and updating slides.",
+      "downloads": 20,
+      "icon_url": "",
+      "id": "pptx-file-processor",
+      "license": "MIT",
+      "name": "PPTX File Processor",
+      "path": "/tools/pptx-file-processor",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/pptx-file-processor",
+      "tags": [
+        "pptx",
+        "presentation",
+        "analyze",
+        "file processing"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Tool for refining user prompts to make them more effective for LLMs and AI Agents by classifying them into categories and adding specific instructions.\n\nUse this tool as a first step in an AI/LLM task to improve the quality of user inputs and obtain better outputs.\n\nFork this tool and define customized categories and related instructions to fit your specific use cases.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "prompt-refiner",
+      "license": "MIT",
+      "name": "Prompt Refiner",
+      "path": "/tools/prompt-refiner",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/prompt-refiner",
+      "tags": [
+        "improve",
+        "prompt",
+        "enhance",
+        "refine"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "medical",
+        "name": "Medical"
+      },
+      "description": "Search PubMed for scientific/medical literature and return MEDLINE records.",
+      "downloads": 15,
+      "icon_url": "",
+      "id": "pubmed-search",
+      "license": "MIT",
+      "name": "PubMed Search",
+      "path": "/tools/pubmed-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/pubmed-search",
+      "tags": [
+        "pubmed",
+        "literature",
+        "medical",
+        "shinkai"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "education",
+        "name": "Education"
+      },
+      "description": "Learns from web pages by generating questions and answers, and interacts with users based on these questions.",
+      "downloads": 16,
+      "icon_url": "",
+      "id": "question-learner",
+      "license": "MIT",
+      "name": "Question Learner",
+      "path": "/tools/question-learner",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/question-learner",
+      "tags": [
+        "learning",
+        "questions",
+        "answers",
+        "web scraping"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Generates an R script based on a user prompt using LLM and saves it via a file dialog. Outputs the file path, status message, and code.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "r-script-generator-and-saver",
+      "license": "MIT",
+      "name": "R Script Generator and Saver",
+      "path": "/tools/r-script-generator-and-saver",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/r-script-generator-and-saver",
+      "tags": [
+        "R script",
+        "LLM",
+        "code generation",
+        "natural language to code",
+        "scripting"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Reads the text contents of a file from the given path.",
+      "downloads": 1498,
+      "icon_url": "",
+      "id": "read-file-contents",
+      "license": "MIT",
+      "name": "Read File Contents",
+      "path": "/tools/read-file-contents",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/read-file-contents",
+      "tags": [
+        "file",
+        "read",
+        "content",
+        "text"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Generates a blog post about Reddit posts based on user input.",
+      "downloads": 23,
+      "icon_url": "",
+      "id": "reddit-blog-post-generator",
+      "license": "MIT",
+      "name": "Reddit Blog Post Generator",
+      "path": "/tools/reddit-blog-post-generator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/reddit-blog-post-generator",
+      "tags": [
+        "Reddit",
+        "Blog Post Generator"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "A tool to scrape Reddit content using Puppeteer. Pass action as 'subreddit' to scrape a subreddit or 'post' to scrape a post. Pass the \"subreddit\" name or \"post_url\" as a string. Pass \"get_by\" as 'hot', 'new', 'top', or 'rising'. Pass \"top_time\" as 'day', 'week', 'month', 'year', or 'all'.",
+      "downloads": 11,
+      "icon_url": "",
+      "id": "reddit-scrape",
+      "license": "MIT",
+      "name": "Reddit Scrape",
+      "path": "/tools/reddit-scrape",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/reddit-scrape",
+      "tags": [
+        "Reddit",
+        "Scraping"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "business",
+        "name": "Business"
+      },
+      "description": "Sends an email using SMTP.",
+      "downloads": 1495,
+      "icon_url": "",
+      "id": "send-email",
+      "license": "MIT",
+      "name": "Send Email",
+      "path": "/tools/send-email",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/send-email",
+      "tags": [
+        "email",
+        "smtp",
+        "send",
+        "notification"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "education",
+        "name": "Education"
+      },
+      "description": "Learns from web pages by generating questions and answers, and interacts with users based on these questions. If the action was 'ask' it returns a question, always include the question number when referencing it",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "shinkai-question-learner",
+      "license": "MIT",
+      "name": "Hanzo Question Learner",
+      "path": "/tools/shinkai-question-learner",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/shinkai-question-learner",
+      "tags": [],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "This function takes a question as input and returns a comprehensive answer, along with the sources and statements used to generate the answer.",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "smart-search-engine",
+      "license": "MIT",
+      "name": "Smart Search Engine",
+      "path": "/tools/smart-search-engine",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/smart-search-engine",
+      "tags": [
+        "search",
+        "answer generation",
+        "fact extraction",
+        "wikipedia",
+        "google"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "SmartScrape extracts specific data from web pages using a large language model. Users provide a URL and instructions for what content to extract, along with optional formatting guidelines. The tool processes the page and returns the requested data in the specified format. To use, input a URL and clear extraction instructions (e.g., \"Extract product prices\") with optional format rules (e.g., \"Return as: Price: $X\").",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "smartscrape",
+      "license": "MIT",
+      "name": "SmartScrape",
+      "path": "/tools/smartscrape",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/smartscrape",
+      "tags": [
+        "extract",
+        "web",
+        "webpage",
+        "text extraction",
+        "web scraping",
+        "LLM scraping",
+        "formatted"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Fetches a list of stablecoins from the Solana blockchain",
+      "downloads": 907,
+      "icon_url": "",
+      "id": "solana-stablecoin-fetcher",
+      "license": "MIT",
+      "name": "solana_stablecoin_fetcher",
+      "path": "/tools/solana-stablecoin-fetcher",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/solana-stablecoin-fetcher",
+      "tags": [
+        "stablecoin",
+        "fetch",
+        "API",
+        "cryptocurrency"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Gets price quotes for swapping Solana tokens using Jupiter Aggregator API",
+      "downloads": 1056,
+      "icon_url": "",
+      "id": "solana-token-swap-quote",
+      "license": "MIT",
+      "name": "solana_token_swap_quote",
+      "path": "/tools/solana-token-swap-quote",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/solana-token-swap-quote",
+      "tags": [
+        "solana",
+        "token",
+        "swap",
+        "quote",
+        "jupiter",
+        "helius"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Executes token swaps on the Solana blockchain using Jupiter Aggregator API",
+      "downloads": 890,
+      "icon_url": "",
+      "id": "solana-token-swap",
+      "license": "MIT",
+      "name": "solana_token_swap",
+      "path": "/tools/solana-token-swap",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/solana-token-swap",
+      "tags": [
+        "solana",
+        "token",
+        "swap",
+        "jupiter",
+        "crypto"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Fetches and returns the tokens from a Solana wallet using the Helius API",
+      "downloads": 582,
+      "icon_url": "",
+      "id": "solana-tokens-in-wallet",
+      "license": "MIT",
+      "name": "solana_tokens_in_wallet",
+      "path": "/tools/solana-tokens-in-wallet",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/solana-tokens-in-wallet",
+      "tags": [
+        "solana",
+        "wallet",
+        "tokens",
+        "helius",
+        "blockchain"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Automates web interactions and extracts data using Stagehand.",
+      "downloads": 10,
+      "icon_url": "",
+      "id": "stagehand-runner",
+      "license": "MIT",
+      "name": "Stagehand Runner",
+      "path": "/tools/stagehand-runner",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/stagehand-runner",
+      "tags": [
+        "stagehand",
+        "web automation",
+        "data extraction"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "finance",
+        "name": "Finance"
+      },
+      "description": "Fetches historical stock data from Tiingo and calculates basic technical indicators (SMA, RSI, MACD, ATR, etc.), then returns a structured analysis of the trend.",
+      "downloads": 14,
+      "icon_url": "",
+      "id": "stock-technical-analysis",
+      "license": "MIT",
+      "name": "Stock Technical Analysis",
+      "path": "/tools/stock-technical-analysis",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/stock-technical-analysis",
+      "tags": [
+        "stock",
+        "analysis",
+        "technical-indicators",
+        "tiingo"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "health-fitness",
+        "name": "Health & Fitness"
+      },
+      "description": "Calls the Strava API for athlete activities, athlete profile, and zones data using OAuth access token. Read how to use this tool in the [Strava API Documentation](https://developers.strava.com/docs/reference/)",
+      "downloads": 4,
+      "icon_url": "",
+      "id": "strava-api-caller",
+      "license": "MIT",
+      "name": "Strava API Caller",
+      "path": "/tools/strava-api-caller",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/strava-api-caller",
+      "tags": [
+        "strava",
+        "api",
+        "activities",
+        "athlete",
+        "zones",
+        "oauth",
+        "fitness",
+        "sports"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "graphics-design",
+        "name": "Graphics & Design"
+      },
+      "description": "Automates the conversion of an SVG vector file into a PNG image by using a local Inkscape installation. This tool constructs and executes the appropriate command-line operation, allowing the user to control the output quality by specifying the resolution in DPI (Dots Per Inch). The resulting PNG file is saved in the same directory as the source SVG and shares the same base name.\nYou need Inkscape installed first.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "svg-to-png-converter-using-inkscape",
+      "license": "MIT",
+      "name": "SVG to PNG Converter - using Inkscape",
+      "path": "/tools/svg-to-png-converter-using-inkscape",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/svg-to-png-converter---using-inkscape",
+      "tags": [
+        "inkscape",
+        "svg",
+        "png",
+        "converter",
+        "image",
+        "graphics"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Get detailed system hardware information including CPU, RAM, and disk details",
+      "downloads": 8,
+      "icon_url": "",
+      "id": "system-hardware-info",
+      "license": "MIT",
+      "name": "System Hardware Info",
+      "path": "/tools/system-hardware-info",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/system-hardware-info",
+      "tags": [
+        "system",
+        "hardware",
+        "cpu",
+        "memory",
+        "disk",
+        "diagnostics"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "finance",
+        "name": "Finance"
+      },
+      "description": "Uses the Taptools API to aggregate data for Cardano stablecoins, synthetics, and bridged assets. Performs a depeg scan. Outputs a .csv file with the aggregated data. A Taptools API key and a CoinMarketCap API key are required. Define your own alert threshold in the configuration for each asset. You can easily add or remove tokens to track from the code. You can chose a timeframe for trading stats in your prompt, options are : 15m, 1h, 4h, 12h, 24h, 7d, 30d, 90d, 180d, 1y, all, default is 24h. This tool can answer question related to the data it formats in the generated csv file.",
+      "downloads": 6,
+      "icon_url": "",
+      "id": "taptools-cardano-depeg-scanner",
+      "license": "MIT",
+      "name": "Taptools Cardano depeg scanner",
+      "path": "/tools/taptools-cardano-depeg-scanner",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/taptools-cardano-depeg-scanner",
+      "tags": [
+        "Cardano",
+        "stablecoin",
+        "synthetic",
+        "taptools",
+        "bridged",
+        "peg",
+        "depeg",
+        "scan"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "finance",
+        "name": "Finance"
+      },
+      "description": "This tool uses to Taptools API to fetch Cardano Native Tokens information, including price, market cap, trading statistics, liquidity pool data, and holder distribution. It can also optionally generate a trading chart, a Lorenz curve graph, a full report exportable to pdf, and a podcast script as well as its audio file as mp3. It uses Eleven Labs API for the Text to Speech.",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "taptools-cardano-native-token-analyzer",
+      "license": "MIT",
+      "name": "Taptools Cardano Native Token Analyzer",
+      "path": "/tools/taptools-cardano-native-token-analyzer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/taptools-cardano-native-token-analyzer",
+      "tags": [
+        "cardano",
+        "taptools",
+        "native token",
+        "token report",
+        "token podcast"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "finance",
+        "name": "Finance"
+      },
+      "description": "Using the Taptools API, this tool generates a candlestick chart of token price (in Ada) and trading volume for the chosen token ticker. Choose your chart interval and number of intervals (default : 180) in your prompt. A Taptools API key is required. Make sure to use the configurations fields \"pages number\" and \"tokens per page\" adequately to access the tokens you are interested in. For intervals, options are : 3m, 5m, 15m, 30m, 1h, 2h, 4h, 12h, 1d, 3d, 1w, 1M (default 1d).  For the ticker, respect capital letters and symbols (e.g. IAGON, iUSD, $LOBSTER).",
+      "downloads": 7,
+      "icon_url": "",
+      "id": "taptools-cardano-native-token-trading-chart-generator",
+      "license": "MIT",
+      "name": "Taptools Cardano Native Token Trading Chart Generator",
+      "path": "/tools/taptools-cardano-native-token-trading-chart-generator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/taptools-cardano-native-token-trading-chart-generator",
+      "tags": [
+        "TapTools",
+        "token data",
+        "candlestick chart",
+        "cryptocurrency"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "finance",
+        "name": "Finance"
+      },
+      "description": "This tool retrieves and aggregates market data for native tokens on the Cardano blockchain using the TapTools API. It fetches data on the top tokens by liquidity, market capitalization (either market cap or fully diluted value), and volume. The tool can display prices, liquidity, market cap, and volume in ADA, as well as a configurable quote currency (USD or EUR). It also retrieves token descriptions and links (website, Twitter, etc). For volume, it offers a configurable timeframe (1h, 4h, 12h, 24h, 7d, 30d, 180d, 1y, or all-time). Additionally, it retrieves and displays 24-hour market statistics, like DEX trading volume (in ADA and the selected quote currency) and active addresses. The tools requires a TapTools API key and allows configurable input for the number of tokens to retrieve for each category, timeframe and the quote currency. ",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "taptools-cardano-native-tokens-market-stats-aggregator",
+      "license": "MIT",
+      "name": "Taptools Cardano Native Tokens Market Stats Aggregator",
+      "path": "/tools/taptools-cardano-native-tokens-market-stats-aggregator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/taptools-cardano-native-tokens-market-stats-aggregator",
+      "tags": [
+        "taptools",
+        "cardano",
+        "native tokens",
+        "tokens market stats",
+        "CNT"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "finance",
+        "name": "Finance"
+      },
+      "description": "This tool retrieves and presents Cardano NFT market data using the Taptools API. It retrieves overall market statistics (volume, buyers, sellers, and percentage changes), identifies today top NFT collections based on customizable ranking criteria (and fetches additional collection details like social links), calculates total trading volume over specified timeframes, and presents lists of top collections by volume. It delivers personalized and user-friendly summaries of the Cardano NFT market landscape.",
+      "downloads": 9,
+      "icon_url": "",
+      "id": "taptools-cardano-nft-market-stats-aggregator",
+      "license": "MIT",
+      "name": "Taptools Cardano NFT Market Stats Aggregator",
+      "path": "/tools/taptools-cardano-nft-market-stats-aggregator",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/taptools-cardano-nft-market-stats-aggregator",
+      "tags": [
+        "NFT",
+        "cardano",
+        "taptools",
+        "NFT market"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "finance",
+        "name": "Finance"
+      },
+      "description": "This tool analyses and visualizes cryptocurrency portfolio data for a specified Cardano wallet address using the TapTools API. It retrieves portfolio positions, including fungible tokens, NFTs, and liquidity provider positions, and calculates their values in both ADA and a user-defined quote currency (defaulting to USD). The tool can generate bar plots for portfolio positions and trend graphs for portfolio value over customizable timeframes (e.g., 24 hours, 30 days, or all time), with options to filter out low-value assets. It outputs detailed portfolio data and visualizations saved as PNG files, making it a versatile tool for cryptocurrency portfolio monitoring and analysis.",
+      "downloads": 8,
+      "icon_url": "",
+      "id": "taptools-cardano-portfolio-tracker",
+      "license": "MIT",
+      "name": "Taptools Cardano portfolio tracker",
+      "path": "/tools/taptools-cardano-portfolio-tracker",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/taptools-cardano-portfolio-tracker",
+      "tags": [
+        "portfolio",
+        "TapTools",
+        "cardano",
+        "address",
+        "tracker"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Manages a Telegram bot to fetch messages and respond to users based on chat history.",
+      "downloads": 24,
+      "icon_url": "",
+      "id": "telegram-bot",
+      "license": "MIT",
+      "name": "Telegram Bot",
+      "path": "/tools/telegram-bot",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/telegram-bot",
+      "tags": [
+        "telegram",
+        "bot",
+        "chat",
+        "sqlite"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Converts text files (.txt or .md) to audio files using high-quality text-to-speech synthesis",
+      "downloads": 18,
+      "icon_url": "",
+      "id": "text-to-audio",
+      "license": "MIT",
+      "name": "Text to Audio",
+      "path": "/tools/text-to-audio",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/text-to-audio",
+      "tags": [
+        "text-to-speech",
+        "audio",
+        "conversion",
+        "text",
+        "markdown"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "photo-video",
+        "name": "Photo & Video"
+      },
+      "description": "Generates an image from a text prompt using the getimg.ai API and Flux.1 model.\n\nImage width and height from 256 to 1280 pixels (must be multiple of 8).\n\nFormat of the image can be jpeg or png (default is jpeg).\n\nNumber of denoising steps is from 1 to 6 (default is 4). More steps usually can produce higher quality images, but take more time to generate.",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "text-to-image-generator-getimg-ai-flux-1",
+      "license": "MIT",
+      "name": "Text to image generator - getimg.ai Flux.1",
+      "path": "/tools/text-to-image-generator-getimg-ai-flux-1",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/text-to-image-generator---getimg-ai-flux-1",
+      "tags": [
+        "image",
+        "image generation",
+        "text to image",
+        "getimg",
+        "flux"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Sending ERC20 tokens specified address.",
+      "downloads": 35,
+      "icon_url": "",
+      "id": "transfer-erc20-tokens",
+      "license": "MIT",
+      "name": "Transfer ERC20 Tokens",
+      "path": "/tools/transfer-erc20-tokens",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/transfer-erc20-tokens",
+      "tags": [
+        "wallet",
+        "token",
+        "transfer",
+        "crypto",
+        "erc20"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Applies a prompt to the file contents.",
+      "downloads": 1493,
+      "icon_url": "",
+      "id": "update-file-with-prompt",
+      "license": "MIT",
+      "name": "Update File with Prompt",
+      "path": "/tools/update-file-with-prompt",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/update-file-with-prompt",
+      "tags": [
+        "file",
+        "update",
+        "prompt",
+        "text"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Runs an async function with a given configuration and inputs, returning a result after a delay.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "wait-1-5-seconds",
+      "license": "MIT",
+      "name": "wait_1_5_seconds",
+      "path": "/tools/wait-1-5-seconds",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/wait-1-5-seconds",
+      "tags": [
+        ""
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Tool for checking the ETH and ERC20 tokens balances of a specified wallet address.",
+      "downloads": 23,
+      "icon_url": "",
+      "id": "wallet-balance",
+      "license": "MIT",
+      "name": "Wallet Balance",
+      "path": "/tools/wallet-balance",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/wallet-balance",
+      "tags": [
+        "wallet",
+        "balance",
+        "ETH",
+        "ERC20",
+        "token"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Fetches a 3-day weather forecast for a location, processes the data into 3-hour intervals with day/night averages, and saves a dark-themed plot (temperature, precipitation, wind).\nGet you API key at weatherapi.com",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "weather-forecast-3-days",
+      "license": "MIT",
+      "name": "Weather Forecast - 3 days",
+      "path": "/tools/weather-forecast-3-days",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/weather-forecast---3-days",
+      "tags": [
+        "weather",
+        "forecast",
+        "weatherapi",
+        "3 days"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "This function takes a search query as input and returns a list of results from the web.",
+      "downloads": 837,
+      "icon_url": "",
+      "id": "web-search",
+      "license": "MIT",
+      "name": "Web Search",
+      "path": "/tools/web-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/web-search",
+      "tags": [
+        "search",
+        "web"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "crypto",
+        "name": "Crypto"
+      },
+      "description": "Generates a comprehensive markdown research report about a given cryptocurrency token by gathering web data, summarizing with LLM, and exporting the report.",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "web3-token-deep-research",
+      "license": "MIT",
+      "name": "Web3 token deep research",
+      "path": "/tools/web3-token-deep-research",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/web3-token-deep-research",
+      "tags": [
+        "crypto",
+        "research",
+        "report",
+        "token",
+        "web3"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "photo-video",
+        "name": "Photo & Video"
+      },
+      "description": "Captures a single frame from a local webcam and returns it as a Base64-encoded image (PNG or JPEG). Example usage with Python + opencv.",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "webcam-capture-tool",
+      "license": "MIT",
+      "name": "Webcam Capture Tool",
+      "path": "/tools/webcam-capture-tool",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/webcam-capture-tool",
+      "tags": [
+        "webcam",
+        "capture",
+        "camera",
+        "image",
+        "tools"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Fetches the clean, readable text from any webpage using the Jina AI Reader service and saves it to a local file.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "webpage-clean-text-extractor",
+      "license": "MIT",
+      "name": "Webpage clean text extractor",
+      "path": "/tools/webpage-clean-text-extractor",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/webpage-clean-text-extractor",
+      "tags": [
+        "web",
+        "webapge",
+        "url",
+        "http",
+        "jina",
+        "download",
+        "content",
+        "text",
+        "scrap",
+        "fetch",
+        "extract"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Get featured content including article, image, and news from Wikimedia",
+      "downloads": 6,
+      "icon_url": "",
+      "id": "wikimedia-featured-content",
+      "license": "MIT",
+      "name": "Wikimedia Featured Content",
+      "path": "/tools/wikimedia-featured-content",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/wikimedia-featured-content",
+      "tags": [
+        "wikimedia",
+        "featured",
+        "wikipedia",
+        "content",
+        "articles",
+        "images",
+        "news"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Get historical events, births, deaths, and holidays for a specific date from Wikimedia",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "wikimedia-historical-events",
+      "license": "MIT",
+      "name": "Wikimedia Historical Events",
+      "path": "/tools/wikimedia-historical-events",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/wikimedia-historical-events",
+      "tags": [
+        "wikimedia",
+        "history",
+        "wikipedia",
+        "events",
+        "onthisday",
+        "births",
+        "deaths",
+        "holidays"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Fetch the full HTML content of a specific Wikimedia page",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "wikimedia-page-content",
+      "license": "MIT",
+      "name": "Wikimedia Page Content",
+      "path": "/tools/wikimedia-page-content",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/wikimedia-page-content",
+      "tags": [
+        "wikimedia",
+        "content",
+        "wikipedia",
+        "page",
+        "html",
+        "article"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Search across Wikimedia page content with full-text search capabilities",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "wikimedia-search",
+      "license": "MIT",
+      "name": "Wikimedia Search",
+      "path": "/tools/wikimedia-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/wikimedia-search",
+      "tags": [
+        "wikimedia",
+        "search",
+        "wikipedia",
+        "full-text",
+        "content"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Search Wikimedia pages by title with full-text search capabilities",
+      "downloads": 5,
+      "icon_url": "",
+      "id": "wikimedia-title-search",
+      "license": "MIT",
+      "name": "Wikimedia Title Search",
+      "path": "/tools/wikimedia-title-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/wikimedia-title-search",
+      "tags": [
+        "wikimedia",
+        "search",
+        "wikipedia",
+        "titles",
+        "pages",
+        "full-text"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Converts text to speech using local Windows TTS and voices.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "windows-local-text-to-speech",
+      "license": "MIT",
+      "name": "Windows Local Text-to-Speech",
+      "path": "/tools/windows-local-text-to-speech",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/windows-local-text-to-speech",
+      "tags": [
+        "tts",
+        "text to speech",
+        "audio",
+        "Windows",
+        "local",
+        "speech",
+        "text"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Writes the text contents of a file to the given path.",
+      "downloads": 1499,
+      "icon_url": "",
+      "id": "write-file-contents",
+      "license": "MIT",
+      "name": "Write File Contents",
+      "path": "/tools/write-file-contents",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/write-file-contents",
+      "tags": [
+        "file",
+        "write",
+        "save",
+        "content",
+        "text"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "developer-tools",
+        "name": "Developer Tools"
+      },
+      "description": "Tool to make requests to the X/Twitter Developer API using OAuth for authentication.",
+      "downloads": 6,
+      "icon_url": "",
+      "id": "x-twitter-developer-api",
+      "license": "MIT",
+      "name": "X/Twitter Developer API",
+      "path": "/tools/x-twitter-developer-api",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-developer-api",
+      "tags": [
+        "x",
+        "twitter",
+        "api",
+        "request",
+        "oauth"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to fetch a tweet from Twitter by its ID.",
+      "downloads": 1512,
+      "icon_url": "",
+      "id": "x-twitter-get-tweet",
+      "license": "MIT",
+      "name": "X/Twitter Get Tweet",
+      "path": "/tools/x-twitter-get-tweet",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-get-tweet",
+      "tags": [
+        "twitter",
+        "tweet",
+        "api",
+        "twttr",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to fetch the list of users who follow a specific Twitter user.",
+      "downloads": 717,
+      "icon_url": "",
+      "id": "x-twitter-get-user-followers",
+      "license": "MIT",
+      "name": "X/Twitter Get User Followers",
+      "path": "/tools/x-twitter-get-user-followers",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-get-user-followers",
+      "tags": [
+        "twitter",
+        "followers",
+        "api",
+        "users",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to fetch the list of users a Twitter user is following.",
+      "downloads": 953,
+      "icon_url": "",
+      "id": "x-twitter-get-user-following",
+      "license": "MIT",
+      "name": "X/Twitter Get User Following",
+      "path": "/tools/x-twitter-get-user-following",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-get-user-following",
+      "tags": [
+        "twitter",
+        "following",
+        "api",
+        "users",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to fetch media content posted by a specific Twitter user.",
+      "downloads": 1513,
+      "icon_url": "",
+      "id": "x-twitter-get-user-media",
+      "license": "MIT",
+      "name": "X/Twitter Get User Media",
+      "path": "/tools/x-twitter-get-user-media",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-get-user-media",
+      "tags": [
+        "twitter",
+        "media",
+        "fetch",
+        "images",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to fetch reply tweets made by a specific Twitter user.",
+      "downloads": 627,
+      "icon_url": "",
+      "id": "x-twitter-get-user-replies",
+      "license": "MIT",
+      "name": "X/Twitter Get User Replies",
+      "path": "/tools/x-twitter-get-user-replies",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-get-user-replies",
+      "tags": [
+        "twitter",
+        "api",
+        "replies",
+        "conversation",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to fetch tweets from a specific Twitter user by username.",
+      "downloads": 892,
+      "icon_url": "",
+      "id": "x-twitter-get-user-tweets",
+      "license": "MIT",
+      "name": "X/Twitter Get User Tweets",
+      "path": "/tools/x-twitter-get-user-tweets",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-get-user-tweets",
+      "tags": [
+        "twitter",
+        "tweets",
+        "api",
+        "user",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to fetch Twitter user information by username.",
+      "downloads": 1093,
+      "icon_url": "",
+      "id": "x-twitter-get-user",
+      "license": "MIT",
+      "name": "X/Twitter Get User",
+      "path": "/tools/x-twitter-get-user",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-get-user",
+      "tags": [
+        "Twitter",
+        "API",
+        "User",
+        "TwttrApi",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to post a tweet to Twitter.",
+      "downloads": 1481,
+      "icon_url": "",
+      "id": "x-twitter-post",
+      "license": "MIT",
+      "name": "X/Twitter Post",
+      "path": "/tools/x-twitter-post",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-post",
+      "tags": [
+        "twitter",
+        "X",
+        "post",
+        "social media"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to search for the most recent tweets on Twitter based on a query string.",
+      "downloads": 936,
+      "icon_url": "",
+      "id": "x-twitter-search-latest",
+      "license": "MIT",
+      "name": "X/Twitter Search Latest",
+      "path": "/tools/x-twitter-search-latest",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-search-latest",
+      "tags": [
+        "twitter",
+        "search",
+        "tweets",
+        "latest",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to search for top tweets on Twitter based on a query string.",
+      "downloads": 908,
+      "icon_url": "",
+      "id": "x-twitter-search-top",
+      "license": "MIT",
+      "name": "X/Twitter Search Top",
+      "path": "/tools/x-twitter-search-top",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-search-top",
+      "tags": [
+        "twitter",
+        "search",
+        "tweets",
+        "top",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Function to search for Twitter users based on a query string.",
+      "downloads": 768,
+      "icon_url": "",
+      "id": "x-twitter-search-users",
+      "license": "MIT",
+      "name": "X/Twitter Search Users",
+      "path": "/tools/x-twitter-search-users",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-search-users",
+      "tags": [
+        "twitter",
+        "user search",
+        "api",
+        "users",
+        "X"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "social-networking",
+        "name": "Social Networking"
+      },
+      "description": "Fetch from X/Twitter API to perform various search and retrieval operations.",
+      "downloads": 3,
+      "icon_url": "",
+      "id": "x-twitter-search",
+      "license": "MIT",
+      "name": "X/Twitter Search",
+      "path": "/tools/x-twitter-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/x-twitter-search",
+      "tags": [
+        "X",
+        "Twitter",
+        "API",
+        "search",
+        "tweets"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Downloads audio from a YouTube video URL and converts it to MP3 format using yt-dlp.",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "youtube-audio-downloader",
+      "license": "MIT",
+      "name": "youtube_audio_downloader",
+      "path": "/tools/youtube-audio-downloader",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/youtube-audio-downloader",
+      "tags": [
+        "youtube",
+        "audio",
+        "download",
+        "mp3",
+        "yt-dlp"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Downloads audio from a YouTube video and saves it as an MP3 file.",
+      "downloads": 12,
+      "icon_url": "",
+      "id": "youtube-download-mp3",
+      "license": "MIT",
+      "name": "Youtube Download MP3",
+      "path": "/tools/youtube-download-mp3",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/youtube-download-mp3",
+      "tags": [
+        "youtube",
+        "mp3",
+        "downloader",
+        "audio"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Performs a YouTube search using SerpAPI and returns the results in JSON or HTML format.",
+      "downloads": 1,
+      "icon_url": "",
+      "id": "youtube-search-with-serpapi",
+      "license": "MIT",
+      "name": "youtube_search_with_serpapi",
+      "path": "/tools/youtube-search-with-serpapi",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/youtube-search-with-serpapi",
+      "tags": [
+        "youtube",
+        "search",
+        "serpapi",
+        "video",
+        "api"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "reference",
+        "name": "Reference"
+      },
+      "description": "Searches YouTube for videos via SerpAPI. Requires SERP_API_KEY in configuration.",
+      "downloads": 11,
+      "icon_url": "",
+      "id": "youtube-search",
+      "license": "MIT",
+      "name": "YouTube Search",
+      "path": "/tools/youtube-search",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/youtube-search",
+      "tags": [
+        "youtube",
+        "serpapi",
+        "video",
+        "search"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Extracts and saves YouTube video transcripts",
+      "downloads": 2,
+      "icon_url": "",
+      "id": "youtube-transcript-extractor",
+      "license": "MIT",
+      "name": "Youtube Transcript Extractor",
+      "path": "/tools/youtube-transcript-extractor",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/youtube-transcript-extractor-2-0",
+      "tags": [
+        "youtube",
+        "transcript",
+        "extractor",
+        "video"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
+    },
+    {
+      "author": "hanzo.ai",
+      "category": {
+        "description": "",
+        "examples": "",
+        "id": "utilities",
+        "name": "Utilities"
+      },
+      "description": "Fetches the transcript of a YouTube video and generates a formatted summary using an LLM.",
+      "downloads": 887,
+      "icon_url": "",
+      "id": "youtube-transcript-summarizer",
+      "license": "MIT",
+      "name": "Youtube Transcript Summarizer",
+      "path": "/tools/youtube-transcript-summarizer",
+      "repository": "github.com/hanzoai/tools",
+      "router_key": "@hanzo/youtube-transcript-summarizer",
+      "tags": [
+        "youtube",
+        "transcript",
+        "summary",
+        "video",
+        "LLM"
+      ],
+      "type": "Tool",
+      "version": "1.0.0"
     }
   ],
-  "total": 5,
-  "page": 1,
-  "limit": 10,
+  "total": 179,
   "totalPages": 1
 }

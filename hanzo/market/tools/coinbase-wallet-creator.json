@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-01-23T12:38:38.569Z",
+  "description": "Tool for creating a Coinbase wallet",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "coinbase-wallet-creator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::coinbase_wallet_creator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Coinbase Wallet Creator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/coinbase-wallet-creator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/coinbase-wallet-creator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "coinbase",
+    "wallet",
+    "creator",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-23T12:38:38.569Z",
+  "version": "1.0.0"
+}

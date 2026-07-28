@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-05-05T19:06:32.656Z",
+  "description": "Creates comments on Linear issues and returns the comment and issue details.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "linear-comment-creator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::linear_comment_creator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Linear Comment Creator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/linear-comment-creator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/linear-comment-creator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "linear",
+    "comments",
+    "issues",
+    "api"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-05T19:06:32.656Z",
+  "version": "1.0.0"
+}

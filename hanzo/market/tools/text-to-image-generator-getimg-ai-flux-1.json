@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "photo-video",
+    "name": "Photo & Video"
+  },
+  "changelog": "",
+  "created_at": "2025-06-24T19:04:13.672Z",
+  "description": "Generates an image from a text prompt using the getimg.ai API and Flux.1 model.\n\nImage width and height from 256 to 1280 pixels (must be multiple of 8).\n\nFormat of the image can be jpeg or png (default is jpeg).\n\nNumber of denoising steps is from 1 to 6 (default is 4). More steps usually can produce higher quality images, but take more time to generate.",
+  "downloads": 5,
+  "icon_url": "",
+  "id": "text-to-image-generator-getimg-ai-flux-1",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::text_to_image_generator___getimg_ai_flux_1"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Text to image generator - getimg.ai Flux.1",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/text-to-image-generator-getimg-ai-flux-1",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/text-to-image-generator---getimg-ai-flux-1",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "image",
+    "image generation",
+    "text to image",
+    "getimg",
+    "flux"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-06-24T19:04:13.672Z",
+  "version": "1.0.0"
+}

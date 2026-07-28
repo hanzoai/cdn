@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-04-15T21:25:31.732Z",
+  "description": "Handles key-value memory storage and retrieval using a database. It stores memories with associated keys and can retrieve them by key.",
+  "downloads": 1519,
+  "icon_url": "",
+  "id": "key-value-memory-management",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::key_value_memory_management"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Key-Value Memory Management",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/key-value-memory-management",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/key-value-memory-management",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "memory",
+    "remember",
+    "management",
+    "recall",
+    "smart",
+    "agent"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-15T21:25:31.732Z",
+  "version": "1.0.0"
+}

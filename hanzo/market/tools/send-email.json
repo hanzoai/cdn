@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "business",
+    "name": "Business"
+  },
+  "changelog": "",
+  "created_at": "2025-01-27T13:43:28.479Z",
+  "description": "Sends an email using SMTP.",
+  "downloads": 1495,
+  "icon_url": "",
+  "id": "send-email",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::send_email"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Send Email",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/send-email",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/send-email",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "email",
+    "smtp",
+    "send",
+    "notification"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-27T13:43:28.479Z",
+  "version": "1.0.0"
+}

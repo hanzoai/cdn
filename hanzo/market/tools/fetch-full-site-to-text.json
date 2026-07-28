@@ -1,0 +1,50 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-10-12T17:06:00.468Z",
+  "description": "This tool fetches the content of an entire website starting from a given URL. It then saves all the text from the site into a single, organized text file on your computer. You can limit the max number of pages it downloads, and the concurrency.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "fetch-full-site-to-text",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::fetch_full_site_to_text"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Fetch Full Site to Text",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/fetch-full-site-to-text",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/fetch-full-site-to-text",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "sitefetch",
+    "url",
+    "entire website",
+    "full site",
+    "fetch",
+    "extract",
+    "download website",
+    "text export"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-10-12T17:06:00.468Z",
+  "version": "1.0.0"
+}

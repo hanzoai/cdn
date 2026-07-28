@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-02-10T19:29:29.491Z",
+  "description": "Creates an article in a Ghost CMS using Ghost Admin API.",
+  "downloads": 9,
+  "icon_url": "",
+  "id": "ghost-post-blog",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::ghost_post_blog"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Ghost Post Blog",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/ghost-post-blog",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/ghost-post-blog",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "ghost",
+    "api",
+    "article",
+    "cms"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-10T19:29:29.491Z",
+  "version": "1.0.0"
+}

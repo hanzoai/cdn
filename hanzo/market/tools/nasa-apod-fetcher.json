@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "entertainment",
+    "name": "Entertainment"
+  },
+  "changelog": "",
+  "created_at": "2025-02-18T12:09:31.118Z",
+  "description": "Fetches the Astronomy Picture of the Day from NASA's API.",
+  "downloads": 13,
+  "icon_url": "",
+  "id": "nasa-apod-fetcher",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::nasa_apod_fetcher"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "NASA APOD Fetcher",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/nasa-apod-fetcher",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/nasa-apod-fetcher",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "NASA",
+    "APOD",
+    "astronomy",
+    "picture of the day",
+    "space"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-18T12:09:31.118Z",
+  "version": "1.0.0"
+}

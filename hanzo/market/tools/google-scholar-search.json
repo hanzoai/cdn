@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-09-03T22:27:34.348Z",
+  "description": "Searches for publications on Google Scholar.\nReturns a structured list of academic publications with details like titles, authors, abstracts, and citation counts.\n\nTo use it, simply provide a search query. You can optionally narrow the results by specifying a start and end year for your search.\n\nThe tool performs a robust search by first attempting to use the scholarly library to retrieve rich metadata. If that fails or returns no results, it automatically falls back to a direct web scraping method to ensure maximum reliability.\nThe output also indicates which search method was successfully used.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "google-scholar-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::google_scholar_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Google Scholar Search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/google-scholar-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/google-scholar-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "scholar",
+    "google scholar",
+    "search",
+    "academic",
+    "papers",
+    "google",
+    "biblio"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-09-03T22:27:34.348Z",
+  "version": "1.0.0"
+}

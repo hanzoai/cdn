@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:14:09.943Z",
+  "description": "Search for papers on arXiv with optional date range and category filters",
+  "downloads": 9,
+  "icon_url": "",
+  "id": "arxiv-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::arxiv_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "arxiv-search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/arxiv-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/arxiv-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "arxiv",
+    "search",
+    "papers",
+    "research",
+    "academic",
+    "scientific"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:14:09.943Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "social-networking",
+    "name": "Social Networking"
+  },
+  "changelog": "",
+  "created_at": "2025-10-17T08:35:03.390Z",
+  "description": "Fetches a limited number of messages from a specified Discord channel using a bot token.\n\nSet your bot token in config.\nChoose the channel ID to fetch.\nSet a limit on the number of messages to fetch.\nFilter by user if needed.\n\nYou must first create a discord bot (https://discord.com/developers/applications), invite it to a server you administrate, and give it the permissions it requires.",
+  "downloads": 0,
+  "icon_url": "",
+  "id": "discord-messages-fetcher",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::discord_messages_fetcher"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Discord Messages Fetcher",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/discord-messages-fetcher",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/discord-messages-fetcher",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "discord",
+    "message",
+    "fetch",
+    "read",
+    "bot"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-10-17T08:35:03.390Z",
+  "version": "1.0.0"
+}

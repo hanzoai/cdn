@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "social-networking",
+    "name": "Social Networking"
+  },
+  "changelog": "",
+  "created_at": "2025-02-11T19:55:59.434Z",
+  "description": "Manages a Telegram bot to fetch messages and respond to users based on chat history.",
+  "downloads": 24,
+  "icon_url": "",
+  "id": "telegram-bot",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::telegram_bot"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Telegram Bot",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/telegram-bot",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/telegram-bot",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "telegram",
+    "bot",
+    "chat",
+    "sqlite"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-11T19:55:59.434Z",
+  "version": "1.0.0"
+}

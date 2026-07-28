@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "business",
+    "name": "Business"
+  },
+  "changelog": "",
+  "created_at": "2025-01-27T13:43:47.876Z",
+  "description": "Generates responses to emails based on a given context and memory, and logs answered emails in a database.",
+  "downloads": 5,
+  "icon_url": "",
+  "id": "email-answerer",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::email_answerer"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Email Answerer",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/email-answerer",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/email-answerer",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "email",
+    "responder",
+    "database",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-27T13:43:47.876Z",
+  "version": "1.0.0"
+}

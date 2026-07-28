@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:03.445Z",
+  "description": "Sends a control character (like Ctrl-C) to the active iTerm terminal session.",
+  "downloads": 3,
+  "icon_url": "",
+  "id": "iterm-control",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::iterm_control"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "iterm-control",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/iterm-control",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/iterm-control",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "iterm",
+    "terminal",
+    "control",
+    "key",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:03.445Z",
+  "version": "1.0.0"
+}

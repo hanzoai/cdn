@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "news",
+    "name": "News"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:05.274Z",
+  "description": "Aggregates latest news from multiple sources using newspaper3k, supporting parallel processing and category-based filtering",
+  "downloads": 24,
+  "icon_url": "",
+  "id": "news-aggregator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::news_aggregator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "News Aggregator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/news-aggregator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/news-aggregator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "news",
+    "aggregator",
+    "newspaper3k",
+    "scraper",
+    "articles",
+    "multi-source"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:05.274Z",
+  "version": "1.0.0"
+}

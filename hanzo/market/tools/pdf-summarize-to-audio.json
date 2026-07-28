@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "entertainment",
+    "name": "Entertainment"
+  },
+  "changelog": "",
+  "created_at": "2025-02-03T19:44:57.005Z",
+  "description": "Extracts text from a PDF, summarizes it, and converts the summary to speech.",
+  "downloads": 10,
+  "icon_url": "",
+  "id": "pdf-summarize-to-audio",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::pdf_summarize_to_audio"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "PDF Summarize to Audio",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/pdf-summarize-to-audio",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/pdf-summarize-to-audio",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "PDF",
+    "summary",
+    "text to speech",
+    "audio"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-03T19:44:57.005Z",
+  "version": "1.0.0"
+}

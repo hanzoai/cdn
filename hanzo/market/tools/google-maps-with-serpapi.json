@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-08-18T17:27:37.179Z",
+  "description": "Performs a Google Maps search using SerpAPI and returns the results in JSON or HTML format.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "google-maps-with-serpapi",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::google_maps_with_serpapi"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Google Maps with SerpAPI",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/google-maps-with-serpapi",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/google-maps-with-serpapi",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "google",
+    "maps",
+    "search",
+    "serpapi",
+    "business"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-18T17:27:37.179Z",
+  "version": "1.0.0"
+}

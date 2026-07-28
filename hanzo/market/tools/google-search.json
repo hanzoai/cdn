@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-01-27T13:43:25.255Z",
+  "description": "This function takes a question as input and returns a comprehensive answer, along with the sources and statements used to generate the answer.",
+  "downloads": 547,
+  "icon_url": "",
+  "id": "google-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::google_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Google Search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/google-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/google-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "search",
+    "answer generation",
+    "fact extraction",
+    "wikipedia",
+    "google"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-27T13:43:25.255Z",
+  "version": "1.0.0"
+}

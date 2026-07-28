@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-05-10T15:05:50.865Z",
+  "description": "Gets price quotes for swapping Solana tokens using Jupiter Aggregator API",
+  "downloads": 1056,
+  "icon_url": "",
+  "id": "solana-token-swap-quote",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::solana_token_swap_quote"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "solana_token_swap_quote",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/solana-token-swap-quote",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/solana-token-swap-quote",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "solana",
+    "token",
+    "swap",
+    "quote",
+    "jupiter",
+    "helius"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-10T15:05:50.865Z",
+  "version": "1.0.0"
+}

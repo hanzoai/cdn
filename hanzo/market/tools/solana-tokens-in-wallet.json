@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-05-10T15:05:58.408Z",
+  "description": "Fetches and returns the tokens from a Solana wallet using the Helius API",
+  "downloads": 582,
+  "icon_url": "",
+  "id": "solana-tokens-in-wallet",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::solana_tokens_in_wallet"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "solana_tokens_in_wallet",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/solana-tokens-in-wallet",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/solana-tokens-in-wallet",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "solana",
+    "wallet",
+    "tokens",
+    "helius",
+    "blockchain"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-10T15:05:58.408Z",
+  "version": "1.0.0"
+}

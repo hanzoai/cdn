@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "finance",
+    "name": "Finance"
+  },
+  "changelog": "",
+  "created_at": "2025-03-03T19:42:43.152Z",
+  "description": "Using the Taptools API, this tool generates a candlestick chart of token price (in Ada) and trading volume for the chosen token ticker. Choose your chart interval and number of intervals (default : 180) in your prompt. A Taptools API key is required. Make sure to use the configurations fields \"pages number\" and \"tokens per page\" adequately to access the tokens you are interested in. For intervals, options are : 3m, 5m, 15m, 30m, 1h, 2h, 4h, 12h, 1d, 3d, 1w, 1M (default 1d).  For the ticker, respect capital letters and symbols (e.g. IAGON, iUSD, $LOBSTER).",
+  "downloads": 7,
+  "icon_url": "",
+  "id": "taptools-cardano-native-token-trading-chart-generator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::taptools_cardano_native_token_trading_chart_generator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Taptools Cardano Native Token Trading Chart Generator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/taptools-cardano-native-token-trading-chart-generator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/taptools-cardano-native-token-trading-chart-generator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "TapTools",
+    "token data",
+    "candlestick chart",
+    "cryptocurrency"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-03-03T19:42:43.152Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "finance",
+    "name": "Finance"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:12:59.603Z",
+  "description": "Fetches historical stock data from Tiingo and calculates basic technical indicators (SMA, RSI, MACD, ATR, etc.), then returns a structured analysis of the trend.",
+  "downloads": 14,
+  "icon_url": "",
+  "id": "stock-technical-analysis",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::stock_technical_analysis"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Stock Technical Analysis",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/stock-technical-analysis",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/stock-technical-analysis",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "stock",
+    "analysis",
+    "technical-indicators",
+    "tiingo"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:12:59.603Z",
+  "version": "1.0.0"
+}

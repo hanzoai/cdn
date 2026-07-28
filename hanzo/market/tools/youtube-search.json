@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:17.206Z",
+  "description": "Searches YouTube for videos via SerpAPI. Requires SERP_API_KEY in configuration.",
+  "downloads": 11,
+  "icon_url": "",
+  "id": "youtube-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::youtube_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "YouTube Search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/youtube-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/youtube-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "youtube",
+    "serpapi",
+    "video",
+    "search"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:17.206Z",
+  "version": "1.0.0"
+}

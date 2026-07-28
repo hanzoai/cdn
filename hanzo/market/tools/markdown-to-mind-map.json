@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "graphics-design",
+    "name": "Graphics & Design"
+  },
+  "changelog": "",
+  "created_at": "2025-08-12T02:19:33.072Z",
+  "description": "Converts Markdown content into an interactive Markmap mind map HTML file, optionally opening the result in the browser. Supports export (PNG, JPG, SVG) and copying features.",
+  "downloads": 4,
+  "icon_url": "",
+  "id": "markdown-to-mind-map",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::markdown_to_mind_map"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Markdown to Mind Map",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/markdown-to-mind-map",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/markdown-to-mind-map",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "markdown",
+    "mindmap",
+    "markmap",
+    "visualization",
+    "mind",
+    "map"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-12T02:19:33.072Z",
+  "version": "1.0.0"
+}

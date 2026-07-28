@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:15.288Z",
+  "description": "Manage macOS notifications and Do Not Disturb via AppleScript",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "macos-notifications",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::macos_notifications"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "macos-notifications",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/macos-notifications",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/macos-notifications",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "macos",
+    "notifications",
+    "dnd",
+    "automation",
+    "applescript"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:15.288Z",
+  "version": "1.0.0"
+}

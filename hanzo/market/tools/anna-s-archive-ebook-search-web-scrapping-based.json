@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "books",
+    "name": "Books"
+  },
+  "changelog": "",
+  "created_at": "2025-06-30T19:00:41.425Z",
+  "description": "Searches for eBooks from Anna's Archive, and returns information including title, author, year, Anna's archive page url, MD5.\n\nSupports searching by title, author and keywords. Includes optional category filter.\n\nIf a complex query fails, try searching just with a title, or just with an author.\n\nNote : the reliability of this tool might fluctuate.\n- It is based on web scrapping, so changes in Anna's Archive website might break the search feature. Feel free to fork and update the tool's code.\n- Anna's Archive search servers might be slow. You sometimes have to retry your search.",
+  "downloads": 889,
+  "icon_url": "",
+  "id": "anna-s-archive-ebook-search-web-scrapping-based",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::anna_s_archive_ebook_search___web_scrapping_based"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Anna's Archive Ebook Search - Web Scrapping based",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/anna-s-archive-ebook-search-web-scrapping-based",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/anna-s-archive-ebook-search---web-scrapping-based",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "book",
+    "search",
+    "library",
+    "archive",
+    "anna",
+    "ebook",
+    "epub"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-06-30T19:00:41.425Z",
+  "version": "1.0.0"
+}

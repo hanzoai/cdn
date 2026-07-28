@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T16:59:10.354Z",
+  "description": "Tool to make requests to the Google Drive Developer API using OAuth for authentication.",
+  "downloads": 22,
+  "icon_url": "",
+  "id": "google-drive-developer-api",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::google_drive_developer_api"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Google Drive Developer API",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/google-drive-developer-api",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/google-drive-developer-api",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "google",
+    "drive",
+    "documents",
+    "api",
+    "request",
+    "oauth"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T16:59:10.354Z",
+  "version": "1.0.0"
+}

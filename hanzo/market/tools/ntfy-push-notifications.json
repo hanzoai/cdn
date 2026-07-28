@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:51.536Z",
+  "description": "Sends push notifications to specific groups using ntfy. Supports message priority, tags, and titles. Download the Apps and learn more here: https://ntfy.sh",
+  "downloads": 1516,
+  "icon_url": "",
+  "id": "ntfy-push-notifications",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::ntfy_push_notifications"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Ntfy Push Notifications",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/ntfy-push-notifications",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/ntfy-push-notifications",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "notification",
+    "ntfy",
+    "http api",
+    "message sender"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:51.536Z",
+  "version": "1.0.0"
+}

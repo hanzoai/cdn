@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T16:58:25.442Z",
+  "description": "Tool to make requests to the Gmail Developer API using OAuth for authentication.",
+  "downloads": 16,
+  "icon_url": "",
+  "id": "gmail-developer-api",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::gmail_developer_api"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Gmail Developer API",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/gmail-developer-api",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/gmail-developer-api",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "gmail",
+    "api",
+    "request",
+    "oauth"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T16:58:25.442Z",
+  "version": "1.0.0"
+}

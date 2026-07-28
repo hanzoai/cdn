@@ -1,0 +1,45 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-01-23T12:38:37.717Z",
+  "description": "Tool for calling a faucet on Coinbase",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "coinbase-faucet-caller",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::coinbase_faucet_caller"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Coinbase Faucet Caller",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/coinbase-faucet-caller",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/coinbase-faucet-caller",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "coinbase",
+    "faucet",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-23T12:38:37.717Z",
+  "version": "1.0.0"
+}

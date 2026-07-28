@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-08-12T02:20:49.072Z",
+  "description": "Converts text to speech using local Windows TTS and voices.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "windows-local-text-to-speech",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::windows_local_text_to_speech"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Windows Local Text-to-Speech",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/windows-local-text-to-speech",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/windows-local-text-to-speech",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "tts",
+    "text to speech",
+    "audio",
+    "Windows",
+    "local",
+    "speech",
+    "text"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-12T02:20:49.072Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "photo-video",
+    "name": "Photo & Video"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:09.527Z",
+  "description": "Captures a single frame from a local webcam and returns it as a Base64-encoded image (PNG or JPEG). Example usage with Python + opencv.",
+  "downloads": 5,
+  "icon_url": "",
+  "id": "webcam-capture-tool",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::webcam_capture_tool"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Webcam Capture Tool",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/webcam-capture-tool",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/webcam-capture-tool",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "webcam",
+    "capture",
+    "camera",
+    "image",
+    "tools"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:09.527Z",
+  "version": "1.0.0"
+}

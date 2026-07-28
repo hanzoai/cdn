@@ -1,0 +1,45 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "productivity",
+    "name": "Productivity"
+  },
+  "changelog": "",
+  "created_at": "2025-04-30T15:48:04.131Z",
+  "description": "This tool manages text-based notes across multiple .txt files using natural language prompts.\nIt leverages an LLM to interpret user requests, identify which file to use, and perform actions : read, add, update, delete, move note to top or bottom.\nIt uses confirmation messages before modifying notes.\n\nHow to Use:\n\n1. Set up multiple .txt files by topic with short clear distinct names, and add their path to file paths in configuration.\n\n2. In configuration, also pick which note file to use as default.\n\n3. Type a request in the prompt input. Make it clear which note file to use, and which action to perform.\n\n4. Confirm actions via GUI dialogs when required.\n\nExample Prompts:\n\n- \"Personal notes, add birthday party is at 6 pm on Wednesday.\"\n\n- \"What's the most urgent in my work notes?\"\n\n- \"Update family notes, bike is better gift idea for brother\"\n\n- \"Delete word notes, we're good with all clients calls \" \u2192 Removes specified note.\n\n- \"Move exercise plan to top of personal notes\" \u2192 Reorganizes note to top.\n\n- \"Open family notes\" \u2192 Opens file in default .txt editor.\n\nAdditionally, the tool can also use the content from an image uploaded in the chat to interact with the notes.\n\nTo note, within each file, this tool considers that each distinct paragrah is a different note (uses \"\\n\\n\" as separator).",
+  "downloads": 14,
+  "icon_url": "",
+  "id": "note-manager",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::note_manager"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Note Manager",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/note-manager",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/note-manager",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "note manager",
+    "notes",
+    "note"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-30T15:48:04.131Z",
+  "version": "1.0.0"
+}

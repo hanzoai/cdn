@@ -1,0 +1,45 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T16:58:36.835Z",
+  "description": "Tool to make requests to the Airtable Developer API using OAuth for authentication.",
+  "downloads": 6,
+  "icon_url": "",
+  "id": "airtable-developer-api",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::airtable_developer_api"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Airtable Developer API",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/airtable-developer-api",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/airtable-developer-api",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "airtable",
+    "api",
+    "oauth"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T16:58:36.835Z",
+  "version": "1.0.0"
+}

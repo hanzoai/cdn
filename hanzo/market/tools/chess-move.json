@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "games",
+    "name": "Games"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:12:29.863Z",
+  "description": "Apply a move in UCI format to a given FEN and return the resulting position",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "chess-move",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::chess_move"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Chess Move",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/chess-move",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/chess-move",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "chess",
+    "move",
+    "uci",
+    "fen",
+    "position",
+    "game"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:12:29.863Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "news",
+    "name": "News"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:28.821Z",
+  "description": "Searches Google News for headlines and articles via SerpAPI. Requires SERP_API_KEY in configuration.",
+  "downloads": 17,
+  "icon_url": "",
+  "id": "google-news-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::google_news_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Google News Search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/google-news-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/google-news-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "google-news",
+    "serpapi",
+    "news",
+    "search"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:28.821Z",
+  "version": "1.0.0"
+}

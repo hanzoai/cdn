@@ -1,0 +1,45 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-01-23T12:38:38.327Z",
+  "description": "Searches the web using Perplexity API (limited)",
+  "downloads": 3,
+  "icon_url": "",
+  "id": "perplexity-api",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::perplexity_api"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Perplexity API",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/perplexity-api",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/perplexity-api",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "perplexity",
+    "api",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-23T12:38:38.327Z",
+  "version": "1.0.0"
+}

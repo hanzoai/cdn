@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "books",
+    "name": "Books"
+  },
+  "changelog": "",
+  "created_at": "2025-06-04T14:36:08.242Z",
+  "description": "Searches Library Genesis for books and returns download links and other information.\n\nSearch by author, format, title and year.\n\nYou might need to connect to a VPN to use this tool.\n\nNote : The reliability of this tool might fluctuate because mirrors are frequently shut down, and ebooks databases are sometimes separated by library, repository, or genre, each with different link formats.",
+  "downloads": 5,
+  "icon_url": "",
+  "id": "library-genesis-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::library_genesis_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Library Genesis Search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/library-genesis-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/library-genesis-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "libgen",
+    "ebook",
+    "search",
+    "download",
+    "library",
+    "api",
+    "books"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-06-04T14:36:08.242Z",
+  "version": "1.0.0"
+}

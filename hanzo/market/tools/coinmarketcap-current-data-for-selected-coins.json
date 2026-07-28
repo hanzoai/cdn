@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "finance",
+    "name": "Finance"
+  },
+  "changelog": "",
+  "created_at": "2025-02-18T12:50:12.289Z",
+  "description": "Fetches cryptocurrency data from CoinMarketCap API and filters it using specified cryptocurrencies.\n\nThe data output includes : name, symbol, rank, price, % price change (1h, 24h, 7d, 30d, 60d, 90d), market cap, fully diluted market cap, max supply, circulating supply, % market cap dominance, volume 24h, and time of last update.\n\nThe tool requires an API key.\n\nIn configuration, set the list of cryptocurrencies you are interested in, as well as the fiat currency to convert to.",
+  "downloads": 13,
+  "icon_url": "",
+  "id": "coinmarketcap-current-data-for-selected-coins",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::coinmarketcap___current_data_for_selected_coins"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Coinmarketcap - current data for selected coins",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/coinmarketcap-current-data-for-selected-coins",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/coinmarketcap---current-data-for-selected-coins",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "cryptocurrency",
+    "coinmarketcap",
+    "coin",
+    "crypto data",
+    "price",
+    "crypto"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-18T12:50:12.289Z",
+  "version": "1.0.0"
+}

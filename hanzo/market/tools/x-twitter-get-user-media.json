@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "social-networking",
+    "name": "Social Networking"
+  },
+  "changelog": "",
+  "created_at": "2025-04-09T22:12:39.302Z",
+  "description": "Function to fetch media content posted by a specific Twitter user.",
+  "downloads": 1513,
+  "icon_url": "",
+  "id": "x-twitter-get-user-media",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::x_twitter_get_user_media"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "X/Twitter Get User Media",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/x-twitter-get-user-media",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/x-twitter-get-user-media",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "twitter",
+    "media",
+    "fetch",
+    "images",
+    "X"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-09T22:12:39.302Z",
+  "version": "1.0.0"
+}

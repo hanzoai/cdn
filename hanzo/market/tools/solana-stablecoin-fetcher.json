@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-05-10T15:06:40.676Z",
+  "description": "Fetches a list of stablecoins from the Solana blockchain",
+  "downloads": 907,
+  "icon_url": "",
+  "id": "solana-stablecoin-fetcher",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::solana_stablecoin_fetcher"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "solana_stablecoin_fetcher",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/solana-stablecoin-fetcher",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/solana-stablecoin-fetcher",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "stablecoin",
+    "fetch",
+    "API",
+    "cryptocurrency"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-10T15:06:40.676Z",
+  "version": "1.0.0"
+}

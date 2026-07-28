@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:39.662Z",
+  "description": "Get featured content including article, image, and news from Wikimedia",
+  "downloads": 6,
+  "icon_url": "",
+  "id": "wikimedia-featured-content",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::wikimedia_featured_content"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Wikimedia Featured Content",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/wikimedia-featured-content",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/wikimedia-featured-content",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "wikimedia",
+    "featured",
+    "wikipedia",
+    "content",
+    "articles",
+    "images",
+    "news"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:39.662Z",
+  "version": "1.0.0"
+}

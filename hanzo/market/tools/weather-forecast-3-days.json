@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-08-01T17:07:00.057Z",
+  "description": "Fetches a 3-day weather forecast for a location, processes the data into 3-hour intervals with day/night averages, and saves a dark-themed plot (temperature, precipitation, wind).\nGet you API key at weatherapi.com",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "weather-forecast-3-days",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::weather_forecast___3_days"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Weather Forecast - 3 days",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/weather-forecast-3-days",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/weather-forecast---3-days",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "weather",
+    "forecast",
+    "weatherapi",
+    "3 days"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-01T17:07:00.057Z",
+  "version": "1.0.0"
+}

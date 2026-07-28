@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-08-12T02:22:24.171Z",
+  "description": "Generates a comprehensive markdown research report about a given cryptocurrency token by gathering web data, summarizing with LLM, and exporting the report.",
+  "downloads": 3,
+  "icon_url": "",
+  "id": "web3-token-deep-research",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::web3_token_deep_research"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Web3 token deep research",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/web3-token-deep-research",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/web3-token-deep-research",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "crypto",
+    "research",
+    "report",
+    "token",
+    "web3"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-12T02:22:24.171Z",
+  "version": "1.0.0"
+}

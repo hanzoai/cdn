@@ -1,35 +1,44 @@
 [
   {
-    "id": "trending-2024",
-    "name": "Trending in 2024",
-    "description": "Most popular agents and tools this year",
-    "items": [
-      "zoo-eco-agent",
-      "zoo-coder-agent",
-      "zoo-python-runner"
-    ],
-    "icon": "\ud83d\udd25"
-  },
-  {
+    "description": "Hand-picked by the Hanzo team",
+    "icon": "star",
     "id": "editors-choice",
-    "name": "Editor's Choice",
-    "description": "Hand-picked by the Lux team",
     "items": [
-      "zoo-creative-agent",
-      "zoo-data-analyst",
-      "zoo-web-scraper"
+      "audio-insight",
+      "code-directory-and-git-repository-analyzer",
+      "e-librarian",
+      "enhanced-image-generator",
+      "finance-bro",
+      "illustrated-story-creator"
     ],
-    "icon": "\u2b50"
+    "name": "Editor's Choice"
   },
   {
-    "id": "new-releases",
-    "name": "New Releases",
-    "description": "Recently added to the store",
+    "description": "Most installed agents",
+    "icon": "sparkles",
+    "id": "top-agents",
     "items": [
-      "zoo-legal-agent",
-      "zoo-travel-agent",
-      "zoo-pdf-toolkit"
+      "linear-agent",
+      "jupiter-stablecoin-arbitrager",
+      "negotiation-expert",
+      "startup-naming-expert",
+      "twitter-expert-read-only",
+      "startup-storyteller-expert"
     ],
-    "icon": "\ud83c\udd95"
+    "name": "Top Agents"
+  },
+  {
+    "description": "Most installed tools",
+    "icon": "wrench",
+    "id": "top-tools",
+    "items": [
+      "memory-management",
+      "key-value-memory-management",
+      "list-memory-management",
+      "ntfy-push-notifications",
+      "email-fetcher",
+      "x-twitter-get-user-media"
+    ],
+    "name": "Top Tools"
   }
 ]

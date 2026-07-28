@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-02-11T21:46:07.170Z",
+  "description": "Processes and analyzes PowerPoint files, allowing for reading, retrieving content, analyzing data, and updating slides.",
+  "downloads": 20,
+  "icon_url": "",
+  "id": "pptx-file-processor",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::pptx_file_processor"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "PPTX File Processor",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/pptx-file-processor",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/pptx-file-processor",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "pptx",
+    "presentation",
+    "analyze",
+    "file processing"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-11T21:46:07.170Z",
+  "version": "1.0.0"
+}

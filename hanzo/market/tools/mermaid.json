@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "graphics-design",
+    "name": "Graphics & Design"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:07.791Z",
+  "description": "Generate diagrams and flowcharts using Mermaid syntax, it receives a natural language description and returns a PNG image and the final Mermaid code",
+  "downloads": 24,
+  "icon_url": "",
+  "id": "mermaid",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::mermaid"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "mermaid",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/mermaid",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/mermaid",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "mermaid",
+    "diagram",
+    "flowchart",
+    "visualization",
+    "markdown"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:07.791Z",
+  "version": "1.0.0"
+}

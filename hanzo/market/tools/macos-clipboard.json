@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:14:04.043Z",
+  "description": "Manage macOS clipboard via AppleScript",
+  "downloads": 4,
+  "icon_url": "",
+  "id": "macos-clipboard",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::macos_clipboard"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "macos-clipboard",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/macos-clipboard",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/macos-clipboard",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "macos",
+    "clipboard",
+    "automation",
+    "applescript"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:14:04.043Z",
+  "version": "1.0.0"
+}

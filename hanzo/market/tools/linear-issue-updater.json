@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-05-05T19:04:36.249Z",
+  "description": "Updates an issue in Linear using the provided issue ID and optional fields.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "linear-issue-updater",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::linear_issue_updater"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Linear Issue Updater",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/linear-issue-updater",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/linear-issue-updater",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "linear",
+    "issue",
+    "updater",
+    "api"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-05T19:04:36.249Z",
+  "version": "1.0.0"
+}

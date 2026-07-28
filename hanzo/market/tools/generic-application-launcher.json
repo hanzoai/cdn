@@ -1,0 +1,50 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-05-09T10:28:51.638Z",
+  "description": "This tool launches a specified application to open a designated file or directory.\nYou provide the path to the executable (e.g., 'notepad.exe', 'C:\\Program Files\\RStudio\\rstudio.exe'), the path to the file or directory you want it to open (e.g., 'path_to\\personal_notes.txt', 'path_to\\R_project_directory'), and any optional additional command-line arguments.\nThe tool reports success, the process ID (PID), and the command executed.\n\nPrompt Examples:\n\n1. Open a text file with Notepad (Windows)\n\nTo open the text file C:\\Users\\YourUser\\Documents\\personal_notes.txt using notepad.exe:\n\nexecutable_path: \"notepad.exe\"\nfile_to_open_path: \"C:\\\\Users\\\\YourUser\\\\Documents\\\\personal_notes.txt\"\nadditional_args: []\n\n2. Open an R project directory with RStudio (Windows)\n\nTo open the R project located in the directory D:\\Work\\R_Projects\\Customer_Churn_Analysis using a specific RStudio installation:\n\nexecutable_path: \"C:\\\\Program Files\\\\RStudio\\\\rstudio.exe\"\nfile_to_open_path: \"D:\\\\Work\\\\R_Projects\\\\Customer_Churn_Analysis\"\nadditional_args: []\n\n3. Open a document with LibreOffice Writer (Windows)\n\nTo open the document C:\\Shared\\TeamReports\\Q3_Summary.docx using a specific LibreOffice Writer installation, perhaps with an argument to open it read-only (if supported, e.g., --view or similar, specific arguments depend on the application):\n\nexecutable_path: \"C:\\\\Program Files\\\\LibreOffice\\\\program\\\\swriter.exe\"\nfile_to_open_path: \"C:\\\\Shared\\\\TeamReports\\\\Q3_Summary.docx\"\nadditional_args: [\"--view\"]\n(Note: --view is an example; actual read-only flags vary by application. For simple opening, [] is fine.)\n\n4. Open an image file with Microsoft Paint (Windows)\n\nTo open the image C:\\MyPictures\\Holiday\\beach.jpg using mspaint.exe:\n\nexecutable_path: \"mspaint.exe\"\nfile_to_open_path: \"C:\\\\MyPictures\\\\Holiday\\\\beach.jpg\"\nadditional_args: []\n\n5. Open an R script with RStudio and additional options (assuming 'rstudio' is in PATH)\n\nTo open the R script /home/data_scientist/projects/my_analysis_v2.R using the rstudio command, without restoring the previous workspace or environment:\n\nexecutable_path: \"rstudio\"\nfile_to_open_path: \"/home/data_scientist/projects/my_analysis_v2.R\"\nadditional_args: [\"--no-restore-workspace\", \"--no-environ\"]",
+  "downloads": 6,
+  "icon_url": "",
+  "id": "generic-application-launcher",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::generic_application_launcher"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Generic Application Launcher",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/generic-application-launcher",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/generic-application-launcher",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "software",
+    "launcher",
+    "process",
+    "executable",
+    "open",
+    "application",
+    "run",
+    "app"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-09T10:28:51.638Z",
+  "version": "1.0.0"
+}

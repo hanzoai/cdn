@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "social-networking",
+    "name": "Social Networking"
+  },
+  "changelog": "",
+  "created_at": "2025-04-09T22:11:55.348Z",
+  "description": "Function to fetch reply tweets made by a specific Twitter user.",
+  "downloads": 627,
+  "icon_url": "",
+  "id": "x-twitter-get-user-replies",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::x_twitter_get_user_replies"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "X/Twitter Get User Replies",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/x-twitter-get-user-replies",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/x-twitter-get-user-replies",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "twitter",
+    "api",
+    "replies",
+    "conversation",
+    "X"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-09T22:11:55.348Z",
+  "version": "1.0.0"
+}

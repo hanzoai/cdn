@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "business",
+    "name": "Business"
+  },
+  "changelog": "",
+  "created_at": "2025-01-27T13:43:23.544Z",
+  "description": "Fetches emails from an IMAP server and returns their subject, date, sender, and text content.",
+  "downloads": 1514,
+  "icon_url": "",
+  "id": "email-fetcher",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::email_fetcher"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Email Fetcher",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/email-fetcher",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/email-fetcher",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "email",
+    "imap",
+    "fetch",
+    "parser"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-27T13:43:23.544Z",
+  "version": "1.0.0"
+}

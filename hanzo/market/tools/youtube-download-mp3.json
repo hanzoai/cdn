@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-02-03T19:43:38.513Z",
+  "description": "Downloads audio from a YouTube video and saves it as an MP3 file.",
+  "downloads": 12,
+  "icon_url": "",
+  "id": "youtube-download-mp3",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::youtube_download_mp3"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Youtube Download MP3",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/youtube-download-mp3",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/youtube-download-mp3",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "youtube",
+    "mp3",
+    "downloader",
+    "audio"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-03T19:43:38.513Z",
+  "version": "1.0.0"
+}

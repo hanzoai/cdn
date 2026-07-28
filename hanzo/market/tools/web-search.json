@@ -1,0 +1,44 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-08-18T17:25:54.023Z",
+  "description": "This function takes a search query as input and returns a list of results from the web.",
+  "downloads": 837,
+  "icon_url": "",
+  "id": "web-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::web_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Web Search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/web-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/web-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "search",
+    "web"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-18T17:25:54.023Z",
+  "version": "1.0.0"
+}

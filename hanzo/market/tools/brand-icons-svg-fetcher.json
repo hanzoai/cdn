@@ -1,0 +1,50 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "graphics-design",
+    "name": "Graphics & Design"
+  },
+  "changelog": "",
+  "created_at": "2025-07-30T08:53:52.546Z",
+  "description": "Fetches brand icons in SVG format from the Simple Icons CDN (2000+ assets) based on the brand name and colour choice inputs.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "brand-icons-svg-fetcher",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::brand_icons_svg_fetcher"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Brand Icons SVG Fetcher",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/brand-icons-svg-fetcher",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/brand-icons-svg-fetcher",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "icons",
+    "simple icons",
+    "svg",
+    "brand icons",
+    "download",
+    "fetch",
+    "brand",
+    "logo"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-07-30T08:53:52.546Z",
+  "version": "1.0.0"
+}

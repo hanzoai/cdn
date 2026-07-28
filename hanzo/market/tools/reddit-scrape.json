@@ -1,0 +1,44 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "social-networking",
+    "name": "Social Networking"
+  },
+  "changelog": "",
+  "created_at": "2025-02-10T19:29:22.853Z",
+  "description": "A tool to scrape Reddit content using Puppeteer. Pass action as 'subreddit' to scrape a subreddit or 'post' to scrape a post. Pass the \"subreddit\" name or \"post_url\" as a string. Pass \"get_by\" as 'hot', 'new', 'top', or 'rising'. Pass \"top_time\" as 'day', 'week', 'month', 'year', or 'all'.",
+  "downloads": 11,
+  "icon_url": "",
+  "id": "reddit-scrape",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::reddit_scrape"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Reddit Scrape",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/reddit-scrape",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/reddit-scrape",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "Reddit",
+    "Scraping"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-10T19:29:22.853Z",
+  "version": "1.0.0"
+}

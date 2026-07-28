@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-05-05T19:04:38.112Z",
+  "description": "Fetches workflow states for all Teams or for a specific team using Linear API.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "linear-fetch-workflow-states",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::linear_fetch_workflow_states"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Linear Fetch Workflow States",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/linear-fetch-workflow-states",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/linear-fetch-workflow-states",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "linear",
+    "workflow",
+    "API",
+    "fetch"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-05T19:04:38.112Z",
+  "version": "1.0.0"
+}

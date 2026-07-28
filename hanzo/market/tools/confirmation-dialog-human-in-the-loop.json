@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-04-30T15:52:42.670Z",
+  "description": "Opens a configurable confirmation dialog, and outputs the choice made by the user.\n\nUse it inside tools and workflows as a human-in-the-loop component.\n\nYou can configure the :\n- title of the dialog\n- text of the dialog\n- labels of the 'yes' and 'no' buttons.\n\nWhen included inside another tool using Hanzo's AI tool building assistant, the LLM should be able to automatically adapt the title, text, and buttons of the dialog, as well as use the choice returned from the user to create appropriate conditional logic in your tool.",
+  "downloads": 12,
+  "icon_url": "",
+  "id": "confirmation-dialog-human-in-the-loop",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::confirmation_dialog___human_in_the_loop"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Confirmation Dialog - Human In The Loop",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/confirmation-dialog-human-in-the-loop",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/confirmation-dialog---human-in-the-loop",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "confirmation",
+    "dialog",
+    "confirm",
+    "accept",
+    "human in the loop"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-30T15:52:42.670Z",
+  "version": "1.0.0"
+}

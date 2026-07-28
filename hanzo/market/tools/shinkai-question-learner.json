@@ -1,0 +1,41 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "education",
+    "name": "Education"
+  },
+  "changelog": "",
+  "created_at": "2025-02-03T19:45:04.759Z",
+  "description": "Learns from web pages by generating questions and answers, and interacts with users based on these questions. If the action was 'ask' it returns a question, always include the question number when referencing it",
+  "downloads": 9,
+  "icon_url": "",
+  "id": "shinkai-question-learner",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::shinkai_question_learner"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Hanzo Question Learner",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/shinkai-question-learner",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/shinkai-question-learner",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [],
+  "type": "Tool",
+  "updated_at": "2025-02-03T19:45:04.759Z",
+  "version": "1.0.0"
+}

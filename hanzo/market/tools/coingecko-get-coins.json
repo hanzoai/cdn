@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:14:15.915Z",
+  "description": "Fetch a paginated list of all coins from CoinGecko. Works by retrieving the entire list and slicing manually.",
+  "downloads": 7,
+  "icon_url": "",
+  "id": "coingecko-get-coins",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::coingecko_get_coins"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "coingecko-get-coins",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/coingecko-get-coins",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/coingecko-get-coins",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "coingecko",
+    "cryptocurrency",
+    "coins",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:14:15.915Z",
+  "version": "1.0.0"
+}

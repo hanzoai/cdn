@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "entertainment",
+    "name": "Entertainment"
+  },
+  "changelog": "",
+  "created_at": "2025-08-12T02:22:29.053Z",
+  "description": "This tool transforms a simple story idea into a complete, richly illustrated narrative.\n\nIt begins by expanding the user's description into a full story, then intelligently analyzes the new narrative to pinpoint the most visually compelling scenes. For each selected scene, it crafts a detailed, professional-grade prompt\u2014incorporating any artistic style from the original description\u2014to generate high-quality, stylistically coherent images. The final output is a single, ready-to-read story where the generated images are seamlessly embedded within the text, bringing the tale to life.\n\nFeel free to fork the tool to pick a different image generation tool : duplicate it, edit in the playground, unselect the current image generation tool and select yours, and instruct the AI tool builder to use this new image generation tool instead, without changing anything else.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "illustrated-story-generator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::illustrated_story_generator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Illustrated Story Generator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/illustrated-story-generator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/illustrated-story-generator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "storytelling",
+    "image generation",
+    "illustration",
+    "story",
+    "illustrated story",
+    "image"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-08-12T02:22:29.053Z",
+  "version": "1.0.0"
+}

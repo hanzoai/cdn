@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-04-30T15:50:37.718Z",
+  "description": "This tool reads an input CSV file, categorizes values in a specified column into predefined categories using a LLM, and writes the results to a new CSV file with an additional column for the categories. It includes error handling, retries, skips empty values, and provides a summary of the processing results.\n\nThe output can either override the input file, or be saved to a new CSV file with a timestamp (e.g., \"input_processed_20250421_143022.csv\") and placed in the same folder as the input CSV.\n\nHow to Use :\n\n0. In configuration, set default CSV parameters : delimiter (e.g., ';'), encoding (e.g., 'utf-8'), and quotechar (e.g., '\"') ; and set the max number of retries for the LLM categorization (e.g., 2), and the default output behavior ('new_file' or 'override').\n\n1. Prepare an Input CSV File : Create or use an existing CSV file containing the data you want to categorize.\n\n2. Define Categories : Provide a comma-separated string of categories (e.g., \"Electronics, Clothing, Home Goods, Toys, Other\").\n\n3. Specify the Column to Categorize : Indicate the column name in the CSV that contains the data to be categorized (e.g., \"Description\").\n\n4. Choose a New Column Name : Set the name for the new column that will store the categorization results (e.g., \"Category\").\n\n5. Provide an Optional Data Description : Add a brief description of the data to assist the LLM in understanding the context (e.g., \"Product descriptions from an e-commerce store.\").\n\n6. Set Custom CSV Parameters (Optional), make sure they match the parameters of the input CSV file : Customize the delimiter (e.g., \";\"), encoding (e.g., \"utf-8\"), or quote character (e.g., '\"') if needed; otherwise, defaults from configuration will be applied.\n\n7. Choose Output Behavior (Optional): Select 'new_file' for a new output file or 'override' to replace the input file; defaults to configuration if not set.\n\n8. Run the Tool : Execute the tool with the provided inputs.\n\n9. Check the Summary : After processing, review the summary message for statistics (e.g., total rows, categorized rows, skipped rows, errors) and the path to the output CSV file.\n\n10. Check the output CSV file with the categorization.\n\nHigh LLM usage warning : this tool creates a LLM call for each cell to process.",
+  "downloads": 4,
+  "icon_url": "",
+  "id": "csv-column-categorizer",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::csv_column_categorizer"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "CSV Column Categorizer",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/csv-column-categorizer",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/csv-column-categorizer",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "csv",
+    "categorization",
+    "column",
+    "categorizer",
+    "data"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-30T15:50:37.718Z",
+  "version": "1.0.0"
+}

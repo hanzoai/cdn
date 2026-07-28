@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-02-13T14:00:34.878Z",
+  "description": "Tool for checking the ETH and ERC20 tokens balances of a specified wallet address.",
+  "downloads": 23,
+  "icon_url": "",
+  "id": "wallet-balance",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::wallet_balance"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Wallet Balance",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/wallet-balance",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/wallet-balance",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "wallet",
+    "balance",
+    "ETH",
+    "ERC20",
+    "token"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-13T14:00:34.878Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "photo-video",
+    "name": "Photo & Video"
+  },
+  "changelog": "",
+  "created_at": "2025-04-30T15:52:12.893Z",
+  "description": "This tool uses a vision capable LLM to classify images in a folder based on your custom labels, organizes them into subfolders (optional), and creates a COCO-format JSON dataset. It provides a clear summary of results, including any issues like low-confidence labels.\n\nHow to Use :\n\n1. Put your images (.jpg, .png, etc.) in a folder.\n\n2. Specify the folder path, a list of labels (e.g., \"cat\", \"dog\"), and your vision AI model.\n\n3. Choose how to handle images : just label them, copy to label subfolders, or move to subfolders.\n\n4. Set optional preferences, like picking the highest-confidence label instead of all labels, or defining a minimum confidence score.\n\n5. Run the tool to classify images, save a COCO JSON file, and organize images (if selected).\n\n6. Check the JSON file for classifications, subfolders with classified images, and a summary of results.\n\nNotes :\n\n- The tool checks AI outputs for errors, implement retries, and reports issues like invalid labels.\n\n- Supports multiple labels per image.\n\n- If moving images, originals are deleted only after successful organization.\n\n- In configuration you can pick which types of errors to include in the output.\n\nWARNING : possible high LLM usage, depending on the number of images in the folder.\n\n",
+  "downloads": 17,
+  "icon_url": "",
+  "id": "images-folder-classifier-using-vision-llm",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::images_folder_classifier___using_vision_llm"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Images folder classifier - using vision LLM",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/images-folder-classifier-using-vision-llm",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/images-folder-classifier---using-vision-llm",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "image",
+    "classification",
+    "vision LLM",
+    "COCO",
+    "folder",
+    "labeling",
+    "sorting"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-30T15:52:12.893Z",
+  "version": "1.0.0"
+}

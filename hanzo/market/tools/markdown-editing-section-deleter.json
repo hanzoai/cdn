@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-09-03T22:31:27.059Z",
+  "description": "Deletes a section (and its sub-sections) from a markdown file based on a natural language prompt, using LLM to identify the relevant section.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "markdown-editing-section-deleter",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::markdown_editing___section_deleter"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Markdown Editing - Section Deleter",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/markdown-editing-section-deleter",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/markdown-editing---section-deleter",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "markdown",
+    "document editing",
+    "section removal",
+    "file update",
+    "delete",
+    "remove",
+    "section"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-09-03T22:31:27.059Z",
+  "version": "1.0.0"
+}

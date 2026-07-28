@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "business",
+    "name": "Business"
+  },
+  "changelog": "",
+  "created_at": "2025-02-03T19:45:10.127Z",
+  "description": "A tool to analyze PDF documents by extracting text and processing it with language models and search engines.",
+  "downloads": 19,
+  "icon_url": "",
+  "id": "pdf-whitepaper-analyzer",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::pdf_whitepaper_analyzer"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "PDF Whitepaper Analyzer",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/pdf-whitepaper-analyzer",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/pdf-whitepaper-analyzer",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "PDF",
+    "analysis",
+    "LLM",
+    "text extraction"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-03T19:45:10.127Z",
+  "version": "1.0.0"
+}

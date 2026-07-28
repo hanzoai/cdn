@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "entertainment",
+    "name": "Entertainment"
+  },
+  "changelog": "",
+  "created_at": "2025-02-03T19:45:01.988Z",
+  "description": "Converts a YouTube video transcript into a podcast using LLM processing.",
+  "downloads": 11,
+  "icon_url": "",
+  "id": "podcast-to-podcast",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::podcast_to_podcast"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Podcast to Podcast",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/podcast-to-podcast",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/podcast-to-podcast",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "YouTube",
+    "transcript",
+    "podcast",
+    "converter",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-03T19:45:01.988Z",
+  "version": "1.0.0"
+}

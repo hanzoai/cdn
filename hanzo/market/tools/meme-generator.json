@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "entertainment",
+    "name": "Entertainment"
+  },
+  "changelog": "",
+  "created_at": "2025-01-27T13:37:20.450Z",
+  "description": "Generates a meme image based on a joke by selecting a template and splitting the joke into appropriate parts.",
+  "downloads": 8,
+  "icon_url": "",
+  "id": "meme-generator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::meme_generator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Meme Generator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/meme-generator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/meme-generator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "meme",
+    "generator",
+    "joke",
+    "image"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-27T13:37:20.450Z",
+  "version": "1.0.0"
+}

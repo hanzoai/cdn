@@ -1,0 +1,41 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "games",
+    "name": "Games"
+  },
+  "changelog": "",
+  "created_at": "2025-02-03T19:43:52.032Z",
+  "description": "Automatically play Crypto 2048",
+  "downloads": 8,
+  "icon_url": "",
+  "id": "play-crypto-2048",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::play_crypto_2048"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Play Crypto 2048",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/play-crypto-2048",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/play-crypto-2048",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [],
+  "type": "Tool",
+  "updated_at": "2025-02-03T19:43:52.032Z",
+  "version": "1.0.0"
+}

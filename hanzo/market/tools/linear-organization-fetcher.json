@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-05-05T19:05:01.419Z",
+  "description": "Fetches organization details including teams, labels and users from Linear API.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "linear-organization-fetcher",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::linear_organization_fetcher"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Linear Organization Fetcher",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/linear-organization-fetcher",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/linear-organization-fetcher",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "linear",
+    "API",
+    "organization",
+    "teams",
+    "users"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-05T19:05:01.419Z",
+  "version": "1.0.0"
+}

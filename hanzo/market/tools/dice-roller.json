@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "games",
+    "name": "Games"
+  },
+  "changelog": "",
+  "created_at": "2025-06-07T17:22:41.934Z",
+  "description": "Simulates rolling a die with a configurable number of sides, generating a cryptographically secure random integer from 1 to the specified maximum using Python\u2019s secrets module. Fully on-device.\n\n",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "dice-roller",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::dice_roller"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Dice Roller",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/dice-roller",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/dice-roller",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "random",
+    "dice",
+    "roller",
+    "dice roll",
+    "random number"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-06-07T17:22:41.934Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "news",
+    "name": "News"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:11.381Z",
+  "description": "Fetches top tech stories from Hacker News",
+  "downloads": 20,
+  "icon_url": "",
+  "id": "hacker-news",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::hacker_news"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "hacker-news",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/hacker-news",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/hacker-news",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "hacker-news",
+    "news",
+    "tech",
+    "stories"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:11.381Z",
+  "version": "1.0.0"
+}

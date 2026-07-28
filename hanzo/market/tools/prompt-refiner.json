@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-10-16T11:50:49.361Z",
+  "description": "Tool for refining user prompts to make them more effective for LLMs and AI Agents by classifying them into categories and adding specific instructions.\n\nUse this tool as a first step in an AI/LLM task to improve the quality of user inputs and obtain better outputs.\n\nFork this tool and define customized categories and related instructions to fit your specific use cases.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "prompt-refiner",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::prompt_refiner"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Prompt Refiner",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/prompt-refiner",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/prompt-refiner",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "improve",
+    "prompt",
+    "enhance",
+    "refine"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-10-16T11:50:49.361Z",
+  "version": "1.0.0"
+}

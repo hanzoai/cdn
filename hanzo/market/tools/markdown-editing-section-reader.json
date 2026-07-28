@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-09-03T22:30:41.560Z",
+  "description": "Reads a markdown file and, given a user prompt, selects and returns the most relevant section's title, content and hierarchy, along with the file path.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "markdown-editing-section-reader",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::markdown_editing___section_reader"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Markdown Editing - Section Reader",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/markdown-editing-section-reader",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/markdown-editing---section-reader",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "markdown",
+    "section extraction",
+    "read",
+    "read section",
+    "section content",
+    "file"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-09-03T22:30:41.560Z",
+  "version": "1.0.0"
+}

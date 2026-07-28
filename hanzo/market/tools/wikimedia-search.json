@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:12:44.073Z",
+  "description": "Search across Wikimedia page content with full-text search capabilities",
+  "downloads": 5,
+  "icon_url": "",
+  "id": "wikimedia-search",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::wikimedia_search"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Wikimedia Search",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/wikimedia-search",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/wikimedia-search",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "wikimedia",
+    "search",
+    "wikipedia",
+    "full-text",
+    "content"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:12:44.073Z",
+  "version": "1.0.0"
+}

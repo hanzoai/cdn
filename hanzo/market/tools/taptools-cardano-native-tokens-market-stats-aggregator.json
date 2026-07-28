@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "finance",
+    "name": "Finance"
+  },
+  "changelog": "",
+  "created_at": "2025-03-04T16:54:03.066Z",
+  "description": "This tool retrieves and aggregates market data for native tokens on the Cardano blockchain using the TapTools API. It fetches data on the top tokens by liquidity, market capitalization (either market cap or fully diluted value), and volume. The tool can display prices, liquidity, market cap, and volume in ADA, as well as a configurable quote currency (USD or EUR). It also retrieves token descriptions and links (website, Twitter, etc). For volume, it offers a configurable timeframe (1h, 4h, 12h, 24h, 7d, 30d, 180d, 1y, or all-time). Additionally, it retrieves and displays 24-hour market statistics, like DEX trading volume (in ADA and the selected quote currency) and active addresses. The tools requires a TapTools API key and allows configurable input for the number of tokens to retrieve for each category, timeframe and the quote currency. ",
+  "downloads": 9,
+  "icon_url": "",
+  "id": "taptools-cardano-native-tokens-market-stats-aggregator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::taptools_cardano_native_tokens_market_stats_aggregator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Taptools Cardano Native Tokens Market Stats Aggregator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/taptools-cardano-native-tokens-market-stats-aggregator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/taptools-cardano-native-tokens-market-stats-aggregator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "taptools",
+    "cardano",
+    "native tokens",
+    "tokens market stats",
+    "CNT"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-03-04T16:54:03.066Z",
+  "version": "1.0.0"
+}

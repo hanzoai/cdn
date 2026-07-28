@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "music",
+    "name": "Music"
+  },
+  "changelog": "",
+  "created_at": "2025-10-12T17:04:42.638Z",
+  "description": "Concatenates multiple MP3 files into a single MP3 using ffmpeg. It adds them one after another in the defined order.",
+  "downloads": 0,
+  "icon_url": "",
+  "id": "mp3-concatenator",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::mp3_concatenator"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "MP3 Concatenator",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/mp3-concatenator",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/mp3-concatenator",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "audio",
+    "mp3",
+    "ffmpeg",
+    "concatenate",
+    "merge",
+    "join"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-10-12T17:04:42.638Z",
+  "version": "1.0.0"
+}

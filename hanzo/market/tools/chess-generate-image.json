@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "games",
+    "name": "Games"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:14:11.776Z",
+  "description": "Generate a PNG image of a chess position from FEN notation with optional last move highlighting",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "chess-generate-image",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::chess_generate_image"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Chess Generate Image",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/chess-generate-image",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/chess-generate-image",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "chess",
+    "image",
+    "png",
+    "fen",
+    "board",
+    "visualization"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:14:11.776Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,45 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-01-23T12:38:37.784Z",
+  "description": "Tool for restoring a Coinbase wallet and sending a transaction",
+  "downloads": 0,
+  "icon_url": "",
+  "id": "coinbase-transaction-sender",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::coinbase_transaction_sender"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Coinbase Transaction Sender",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/coinbase-transaction-sender",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/coinbase-transaction-sender",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "coinbase",
+    "transaction",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-23T12:38:37.784Z",
+  "version": "1.0.0"
+}

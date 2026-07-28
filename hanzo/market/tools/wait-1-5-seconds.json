@@ -1,0 +1,43 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-05-10T15:06:14.338Z",
+  "description": "Runs an async function with a given configuration and inputs, returning a result after a delay.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "wait-1-5-seconds",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::wait_1_5_seconds"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "wait_1_5_seconds",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/wait-1-5-seconds",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/wait-1-5-seconds",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    ""
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-10T15:06:14.338Z",
+  "version": "1.0.0"
+}

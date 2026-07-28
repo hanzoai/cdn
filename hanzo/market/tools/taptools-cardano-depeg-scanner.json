@@ -1,0 +1,50 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "finance",
+    "name": "Finance"
+  },
+  "changelog": "",
+  "created_at": "2025-03-03T19:42:33.897Z",
+  "description": "Uses the Taptools API to aggregate data for Cardano stablecoins, synthetics, and bridged assets. Performs a depeg scan. Outputs a .csv file with the aggregated data. A Taptools API key and a CoinMarketCap API key are required. Define your own alert threshold in the configuration for each asset. You can easily add or remove tokens to track from the code. You can chose a timeframe for trading stats in your prompt, options are : 15m, 1h, 4h, 12h, 24h, 7d, 30d, 90d, 180d, 1y, all, default is 24h. This tool can answer question related to the data it formats in the generated csv file.",
+  "downloads": 6,
+  "icon_url": "",
+  "id": "taptools-cardano-depeg-scanner",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::taptools_cardano_depeg_scanner"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Taptools Cardano depeg scanner",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/taptools-cardano-depeg-scanner",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/taptools-cardano-depeg-scanner",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "Cardano",
+    "stablecoin",
+    "synthetic",
+    "taptools",
+    "bridged",
+    "peg",
+    "depeg",
+    "scan"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-03-03T19:42:33.897Z",
+  "version": "1.0.0"
+}

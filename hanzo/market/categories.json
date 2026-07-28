@@ -1,58 +1,135 @@
 [
   {
-    "id": "development",
-    "name": "Development",
-    "description": "Programming and software development tools",
-    "icon": "\ud83d\udee0\ufe0f",
-    "item_count": 42
+    "description": "",
+    "icon": "",
+    "id": "books",
+    "item_count": 3,
+    "name": "Books"
   },
   {
-    "id": "creative",
-    "name": "Creative",
-    "description": "Creative writing and content generation",
-    "icon": "\ud83c\udfa8",
-    "item_count": 28
+    "description": "",
+    "icon": "",
+    "id": "business",
+    "item_count": 6,
+    "name": "Business"
   },
   {
-    "id": "analytics",
-    "name": "Analytics",
-    "description": "Data analysis and business intelligence",
-    "icon": "\ud83d\udcca",
-    "item_count": 35
+    "description": "",
+    "icon": "",
+    "id": "crypto",
+    "item_count": 16,
+    "name": "Crypto"
   },
   {
+    "description": "",
+    "icon": "",
+    "id": "developer-tools",
+    "item_count": 26,
+    "name": "Developer Tools"
+  },
+  {
+    "description": "",
+    "icon": "",
     "id": "education",
-    "name": "Education",
-    "description": "Learning and educational assistants",
-    "icon": "\ud83d\udcda",
-    "item_count": 31
+    "item_count": 6,
+    "name": "Education"
   },
   {
-    "id": "health",
-    "name": "Health & Wellness",
-    "description": "Health, fitness, and wellness guidance",
-    "icon": "\ud83d\udcaa",
-    "item_count": 19
+    "description": "",
+    "icon": "",
+    "id": "entertainment",
+    "item_count": 10,
+    "name": "Entertainment"
   },
   {
+    "description": "",
+    "icon": "",
     "id": "finance",
-    "name": "Finance",
-    "description": "Financial planning and investment",
-    "icon": "\ud83d\udcb0",
-    "item_count": 23
+    "item_count": 9,
+    "name": "Finance"
   },
   {
+    "description": "",
+    "icon": "",
+    "id": "food-drink",
+    "item_count": 1,
+    "name": "Food & Drink"
+  },
+  {
+    "description": "",
+    "icon": "",
+    "id": "games",
+    "item_count": 5,
+    "name": "Games"
+  },
+  {
+    "description": "",
+    "icon": "",
+    "id": "graphics-design",
+    "item_count": 7,
+    "name": "Graphics & Design"
+  },
+  {
+    "description": "",
+    "icon": "",
+    "id": "health-fitness",
+    "item_count": 2,
+    "name": "Health & Fitness"
+  },
+  {
+    "description": "",
+    "icon": "",
+    "id": "medical",
+    "item_count": 1,
+    "name": "Medical"
+  },
+  {
+    "description": "",
+    "icon": "",
+    "id": "music",
+    "item_count": 1,
+    "name": "Music"
+  },
+  {
+    "description": "",
+    "icon": "",
+    "id": "news",
+    "item_count": 3,
+    "name": "News"
+  },
+  {
+    "description": "",
+    "icon": "",
+    "id": "photo-video",
+    "item_count": 4,
+    "name": "Photo & Video"
+  },
+  {
+    "description": "",
+    "icon": "",
     "id": "productivity",
-    "name": "Productivity",
-    "description": "Task management and productivity tools",
-    "icon": "\u26a1",
-    "item_count": 38
+    "item_count": 2,
+    "name": "Productivity"
   },
   {
-    "id": "communication",
-    "name": "Communication",
-    "description": "Email, chat, and communication tools",
-    "icon": "\ud83d\udcac",
-    "item_count": 27
+    "description": "",
+    "icon": "",
+    "id": "reference",
+    "item_count": 21,
+    "name": "Reference"
+  },
+  {
+    "description": "",
+    "icon": "",
+    "id": "social-networking",
+    "item_count": 18,
+    "name": "Social Networking"
+  },
+  {
+    "description": "",
+    "icon": "",
+    "id": "utilities",
+    "item_count": 61,
+    "name": "Utilities"
   }
 ]

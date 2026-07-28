@@ -1,0 +1,50 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "health-fitness",
+    "name": "Health & Fitness"
+  },
+  "changelog": "",
+  "created_at": "2025-05-16T23:01:16.095Z",
+  "description": "Calls the Strava API for athlete activities, athlete profile, and zones data using OAuth access token. Read how to use this tool in the [Strava API Documentation](https://developers.strava.com/docs/reference/)",
+  "downloads": 4,
+  "icon_url": "",
+  "id": "strava-api-caller",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::strava_api_caller"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Strava API Caller",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/strava-api-caller",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/strava-api-caller",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "strava",
+    "api",
+    "activities",
+    "athlete",
+    "zones",
+    "oauth",
+    "fitness",
+    "sports"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-16T23:01:16.095Z",
+  "version": "1.0.0"
+}

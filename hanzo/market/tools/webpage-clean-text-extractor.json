@@ -1,0 +1,53 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-10-12T17:01:50.122Z",
+  "description": "Fetches the clean, readable text from any webpage using the Jina AI Reader service and saves it to a local file.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "webpage-clean-text-extractor",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::webpage_clean_text_extractor"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Webpage clean text extractor",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/webpage-clean-text-extractor",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/webpage-clean-text-extractor",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "web",
+    "webapge",
+    "url",
+    "http",
+    "jina",
+    "download",
+    "content",
+    "text",
+    "scrap",
+    "fetch",
+    "extract"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-10-12T17:01:50.122Z",
+  "version": "1.0.0"
+}

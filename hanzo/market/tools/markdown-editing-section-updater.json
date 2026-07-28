@@ -1,0 +1,49 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-09-03T22:29:30.154Z",
+  "description": "Updates only the most relevant section of a markdown file using an LLM, based on a user prompt.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "markdown-editing-section-updater",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::markdown_editing___section_updater"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Markdown editing - Section Updater",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/markdown-editing-section-updater",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/markdown-editing---section-updater",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "markdown",
+    "section update",
+    "text editing",
+    "file editing",
+    "section",
+    "update",
+    "md"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-09-03T22:29:30.154Z",
+  "version": "1.0.0"
+}

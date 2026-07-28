@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:12:41.964Z",
+  "description": "Fetch the full HTML content of a specific Wikimedia page",
+  "downloads": 3,
+  "icon_url": "",
+  "id": "wikimedia-page-content",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::wikimedia_page_content"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Wikimedia Page Content",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/wikimedia-page-content",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/wikimedia-page-content",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "wikimedia",
+    "content",
+    "wikipedia",
+    "page",
+    "html",
+    "article"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:12:41.964Z",
+  "version": "1.0.0"
+}

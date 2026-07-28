@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:12:25.359Z",
+  "description": "Reads output from the active iTerm terminal.",
+  "downloads": 8,
+  "icon_url": "",
+  "id": "iterm-read",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::iterm_read"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "iterm-read",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/iterm-read",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/iterm-read",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "iterm",
+    "terminal",
+    "read",
+    "automation",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:12:25.359Z",
+  "version": "1.0.0"
+}

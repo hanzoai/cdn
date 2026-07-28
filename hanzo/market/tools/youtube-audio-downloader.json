@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-05-10T15:05:43.183Z",
+  "description": "Downloads audio from a YouTube video URL and converts it to MP3 format using yt-dlp.",
+  "downloads": 2,
+  "icon_url": "",
+  "id": "youtube-audio-downloader",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::youtube_audio_downloader"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "youtube_audio_downloader",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/youtube-audio-downloader",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/youtube-audio-downloader",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "youtube",
+    "audio",
+    "download",
+    "mp3",
+    "yt-dlp"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-10T15:05:43.183Z",
+  "version": "1.0.0"
+}

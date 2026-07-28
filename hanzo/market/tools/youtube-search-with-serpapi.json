@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-05-10T15:08:17.217Z",
+  "description": "Performs a YouTube search using SerpAPI and returns the results in JSON or HTML format.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "youtube-search-with-serpapi",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::youtube_search_with_serpapi"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "youtube_search_with_serpapi",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/youtube-search-with-serpapi",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/youtube-search-with-serpapi",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "youtube",
+    "search",
+    "serpapi",
+    "video",
+    "api"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-10T15:08:17.217Z",
+  "version": "1.0.0"
+}

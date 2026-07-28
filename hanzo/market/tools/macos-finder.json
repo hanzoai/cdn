@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:12:48.371Z",
+  "description": "Manage files in Finder via AppleScript",
+  "downloads": 5,
+  "icon_url": "",
+  "id": "macos-finder",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::macos_finder"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "macos-finder",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/macos-finder",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/macos-finder",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "macos",
+    "finder",
+    "files",
+    "automation",
+    "applescript"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:12:48.371Z",
+  "version": "1.0.0"
+}

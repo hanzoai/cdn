@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-04-30T15:52:29.009Z",
+  "description": "Opens a configurable dialog with options to select from, and outputs the choice made by the user.\n\nUse it inside tools and workflows as a human-in-the-loop component.\n\nYou can configure the :\n- title of the dialog\n- text of the dialog\n- labels of the options buttons.\n\nWhen included inside another tool using Hanzo's AI tool building assistant, the LLM should be able to automatically adapt the title, the text, the number of options and the buttons of the dialog, as well as use the choice made by the user to trigger the appropriate next step in your tool flow.\n\nIf the options are generated together by a prompt processing, make sure to force the LLM to format things well (options titles and separator) so that options splitting and then processing are done correctly.\n\nIf you want to add a Custom option button for which the user can then add information, on top of proposed options, create a Custom button option that triggers the tool Clarification Dialog - Human In The Loop.",
+  "downloads": 12,
+  "icon_url": "",
+  "id": "options-selection-human-in-the-loop",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::options_selection___human_in_the_loop"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Options Selection \u2013 Human In The Loop",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/options-selection-human-in-the-loop",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/options-selection---human-in-the-loop",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "option",
+    "options selection",
+    "choice",
+    "human",
+    "select"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-30T15:52:29.009Z",
+  "version": "1.0.0"
+}

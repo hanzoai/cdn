@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-04-30T15:51:24.093Z",
+  "description": "Processes a prompt using multiple LLMs at once and returns their responses with html rendering.",
+  "downloads": 8,
+  "icon_url": "",
+  "id": "multiple-llms-prompt-processor",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__gilles_test2_sep_shinkai:::multiple_llms_prompt_processor"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Multiple LLMs prompt processor",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/multiple-llms-prompt-processor",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/multiple-llms-prompt-processor",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "LLM",
+    "prompt",
+    "processor",
+    "multiple"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-04-30T15:51:24.093Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,45 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "crypto",
+    "name": "Crypto"
+  },
+  "changelog": "",
+  "created_at": "2025-01-23T12:38:38.132Z",
+  "description": "Tool for getting the default address of a Coinbase wallet",
+  "downloads": 5,
+  "icon_url": "",
+  "id": "coinbase-my-address-getter",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::coinbase_my_address_getter"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Coinbase My Address Getter",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/coinbase-my-address-getter",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/coinbase-my-address-getter",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "coinbase",
+    "address",
+    "shinkai"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-01-23T12:38:38.132Z",
+  "version": "1.0.0"
+}

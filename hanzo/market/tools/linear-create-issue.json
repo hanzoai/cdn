@@ -1,0 +1,46 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "developer-tools",
+    "name": "Developer Tools"
+  },
+  "changelog": "",
+  "created_at": "2025-05-05T19:05:49.111Z",
+  "description": "Creates a new issue in Linear using the Linear API.",
+  "downloads": 1,
+  "icon_url": "",
+  "id": "linear-create-issue",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::linear_create_issue"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Linear Create Issue",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/linear-create-issue",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/linear-create-issue",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "Linear",
+    "issue",
+    "create",
+    "task management"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-05-05T19:05:49.111Z",
+  "version": "1.0.0"
+}

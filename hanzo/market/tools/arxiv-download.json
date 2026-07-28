@@ -1,0 +1,48 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "reference",
+    "name": "Reference"
+  },
+  "changelog": "",
+  "created_at": "2025-02-04T15:13:32.607Z",
+  "description": "Download an arXiv paper PDF and optionally convert it to Markdown",
+  "downloads": 5,
+  "icon_url": "",
+  "id": "arxiv-download",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::arxiv_download"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "arxiv-download",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/arxiv-download",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/arxiv-download",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "arxiv",
+    "pdf",
+    "download",
+    "markdown",
+    "research",
+    "paper"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-02-04T15:13:32.607Z",
+  "version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+{
+  "author": "hanzo.ai",
+  "category": {
+    "description": "",
+    "examples": "",
+    "id": "utilities",
+    "name": "Utilities"
+  },
+  "changelog": "",
+  "created_at": "2025-06-24T19:04:07.231Z",
+  "description": "Evaluates a math problem and creates and executes a Python script to resolve it. Returns the result, presents it with language, and shows the script executed.",
+  "downloads": 3,
+  "icon_url": "",
+  "id": "math-problem-solver-with-python-script",
+  "install_command": "",
+  "license": "MIT",
+  "mcp_config": {
+    "args": [
+      "local:::__official_shinkai:::math_problem_solver___with_python_script"
+    ],
+    "command": "any",
+    "env": {}
+  },
+  "name": "Math Problem Solver - With Python Script",
+  "operating_system": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "path": "/tools/math-problem-solver-with-python-script",
+  "price": 0,
+  "readme": "",
+  "repository": "github.com/hanzoai/tools",
+  "router_key": "@hanzo/math-problem-solver---with-python-script",
+  "runner": "any",
+  "screenshots": [],
+  "tags": [
+    "problem",
+    "math",
+    "calculation",
+    "solve",
+    "python"
+  ],
+  "type": "Tool",
+  "updated_at": "2025-06-24T19:04:07.231Z",
+  "version": "1.0.0"
+}
