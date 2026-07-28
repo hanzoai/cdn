@@ -7,4 +7,14 @@
 # which needs Cloudflare credentials and is run by the operator, not the runner.
 test:
   - name: market
-    run: "python3 scripts/market.py check"
+    # The bare arc runner image is minimal and does not promise an interpreter
+    # (the reusable itself dropped its python3+PyYAML parse for exactly this
+    # reason). Provision one with uv when it is missing, so the gate always
+    # runs — a check that silently no-ops is worse than no check.
+    run: |
+      if command -v python3 >/dev/null 2>&1; then
+        python3 scripts/market.py check
+      else
+        curl -fsSL https://astral.sh/uv/install.sh | sh
+        "$HOME/.local/bin/uv" run --python 3.12 scripts/market.py check
+      fi
