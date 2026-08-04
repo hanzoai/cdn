@@ -84,3 +84,5 @@ SUBTREE=hanzo ./deploy.sh                 # the whole asset tree
 - `cdn.lux.network` → `pub/lux/*`
 - `cdn.zoo.ngo` → `pub/zoo/*`
 - `cdn.pars.network` → `pub/pars/*`
+
+Licensed under **MIT OR Apache-2.0**, per [HIP-0137](https://github.com/hanzoai/hips/blob/main/HIPs/hip-0137-one-license.md).

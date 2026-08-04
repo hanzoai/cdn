@@ -40,3 +40,10 @@ to be down. Apps fetch CDN-first and fall back to a bundled copy when offline.
 ## Sibling repos
 
 See the org-level `LLM.md` at `/Users/a/work/hanzo/hanzoai/LLM.md` for the full inventory of sibling repos and inter-repo dependencies.
+
+## License
+
+Dual-licensed **MIT OR Apache-2.0** (`LICENSE-MIT`, `LICENSE-APACHE`), replacing the
+previous BSD-3-Clause declaration. Original Hanzo work standardises on this pair per
+HIP-0137 "One License" (`hanzoai/hips`, `HIPs/hip-0137-one-license.md`); forks keep
+their upstream licence unchanged.
