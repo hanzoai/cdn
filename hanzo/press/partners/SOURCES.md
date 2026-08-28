@@ -9,6 +9,5 @@ These assets are used under partner guidelines. Replace any asset with official 
 - DigitalOcean: Official DigitalOcean logo assets ZIP
 - Nebius: Official Nebius media kit ZIP (SVGs)
 - Zoo Labs Foundation Inc: Official logo from zoo.ngo/zooLogo.svg
-- Lux Industries Inc: Custom monochrome wordmark (no official logo asset found on site)
 - Lux Network: Custom monochrome wordmark (no official logo asset found on site)
-- Lux Partners: Custom monochrome wordmark (no official logo asset found on site)
+- Lux Industries Inc: Custom monochrome wordmark (no official logo asset found on site)

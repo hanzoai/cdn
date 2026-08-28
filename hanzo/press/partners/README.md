@@ -11,4 +11,3 @@ These assets are stored for use in marketing materials and partner sections. Fol
 - Zoo Labs Foundation Inc
 - Lux Industries
 - Lux Network
-- Lux Partners
