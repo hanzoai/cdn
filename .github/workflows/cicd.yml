@@ -24,7 +24,7 @@ name: CI/CD
 # only .hanzo/workflows), so this is the same pipeline at the same @v1.
 #
 # The runner is unchanged because it was already right: hanzoai/ci defaults to
-# ["hanzo-build-linux-amd64"], which the git-runners actually advertise.
+# ["linux-amd64"], which the git-runners actually advertise.
 
 on:
   push:
